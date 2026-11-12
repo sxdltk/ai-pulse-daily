@@ -1,0 +1,1863 @@
+{
+  "updatedAt": "2026-11-06 13:49:53",
+  "timezone": "Asia/Shanghai",
+  "sourceCount": 15,
+  "sources": [
+    {
+      "name": "量子位",
+      "host": "qbitai.com"
+    },
+    {
+      "name": "雷锋网",
+      "host": "leiphone.com"
+    },
+    {
+      "name": "极客公园",
+      "host": "geekpark.net"
+    },
+    {
+      "name": "钛媒体",
+      "host": "tmtpost.com"
+    },
+    {
+      "name": "IT之家",
+      "host": "ithome.com"
+    },
+    {
+      "name": "36氪",
+      "host": "36kr.com"
+    },
+    {
+      "name": "InfoQ 中文",
+      "host": "infoq.cn"
+    },
+    {
+      "name": "少数派",
+      "host": "sspai.com"
+    },
+    {
+      "name": "TechCrunch AI",
+      "host": "techcrunch.com"
+    },
+    {
+      "name": "The Verge AI",
+      "host": "theverge.com"
+    },
+    {
+      "name": "OpenAI Blog",
+      "host": "openai.com"
+    },
+    {
+      "name": "Google AI",
+      "host": "blog.google"
+    },
+    {
+      "name": "Ars Technica AI",
+      "host": "arstechnica.com"
+    },
+    {
+      "name": "Wired AI",
+      "host": "wired.com"
+    },
+    {
+      "name": "Solidot",
+      "host": "solidot.org"
+    }
+  ],
+  "seenHashes": [
+    "acee1f019a229ffc",
+    "f2e275a659a4c601",
+    "85c500303cbc3bf9",
+    "8385043cde5db57b",
+    "6265c594dfb31b82",
+    "e543e69fe658d898",
+    "90261b9a7549d8dd",
+    "360ae70f95d64295",
+    "2de19ba33eea42fe",
+    "28caad6c7e5a3f20",
+    "febc1a6540947ee3",
+    "1c4e2274052ec6bf",
+    "f7532b51912ce8ae",
+    "a05b1e00a852bb7b",
+    "38f2232e213d65c2",
+    "645e9cef854ad9d1",
+    "8838c95a6de110bf",
+    "c861d4df0eabf359",
+    "8ffe56461547f1df",
+    "2bbb2612c178d914",
+    "4ea89d47f139f6e4",
+    "07745745978ebedc",
+    "537a99f29260f7ce",
+    "436193c92fb7329f",
+    "b9076c1261846f79",
+    "8fafa35860de8b4a",
+    "a9bcfad553579abc",
+    "a55b9730819ecc20",
+    "3f1eb3a309cabda3",
+    "f84c3b53bbe632dd",
+    "86f0975ac312b6ce",
+    "3f4629d3941cf7dd",
+    "b38291c196ccbb00",
+    "87e1d2998aba4b21",
+    "175d618da22f51d8",
+    "9586d2bbe454ef2b",
+    "4effaa74701b0e7f",
+    "3f1df5e9ce4256aa",
+    "212551da8a080d0f",
+    "1c6f19fa91bd7f6d",
+    "01998f6c05db930a",
+    "51420ae21e49c8b3",
+    "22f7d8d6a12f5441",
+    "6e01841a95df007a",
+    "a43ec26d2c18fbc7",
+    "9de1e9540e7284fe",
+    "5625af0cc63808b8",
+    "7f083c67121bbca5",
+    "95873d992091701e",
+    "c5b896ba9475d5e6",
+    "26c850c37f0e8de8",
+    "c4f164bb7b652103",
+    "6c7b2fea3bdbb02f",
+    "bacc9d18af79eab7",
+    "81e333f01a399a61",
+    "2e1ce3cd14aa80d1",
+    "0a259868418f900d",
+    "8a76132d86a4b1e5",
+    "8cfbcecaf876016f",
+    "4114d70993bb4e8d",
+    "b05601c59d3f1a8b",
+    "5c3ebcca50e982b1",
+    "7d4bfaf491b01574",
+    "02d69d526241e9ea",
+    "96c5aba578896af6",
+    "aa699b0d29f0a531",
+    "a7c883bd5a613b8c",
+    "99795ed49c6933b5",
+    "cbf2604242aea356",
+    "f30f70f3e1c202ab",
+    "9e674736309a39bd",
+    "36ad29992b3b43ed",
+    "cd53d0aaee22f202",
+    "bc3bf954f33e9728",
+    "fc26ecb40924dc24",
+    "fcbf80a7c2c68a5c",
+    "e9394c9ccabfa588",
+    "b4b4c2fc599e9091",
+    "0edcbfbce5892558",
+    "5da4dd00a98dc20c",
+    "237cdc6b5689c484",
+    "95f3d6282007d984",
+    "7dfec4d026110815",
+    "277b9fd9f3cd1b44",
+    "e5824df442522ee7",
+    "419aa40abdd1534a",
+    "5e40e5383f1fcbb9",
+    "741e7127090ea2d5",
+    "e6f9806074e46057",
+    "3101fb0284473b16",
+    "3f13a8dba846dc99",
+    "ececaa2fc051dcfb",
+    "a446e284139530ea",
+    "b67accf1e5ec1444",
+    "9952d06e89e4d84d",
+    "b5ca0ae9fca8ba1b",
+    "c1cfbb0e675ed979",
+    "c06ca1c7209f0cd9",
+    "24f4165ba6fe28ea",
+    "ccd399bf99daf434",
+    "22459dca79d202fd",
+    "ba8dd8612258d588",
+    "166772630f17ad5d",
+    "35161b83f4b869c5",
+    "2273965ead81052b",
+    "de6d295a07d90f30",
+    "d7de13b7bbe399da",
+    "5c197ee9698b80ef",
+    "0d9507aa30e6a8ef",
+    "01083ad9a84ca8c2",
+    "faa1a2c5615a4f15",
+    "cb1385a37d25f7b1",
+    "01e6087c940ee5c4",
+    "b6b2c8762880e011",
+    "699cadfc770b0609",
+    "b30a8cc66beba5a5",
+    "05eee3e3996a454c",
+    "f8db8897c2e4d747",
+    "6906f3d4dccb1e0c",
+    "f1a4c934fd5c4243",
+    "32d15819f9143a51",
+    "1d60d2a71bc2df79",
+    "443b7dda859219e9",
+    "a5070993eab18ad8",
+    "0d0c33a5ca8339e9",
+    "dc92034fb4b68353",
+    "474f18623ee230fb",
+    "13a3b45e560eb2f1",
+    "d1933d706b5e59b2",
+    "da23b2655bfb1598",
+    "9332a77c5c0f4ece",
+    "544a1f5d88fe7705",
+    "8790161023c31a91",
+    "27d9fb9a0221b335",
+    "62a7a83576f2f372",
+    "a52a773c493502f8",
+    "998cff33eafac75d",
+    "d7885b3194f24e9a",
+    "20a259da825aea84",
+    "69c878f5ff9e707d",
+    "22fd6e506d8c174e",
+    "c0aff518b2165841",
+    "f1c915776b9d1a68",
+    "ea119ddfe08816ad",
+    "c0ed2f88132d1cf3",
+    "c4a7084d165e743c",
+    "b2d2534d04d0badb",
+    "b60c1d43b4bce0de",
+    "5fbee8b57276a1fd",
+    "c0116ba3638072b1",
+    "faaccafed1ee6fbf",
+    "d5b3ab541f998302",
+    "ae883d8bf0c0e9d0",
+    "c6c7189936581cfa",
+    "286c8a3baba86509",
+    "d61898b714eaa239",
+    "9fda2d30a9776f83",
+    "9cd9efda3c48d28b",
+    "b8df975d7633dbb5",
+    "4b5ff8ae107b2b81",
+    "2002805884149e26",
+    "0d5bf39ff5aed3e2",
+    "23e9e44f504c80ca",
+    "48ce067477643021",
+    "c88cf746ac169715",
+    "bea625bbfbfd76a5",
+    "1909f500d04e43f8",
+    "76a3b3ae7490b4ec",
+    "9b6ebe5730242286",
+    "5c52b084cbdaef41",
+    "907f170acc26def4",
+    "9d3cc765a1ddd5b1",
+    "01a4aecc1fc0a6d7",
+    "82b660724730fffa",
+    "9ef43cbb12e748d6",
+    "398fe78088092a8e",
+    "92ae04e92b92e7fe",
+    "98ca6c01fe21ba8a",
+    "c140836a9cd9e557",
+    "78a1760237146304",
+    "2b7c32d2f576eb38",
+    "e5d0daa3eda360ea",
+    "b150e6aa1c8ccedd",
+    "330263b01882c763",
+    "f0f9826ae19aef82",
+    "1de7104f318f7217",
+    "c8e530a2138b4dc8",
+    "7f3a54b8bdadc3cf",
+    "c55cc8e15276abfc",
+    "7f0292dd1a8b0454",
+    "3af374ab24d14d86",
+    "a3f1bade784468e8",
+    "4324653acc77fa91",
+    "74ebaf0f8e413ddc",
+    "5dd61f93f055e700",
+    "e6262c5210a42cc7",
+    "eb24a672311c57e7",
+    "dfe708c77b53c259",
+    "f5a43356e5b4980a",
+    "f96df50c4ad78968",
+    "f382b1453bba29aa",
+    "381851c552cb5f20",
+    "a2d955e765c9d215",
+    "bf927bdc5b82844b",
+    "1cab3782e96c8412",
+    "f34311a5e36f5073",
+    "79db5dfb882d72ab"
+  ],
+  "lastRun": {
+    "okSources": 15,
+    "totalSources": 15,
+    "failedSources": [],
+    "newItems": 36,
+    "skipped": {
+      "old": 20,
+      "non_ai": 147,
+      "dup": 100
+    },
+    "durationSec": 24.2
+  },
+  "days": [
+    {
+      "date": "2026-11-06",
+      "highlights": [
+        "OpenAI 连发 GPT-Image-2.6 与 GPT-6 Cyber，并收购 Pierre 补齐 Codex 代码上下文层",
+        "Kimi Hosted Agents 把 Agent 运行框架做成云服务，百度开源 2800 亿参数文心 5.5 Flash Base",
+        "Sand.ai 完成 2 亿美元 A+ 轮，10 个月累计融资 3 亿美元跻身独角兽"
+      ],
+      "items": [
+        {
+          "title": "GPT-Image-2.6 全量上线，可直接输出 GIF 动图与 SVG 矢量图",
+          "summary": "OpenAI 新一代图像模型在 ChatGPT、Codex 及 API 全量上线，生成时间缩短约 50%，低画质档最快约 6 秒出图；API 分 Flare（速度与排版）与 Sunburst（多轮修改一致性）两型号，新增 complexity 参数。官方称每周图片生成量已超 40 亿张。",
+          "category": "产品更新",
+          "source": "OpenAI / AI 速递",
+          "url": "https://aibriefing.dev/",
+          "time": "08:10",
+          "origin": "seed"
+        },
+        {
+          "title": "月之暗面发布 Kimi Hosted Agents，把智能体运行框架搬上云",
+          "summary": "将 Agent Harness 做成 7×24 托管云服务，企业无需自建即获独立沙箱与网络权限控制；提供 140 多个 Skills 与 30 多个插件，执行留痕可审计，可在每次推理前按企业规则拦截敏感数据。首批推出 8 个金融 Agent 模板，被解读为从「卖模型 API」转向「卖智能体」。",
+          "category": "产品更新",
+          "source": "月之暗面 / 上证报",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "08:25",
+          "origin": "seed"
+        },
+        {
+          "title": "百度开源文心 5.5 Flash Base：2800 亿总参数，每 token 仅激活 140 亿",
+          "summary": "稀疏 MoE 架构，用 33.5 万亿 token 从零预训练；训练上下文 128K，微调与推理支持 100 万 token。43 层中 37 层采用压缩注意力，共 512 个路由专家。FP8 与 BF16 两版权重已上线 Hugging Face，可作为领域适配与强化学习研究起点。",
+          "category": "模型发布",
+          "source": "百度",
+          "url": "https://news.qq.com/rain/a/20261105A05WSD00",
+          "time": "08:40",
+          "origin": "seed"
+        },
+        {
+          "title": "OpenAI 收购代码托管商 Pierre，补齐 Codex 工作流",
+          "summary": "Pierre 的 Trees、Diffs 开源库与 Code Storage 服务已被用于 Codex 的文件浏览与变更审查，单仓库最高 32TB。公司成立于 2023 年、累计融资约 2400 万美元，交易待监管批准。OpenAI 同期披露自研 Git 后端 Pando，生产环境推送中位延迟降低近 80%。",
+          "category": "融资并购",
+          "source": "OpenAI",
+          "url": "https://aibriefing.dev/",
+          "time": "09:00",
+          "origin": "seed"
+        },
+        {
+          "title": "Meta 收购 AI 编程初创 Conductor，押注多智能体并行",
+          "summary": "Conductor 可让开发者并行运行多个编程智能体，兼容 Claude Code、Codex 等第三方工具，覆盖云端、本地与手机端，产品已有超 10 万用户。其云服务将于 11 月 20 日关闭，团队明年年初推出新界面。Meta 同期自研 Muse Code，用户已破千万。",
+          "category": "融资并购",
+          "source": "Axios / Meta",
+          "url": "https://aibriefing.dev/",
+          "time": "09:15",
+          "origin": "seed"
+        },
+        {
+          "title": "OpenAI 自动化安全流水线发现并修复 948 个 Linux 内核提权漏洞",
+          "summary": "10 月一次运行中，智能体从 2308 个候选中动态复现 1724 个漏洞，生成 948 个本地提权利用程序与候选补丁，API 成本约 121 万美元，涉及至少 10 种全新利用技术。补丁经人工研究员审核后提交 Linux 社区，标志漏洞研究从个案调查转向可规模化流程。",
+          "category": "研究突破",
+          "source": "OpenAI 安全报告",
+          "url": "https://aibriefing.dev/",
+          "time": "09:30",
+          "origin": "seed"
+        },
+        {
+          "title": "OpenAI 发布 GPT-6 Cyber，先向 Daybreak Red 红队限量开放",
+          "summary": "该模型发现至少 81 个 Firefox 新漏洞并验证 Brotli 远程代码执行缺陷，三家厂商均已修补。OpenAI 加入身份校验、账户控制与高风险频繁确认，模拟过 Hugging Face 沙箱逃逸；普通客户暂不可用。",
+          "category": "模型发布",
+          "source": "CyberScoop",
+          "url": "https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming",
+          "time": "09:50",
+          "origin": "seed"
+        },
+        {
+          "title": "METR：Anthropic 能力进步速度近乎翻倍，约 80% 加速来自 AI 自用",
+          "summary": "8 月 12 日至 10 月 29 日评估显示，内部 AECI 基准得分年化增速由历史 15 分升至 29 分，相当于一年完成约两年进展；员工自报效率提升约 12 倍。未来 12 个月未见明显瓶颈。但 Anthropic 行使了单边删节权，关键证据未公开。",
+          "category": "研究突破",
+          "source": "METR",
+          "url": "https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming",
+          "time": "10:05",
+          "origin": "seed"
+        },
+        {
+          "title": "Sand.ai 完成 2 亿美元 A+ 轮融资，10 个月累计 3 亿美元跻身独角兽",
+          "summary": "基石资本与网宿科技联合领投，上海国资等参投。开源 MAGI-2 Preview 总参数约 114B、单次激活 6B，10 秒 1080P 视频推理成本仅 0.5 元；产品 VidMuse 上线两月 ARR 破千万美元。资金投向视频基础模型研发与推理基建，MAGI-2 正式版近期发布。",
+          "category": "融资并购",
+          "source": "腾讯新闻 / 新浪财经",
+          "url": "https://news.qq.com/rain/a/20261105A05WSD00",
+          "time": "10:20",
+          "origin": "seed"
+        },
+        {
+          "title": "Salience Labs 获 1.25 亿美元 B 轮，布局硅光全光交换",
+          "summary": "牛津大学分拆公司，Bullhound Capital 领投，AMD Ventures、Intel Capital 参投。首款 32 端口硅光交换机单跳延迟低于 10 纳秒，约为博通旗舰交换芯片的 1/25，光路重配置低于 300 微秒；公司模拟称 576 卡集群单用户 Token 吞吐最高可提升 80%。",
+          "category": "融资并购",
+          "source": "Salience Labs",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "10:35",
+          "origin": "seed"
+        },
+        {
+          "title": "Google 承诺 170 亿美元建设怀俄明州 AI 园区",
+          "summary": "配套 702MW Bloom Energy 燃料电池与碳捕集，捕获的二氧化碳经 Tallgrass 输送至封存枢纽，总签约 CCS 容量接近 1GW。园区由五个中心缩减为四个、峰值用工由 5000 降至 2500，采用风冷以限制用水。Bloom Energy 股价因执行风险下跌约 16%。",
+          "category": "算力硬件",
+          "source": "AI Weekly",
+          "url": "https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming",
+          "time": "10:50",
+          "origin": "seed"
+        },
+        {
+          "title": "面壁智能 ForgeKernel 无人迭代 42 轮，跑赢人类专家手写算子 9.8%",
+          "summary": "22.5 小时无人直播中，将 B200 上 FlashMLA 算子从 1834 微秒优化至 472 微秒。该系统此前同时登顶华为昇腾 CANN-Bench 三张硬件榜单与英伟达 SOL-ExecBench 最难题赛道，代码与论文已开源、全程零行人工代码。",
+          "category": "研究突破",
+          "source": "面壁智能",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:05",
+          "origin": "seed"
+        },
+        {
+          "title": "Claude Code 产品负责人 Cat Wu 官宣加盟 OpenAI",
+          "summary": "出任核心产品产品管理负责人，与企业产品负责人 Nick Turley 协作。她 2024 年 8 月加入 Anthropic 并主导 Claude Code 产品化，今年 2 月该产品年化收入已达 25 亿美元。离职发生在 Anthropic 上市推介期，近两周已有三名核心成员相继离队。",
+          "category": "行业动态",
+          "source": "公开声明 / 外媒",
+          "url": "https://aibriefing.dev/",
+          "time": "11:20",
+          "origin": "seed"
+        },
+        {
+          "title": "OpenAI 发布《国家社区公约》，承诺自担数据中心电力与电网成本",
+          "summary": "承诺全额承担自建园区用电与电网基础设施成本、公示水电消耗、不与公职人员签保密协议、与工会合作开展本地招聘培训，并每年公开履约进展。此举正值美国公众对数据中心扩张反弹加剧。",
+          "category": "政策监管",
+          "source": "OpenAI / 路透",
+          "url": "https://aibriefing.dev/",
+          "time": "11:35",
+          "origin": "seed"
+        },
+        {
+          "title": "美国中期选举：41 项涉数据中心地方公投有 40 项被否或收紧",
+          "summary": "10 个州的公投中，选民关注焦点集中在电价上涨、用水与噪音。此前多地反对已致项目延期，数据中心的社会接受度正成为 AI 基建扩张的最大变数之一，行业与政策博弈料将延续至新国会会期。",
+          "category": "政策监管",
+          "source": "Ballotpedia / CNBC",
+          "url": "https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming",
+          "time": "11:45",
+          "origin": "seed"
+        },
+        {
+          "title": "SK 海力士 Q3 营收破百万亿韩元，HBM4 全面出货",
+          "summary": "三季度营收 104.6 万亿韩元、营业利润 83.3 万亿韩元、利润率 80%，单季营收超过 2025 年全年。与 14 家云厂商的长约已锁定 2027-2028 年产能一半以上，管理层称存储缺货或持续至 2030 年；但股价自年中高点回撤约五成。",
+          "category": "算力硬件",
+          "source": "SK 海力士财报",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:00",
+          "origin": "seed"
+        },
+        {
+          "title": "Hinton 警告：AI 今明两年或出现「切尔诺贝利式」重大事故",
+          "summary": "辛顿接受卫报专访称，可能出现 AI 引发的电网大停电或金融系统中断一周等事件，呼吁建立类似 FDA 的独立机构在模型发布前评估收益是否大于风险，并称人类能否管住 AI 十年内见分晓。",
+          "category": "行业动态",
+          "source": "卫报",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:10",
+          "origin": "seed"
+        },
+        {
+          "title": "韩国智库：2026 年新增 AI 模型近半基于中国底座",
+          "summary": "Rockbridge Network Korea 10 月报告显示，1-8 月韩国新增 AI 模型中 Qwen 系衍生 864 个、占 46.8%，超过 Gemma 与 Llama 之和，预计 2027 年该比例升至 70%~90%。对 102 家中小企业问卷中无一家承认使用中国模型，但模型指纹抽检显示实际使用者远多于此。",
+          "category": "行业动态",
+          "source": "Rockbridge Network Korea",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:20",
+          "origin": "seed"
+        },
+        {
+          "title": "硅基流动、九章云极冲刺上市，Token 工厂仍处商业化验证期",
+          "summary": "硅基流动境外上市备案 10 月 30 日已接收，2025 年营收 5533 万元、净亏 3.45 亿元，公有云每 1 元收入对应约 2.19 元直接成本；九章云极 9 月 29 日递表港交所，2025 年收入 10.98 亿元、净亏 3.36 亿元，Token 服务尚未贡献收入。",
+          "category": "融资并购",
+          "source": "证监会 / 港交所 / 钛媒体",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "12:30",
+          "origin": "seed"
+        },
+        {
+          "title": "第九届进博会开幕：人形机器人从表演走向干活",
+          "summary": "4142 家境外企业参展创历届之最，全球首发首秀展品超 480 件。Sharpa 机器人担任新闻中心摄影师、智元远征 A3 现场泡功夫茶、Hitch Open 机器人无遥控乒乓球对打；特斯拉新一代人形机器人完成中国首秀，演示搬运行李与工厂分拣。",
+          "category": "行业动态",
+          "source": "进博会 / 现场报道",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:40",
+          "origin": "seed"
+        },
+        {
+          "title": "Axiom Math wants to keep AI slop out of mathematics",
+          "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
+          "time": "00:16",
+          "origin": "auto"
+        },
+        {
+          "title": "印度金融机构遭黑客利用 AI 工具发动的网络攻击",
+          "summary": "印度计算机应急响应小组（CERT-In）星期三发布安全通报，被称为“狡猾猎鹰”（Crafty Falcon）的黑客组织，已入侵非银行贷款机构、金融科技公司及加密货币交易所。攻击者利用公开可用的 AI 工具，实现高速自动化入侵。印度计算机应急响应小组形容这项威胁“仍在发生，且持续活跃”。该机构点名四款用于入侵的工具，…",
+          "category": "行业动态",
+          "source": "Solidot",
+          "url": "https://www.solidot.org/story?sid=85809",
+          "time": "00:53",
+          "origin": "auto"
+        },
+        {
+          "title": "Australian universities are creating AI-native graduates",
+          "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+          "time": "01:00",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+          "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in …",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+          "time": "01:10",
+          "origin": "auto"
+        },
+        {
+          "title": "Claude AI can plug directly into your bank account",
+          "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid ban…",
+          "category": "政策监管",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+          "time": "01:49",
+          "origin": "auto"
+        },
+        {
+          "title": "Claude can now analyze your spending with its new Personal Finance tool",
+          "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+          "category": "政策监管",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+          "time": "02:00",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+          "summary": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already succe…",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+          "time": "02:02",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "time": "03:06",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+          "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+          "time": "03:12",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta says US users can now video chat with their Muse AI avatar",
+          "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+          "time": "03:48",
+          "origin": "auto"
+        },
+        {
+          "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+          "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
+          "category": "行业动态",
+          "source": "Wired AI",
+          "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+          "time": "05:37",
+          "origin": "auto"
+        },
+        {
+          "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+          "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+          "time": "05:40",
+          "origin": "auto"
+        },
+        {
+          "title": "Perplexity launches its own take on AI agents for work",
+          "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existin…",
+          "category": "模型发布",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+          "time": "06:26",
+          "origin": "auto"
+        },
+        {
+          "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+          "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+          "time": "06:40",
+          "origin": "auto"
+        },
+        {
+          "title": "Airbnb is working on an AI travel agent",
+          "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today.…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+          "time": "08:06",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI is stepping back from NDAs for data center projects",
+          "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data c…",
+          "category": "算力硬件",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+          "time": "08:37",
+          "origin": "auto"
+        },
+        {
+          "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+          "summary": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日 据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。 当地时间周四，美国科技股遭遇大规模抛售， 华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元） 。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，…",
+          "category": "政策监管",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373554",
+          "time": "09:01",
+          "origin": "auto"
+        },
+        {
+          "title": "菜鸟发布与AI及具身智能产业合作计划",
+          "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向产业伙伴开放全球仓网，打造全球最大的AI及具身智能物流实景训练集群，支持技术训练、实景验证与产业落地；同时推出“科技出海三日达”服务，升级面向AI算力与机器人企业的出海基建，提供从样机测试、规模化交付到海外运营的全链路供应链服务，助力中国硬科技更高效地走向全球。 会上，…",
+          "category": "行业动态",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/industrynews/DUZcuKBxESiGrXWu.html",
+          "time": "09:57",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "highlights": [
+        "国内大厂集体上新：美团 LongCat-2.5、腾讯 Hyra 2.0、Kimi 3D Make",
+        "Anthropic 提交纳斯达克 IPO，代码 ANT；Cohere 目标 C$70 亿创加拿大纪录",
+        "欧盟 AI 法 12 月 2 日关键节点逼近，国内 GEO 治理规范立项"
+      ],
+      "items": [
+        {
+          "title": "Kimi 上线「3D Make」：连接 Blender / CAD 做 3D 与游戏",
+          "summary": "Moonshot AI 把 Kimi 连接到 Blender、CAD 等外部工具，可创建 3D 模型、组装场景并开发游戏，能力从文本与代码扩展到 3D 内容创作工作流，已通过 Kimi 平台与 Kimi Work 可用。",
+          "category": "产品更新",
+          "source": "AI Native Foundation",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "09:00",
+          "origin": "seed"
+        },
+        {
+          "title": "美团 LongCat 发布 LongCat-2.5：1.6 万亿参数原生多模态智能体模型",
+          "summary": "总参数 1.6 万亿、激活约 480 亿，面向长程智能体任务，具备更强的视觉理解与智能体编码能力，覆盖复杂编程到创意设计、3D 工作。API 已开放，注册赠送 1000 万 tokens。",
+          "category": "模型发布",
+          "source": "美团 LongCat",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "09:20",
+          "origin": "seed"
+        },
+        {
+          "title": "腾讯混元发布 Hyra 2.0 研究智能体：从「解题」到「造工具」",
+          "summary": "重心从解决单个问题转向构建可复用工具、模型与工作流以加速后续研究，被视为 AutoResearch 计划的下一章。",
+          "category": "产品更新",
+          "source": "腾讯混元",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "09:35",
+          "origin": "seed"
+        },
+        {
+          "title": "网易智企「帝王蟹」三项升级：智能工牌 + 万典知识引擎 + Agent Team",
+          "summary": "2026 世界互联网大会浙江分论坛发布，首发硬件智能工牌把线下业务信息接入 AI，推出多源知识引擎「万典」以及多 Agent 分工协作的 Agent Team。",
+          "category": "产品更新",
+          "source": "澎湃新闻",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "09:50",
+          "origin": "seed"
+        },
+        {
+          "title": "蚂蚁灵光 2.0：从「会回答」到「能办事」的持续事务管理",
+          "summary": "依托独立云主机与跨会话记忆，可跟踪机票降价、梳理自动续费订阅；引入 APASS 统一账号与安全管理基础设施，让智能体在不接触底层密钥的前提下安全办事。",
+          "category": "产品更新",
+          "source": "新浪科技",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "10:05",
+          "origin": "seed"
+        },
+        {
+          "title": "SambaNova SN50 + Supermicro 推出分体式推理机柜",
+          "summary": "首期规划 1 万颗第五代 RDU 芯片，采用 disaggregated 架构：NVIDIA GPU 负责 prefill，SN50 负责 decode，可在现有风冷数据中心增加推理容量而无需极致机柜功率密度。",
+          "category": "算力硬件",
+          "source": "Business Wire",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "10:20",
+          "origin": "seed"
+        },
+        {
+          "title": "英特尔大显存 GPU 进入送样：单卡撑 3000 亿参数、八卡超 1 万亿",
+          "summary": "主打大显存、低功耗与现有数据中心风冷部署，通过 SYCL 与 AI Agent 辅助迁移工具降低 CUDA 项目迁移成本。",
+          "category": "算力硬件",
+          "source": "半导纵横",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "10:35",
+          "origin": "seed"
+        },
+        {
+          "title": "英伟达扩展 Vera Rubin 上 Oracle 云至多千兆瓦，11/9 首尔办 AI Day",
+          "summary": "三星、SK 海力士、LG 电子等参会，聚焦物理 AI、智能体与 AI 基础设施；同期推出 Minerva 系统治理大型 GPU 集群遥测数据以提升「AI 工厂」良率。",
+          "category": "算力硬件",
+          "source": "NVIDIA",
+          "url": "https://www.toutiao.com/a7703883059736691215",
+          "time": "10:50",
+          "origin": "seed"
+        },
+        {
+          "title": "Anthropic 提交纳斯达克 IPO 申请，代码 ANT",
+          "summary": "首次公开头部 AI 实验室财务：2026 上半年营收 162.86 亿美元（约去年同期 14 倍），Q3 约 170 亿美元、同比约 12 倍，二季度首次实现经营盈利；但修订版 S-1 显示截至 2045 年的算力承诺约 8954 亿美元。七位联合创始人通过特殊股掌握 50.1% 投票权，高盛与摩根士丹利主承销。",
+          "category": "融资并购",
+          "source": "Reuters / S-1",
+          "url": "https://aibriefing.dev/",
+          "time": "11:05",
+          "origin": "seed"
+        },
+        {
+          "title": "Cohere 完成 Series E 首关，目标最高 C$70 亿",
+          "summary": "估值约 C$357 亿，为加拿大史上最大私募融资轮；德国 Schwarz Group 领投，加拿大政府将投资至多 C$16 亿获取股权。资金用于前沿模型路线、算力基建与受监管行业垂直方案。",
+          "category": "融资并购",
+          "source": "Cohere / StartupMafia",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:20",
+          "origin": "seed"
+        },
+        {
+          "title": "零一万物获杭州国资数亿元投资，剑指 2027 上市",
+          "summary": "李开复创办的零一万物与杭州市、临平区达成合作，市区两级国资联动投资数亿元，总部落地临平并打造产业 AI 转型基地，2026 年订单额目标 15 亿元。",
+          "category": "融资并购",
+          "source": "中国经济新闻网",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:35",
+          "origin": "seed"
+        },
+        {
+          "title": "Serval 完成 1.5 亿美元 C 轮，估值 30 亿美元",
+          "summary": "红杉领投，估值为去年 12 月三倍。其 AI 智能体处理 IT 支持并扩展至 HR、财务、法务请求，客户 Lucid Motors 用 45 天完全迁移出 ServiceNow。",
+          "category": "融资并购",
+          "source": "StartupMafia",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:45",
+          "origin": "seed"
+        },
+        {
+          "title": "arXiv：语义状态空间模型 SSSM 质疑超长上下文必要性",
+          "summary": "论文《You don't need long context》指出前沿模型后续生成 token 成本可高 7 倍，通过频繁上下文压缩可在长期任务与长输入场景下几乎不牺牲准确率地维持短上下文窗口。",
+          "category": "研究突破",
+          "source": "arXiv 2611.05306",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:00",
+          "origin": "seed"
+        },
+        {
+          "title": "欧盟 AI 法 12 月 2 日关键节点：标记过渡期截止 + 两条新禁令生效",
+          "summary": "2026-08-02 前投放市场的遗留生成式 AI 系统须完成机器可读输出标记，新上市系统无宽限；同时两条 Article 5 新禁令生效，违规最高罚 3500 万欧元或全球营业额 7%。罚款程序草案公开征询将于 11 月 9 日截止。",
+          "category": "政策监管",
+          "source": "欧盟委员会",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:15",
+          "origin": "seed"
+        },
+        {
+          "title": "国内首部 GEO 治理规范立项，人民日报强调 AI 生成内容标识",
+          "summary": "《生成式引擎优化可信信息传播与信息生态治理规范》由新华网牵头，明确「事实、观点、营销表达三区分治」，严禁语料投毒、提示词注入、答案霸权；网信办通报 AI 生成内容未标识被责令下线等执法典型案例。",
+          "category": "政策监管",
+          "source": "中国日报网 / 网信中国",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "12:30",
+          "origin": "seed"
+        },
+        {
+          "title": "Cognition 发布 FrontierCode 2.0 基准：Claude Opus 5.5 也仅得 45.5%",
+          "summary": "新基准考察需求欠明确、合并标准严格的真实工程场景，要求模型推断未言明的约束与设计选择，最高分 45.5%，显示该基准远未被饱和。",
+          "category": "研究突破",
+          "source": "Cognition",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:45",
+          "origin": "seed"
+        },
+        {
+          "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+          "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+          "category": "算力硬件",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+          "time": "04:55",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta acquires AI coding startup Conductor",
+          "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "time": "05:10",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+          "time": "05:25",
+          "origin": "auto"
+        },
+        {
+          "title": "Almost no one uses AI agents to book their Uber, company says",
+          "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "time": "05:56",
+          "origin": "auto"
+        },
+        {
+          "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+          "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+          "time": "06:13",
+          "origin": "auto"
+        },
+        {
+          "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+          "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+          "time": "06:45",
+          "origin": "auto"
+        },
+        {
+          "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+          "summary": "After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit.",
+          "category": "算力硬件",
+          "source": "Wired AI",
+          "url": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+          "time": "07:13",
+          "origin": "auto"
+        },
+        {
+          "title": "Franklin Templeton uses OpenAI to support investment research",
+          "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+          "category": "融资并购",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/franklin-templeton",
+          "time": "08:00",
+          "origin": "auto"
+        },
+        {
+          "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
+          "summary": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ... 查看全文",
+          "category": "产品更新",
+          "source": "少数派",
+          "url": "https://sspai.com/post/118498",
+          "time": "08:16",
+          "origin": "auto"
+        },
+        {
+          "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+          "summary": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一 11 月 4 日，Apple 智能伴随 iOS 27.3 的 Developer Beta 向中国大陆用户开放测试，并计划于 12 月随 iOS 27.3 正式版推出。与此同时，苹果也确认与阿里巴巴达成合作，将千问接入 Siri、写作工具及视觉智能，让中国用户能够通过系统直接调用国内大模型的能力。 不过，…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373494",
+          "time": "08:45",
+          "origin": "auto"
+        },
+        {
+          "title": "After the midterms, a bigger clash over data centers could be coming",
+          "summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+          "time": "09:02",
+          "origin": "auto"
+        },
+        {
+          "title": "Apple is reportedly cutting budgets for its internal AI usage",
+          "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+          "time": "09:26",
+          "origin": "auto"
+        },
+        {
+          "title": "Setting a new standard for responsible AI infrastructure",
+          "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "category": "政策监管",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "time": "10:00",
+          "origin": "auto"
+        },
+        {
+          "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+          "summary": "Data + AI 技术实践巡展 · 上海站",
+          "category": "行业动态",
+          "source": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507696.html",
+          "time": "10:01",
+          "origin": "auto"
+        },
+        {
+          "title": "子公司把母公司告了！安世半导体起诉闻泰科技，索赔134亿元；中兴手机账号主体变更，将调整为上海申启纪元；腾讯混元正式发布Hy4",
+          "summary": "要闻提示 1.子公司把母公司告了！安世半导体索赔134亿元，闻泰科技强硬回击 2.中兴手机账号主体变更，将调整为上海申启纪元 3.腾讯混元发布最新一代大语言模型Hy4，跻身最强开源模型队列 4.iPhone系统天气Bug显示下周五-32℃，苹果客服致歉：系统端口问题 5.京东本地生活业务负责人郭庆离职 6.蔚来李斌：自动驾驶不应让出租车和网约车司机失去工作 7.…",
+          "category": "行业动态",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/zaobao/uojoiQ2Owilfvr8B.html",
+          "time": "10:07",
+          "origin": "auto"
+        },
+        {
+          "title": "上海交大邓志杰：扩散语言模型，怎样才能又快又好",
+          "summary": "从基础路线到系统优化，讲解如何将并行潜力，转化为实际速度。 作者丨张璐 编辑丨 张驰 写作往往伴随着整体构思、局部推敲和反复修改。一句话中的用词，既取决于前文，也可能受到后文的影响。由此出发，语言模型的生成过程，是否也可以在多个位置同时展开，再逐步补全文本？ 在前不久的CNCC 2026上，上海交通大学副教授邓志杰以“扩散大语言模型方法及应用”为题，…",
+          "category": "行业动态",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/private/T9k5sQixxLljsoH7.html",
+          "time": "13:44",
+          "origin": "auto"
+        },
+        {
+          "title": "91% ≈ 0%？谷歌最新研究，戳破工程 Agent 的高正确率泡沫",
+          "summary": "41.3% 的设计项跨过安全门槛，复杂工程仍困于约束耦合。 作者丨 郑佳美 岑 峰 编辑丨岑 峰 在工程世界里，91% 的正确，有时和 0% 的交付能力没有区别。 一条电缆桥架在机房顶部穿过消防管线，就能让几十页正确的计算书失去交付价值。载流量算对了，电压降符合要求，设备选型也有依据，但进入三维空间后，几套系统争夺同一段净空，工程师只能退回方案。…",
+          "category": "政策监管",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/ai/YZ0bP2vh94KY45RG.html",
+          "time": "13:51",
+          "origin": "auto"
+        },
+        {
+          "title": "任天堂最大 ROM 芯片供应商准备退出",
+          "summary": "任天堂 Switch 游戏机实体游戏卡带使用的 ROM 芯片供应也受到了 AI 热的影响。任天堂最大 ROM 芯片供应商旺宏电子在其第三季度财报中宣布它准备终止 ROM 芯片生产，脱离游戏行业。旺宏电子表示，ROM 芯片的产量在过去一年中缩减了 39%，目前仅占其业务总量的 5%。ROM 芯片正逐渐被利润更高、需求更旺盛的其它存储芯片所取代。…",
+          "category": "算力硬件",
+          "source": "Solidot",
+          "url": "https://www.solidot.org/story?sid=85801",
+          "time": "14:53",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "highlights": [
+        "腾讯 Hy4 开源定价 $0.90/M，Gemini 4 Carbon 登顶 AA 智能指数 v5",
+        "Apple Intelligence 中国测试版落地 Qwen，DeepSeek 计划用 16 万颗昇腾预训练 V5",
+        "蔡崇信：只有开源才能推动 AI 普及"
+      ],
+      "items": [
+        {
+          "title": "腾讯发布开源模型 Hy4，输入价维持 $0.90 / 百万 tokens",
+          "summary": "输出 $2.70、缓存输入仅 $0.045。WorkBuddy 评测得分 83.18、通过 96.15% 任务，在中国大陆 12 个场景中的 9 个排名第一；开放权重与系统卡随后发布。",
+          "category": "模型发布",
+          "source": "腾讯",
+          "url": "https://blogs.thetrillioniar.me/blog/ai-news-November-6-gpt6-cyber-metr-anthropic-hy4-wyoming",
+          "time": "09:10",
+          "origin": "seed"
+        },
+        {
+          "title": "Apple Intelligence 中国测试版开启，基于阿里 Qwen 模型",
+          "summary": "推迟约两年后于 11 月 4 日启动开发者测试，覆盖写作工具、视觉智能等 18 项功能，公开版计划 12 月推出，Siri AI 暂不包含。阿里称提示与回答不会被保留或用于训练。",
+          "category": "产品更新",
+          "source": "Apple / 阿里巴巴",
+          "url": "https://aibriefing.dev/",
+          "time": "09:30",
+          "origin": "seed"
+        },
+        {
+          "title": "DeepSeek 计划用 16 万颗华为昇腾 950DT 芯片预训练 V5",
+          "summary": "计划于 2027 年实施，此前昇腾主要用于模型推理而非全规模预训练；据报道此前完成 159 亿美元融资、估值约 900 亿美元，被视为中国非英伟达训练栈的里程碑。",
+          "category": "算力硬件",
+          "source": "媒体报道",
+          "url": "https://aibriefing.dev/",
+          "time": "09:50",
+          "origin": "seed"
+        },
+        {
+          "title": "Gemini 4 Carbon 登顶 Artificial Analysis 智能指数 v5",
+          "summary": "以 59~60 分小幅领先 Claude Opus 5.5（58）与 GPT-6 Astra（57）；可发现 88.2% 真实软件漏洞、漏洞可利用性验证准确率 54.8%。暂不开放公开 API，仅通过 Fairwind 计划向 47 家通过安全审查的机构提供。",
+          "category": "模型发布",
+          "source": "Artificial Analysis",
+          "url": "https://www.toutiao.com/a7703883059736691215",
+          "time": "10:10",
+          "origin": "seed"
+        },
+        {
+          "title": "CUDA 13.5 正式支持 NVIDIA Vera Rubin 平台",
+          "summary": "软件栈为下一代数据中心 GPU 就绪；NVIDIA 同期发布用 AI 智能体运维 GPU 集群、用 NeMo 把智能体失败转成测试用例的指南。",
+          "category": "算力硬件",
+          "source": "NVIDIA",
+          "url": "https://aibriefing.dev/",
+          "time": "10:25",
+          "origin": "seed"
+        },
+        {
+          "title": "Anthropic 扩展 Claude Marketplace，新增 25+ 合作伙伴智能体",
+          "summary": "覆盖网络安全、开发基础设施与生产力；符合条件的企业可把已承诺的 Anthropic 支出用于 Datadog、Chainguard、Cyera 等合作软件，统一结算。",
+          "category": "产品更新",
+          "source": "Anthropic",
+          "url": "https://aibriefing.dev/",
+          "time": "10:40",
+          "origin": "seed"
+        },
+        {
+          "title": "商汤发布日日新 SenseNova 6.8 Flash 正式版",
+          "summary": "升级办公协作与设计生成：支持长期记忆、跨会话任务协作，设计能力覆盖动态 PPT、动态海报、网页、SVG 与 Blender 3D 创作，可接入 Figma 工作流。",
+          "category": "产品更新",
+          "source": "界面新闻",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "11:00",
+          "origin": "seed"
+        },
+        {
+          "title": "墨芯人工智能完成近 10 亿元 C+ 轮融资",
+          "summary": "资金投向稀疏专用推理芯片全栈升级与下一代芯片预研，并推进稀疏计算产学研联盟建设。",
+          "category": "融资并购",
+          "source": "墨芯人工智能",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "11:15",
+          "origin": "seed"
+        },
+        {
+          "title": "蔡崇信：只有开源才能推动 AI 普及，千问已开源超 470 款模型",
+          "summary": "2026 世界互联网大会乌镇开幕式上表示算力供不应求，开源能有效降低中小企业研发成本、对发展中国家尤其重要；千问全球累计下载超 40 亿次、衍生模型超 33 万。",
+          "category": "行业动态",
+          "source": "界面新闻",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "11:30",
+          "origin": "seed"
+        },
+        {
+          "title": "Google 成功在原型卫星上用 TPU 跑通 AI 推理",
+          "summary": "Project Suncatcher 原型星载数据中心级 TPU 处理提示词，用 Gemma 4 生成俳句并回传斯瓦尔巴地面站；2027 年将测试双星互联的分布式 AI 计算。",
+          "category": "研究突破",
+          "source": "Google",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:45",
+          "origin": "seed"
+        },
+        {
+          "title": "百度开源 Unlimited OCR 2，恒定解码延迟解析超长文档",
+          "summary": "采用稀疏参考滑动窗口注意力（SR-SWA），把文本-视觉注意力压缩为固定大小的参考集合，解码延迟与显存占用不随文档长度增长，在 MPDocBench、MarathonDocBench 等基准达到 SOTA。",
+          "category": "模型发布",
+          "source": "百度",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "12:00",
+          "origin": "seed"
+        },
+        {
+          "title": "OpenAI 暂停 GPT-6.1 Astra 发布并收紧工具调用监控",
+          "summary": "新版安全准则把「意图对齐」写入核心框架，同时任命前美国陆军部长出任国家安全顾问。头号厂商「先向特许机构开放、再逐步放开」的分级发布策略渐成趋势。",
+          "category": "政策监管",
+          "source": "OpenAI",
+          "url": "https://www.toutiao.com/a7703883059736691215",
+          "time": "12:15",
+          "origin": "seed"
+        },
+        {
+          "title": "Google will let schools skip AI tools, but they have to give up search, too",
+          "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+          "time": "01:54",
+          "origin": "auto"
+        },
+        {
+          "title": "Ukraine’s drone strikes spur hasty Russian plans for underground data centers",
+          "summary": "Russia tries to fix exposed digital infrastructure as data center war backfires.",
+          "category": "算力硬件",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/",
+          "time": "04:39",
+          "origin": "auto"
+        },
+        {
+          "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+          "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+          "category": "算力硬件",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/devrev-enterprise-self-service",
+          "time": "08:00",
+          "origin": "auto"
+        },
+        {
+          "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+          "summary": "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送 11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373427",
+          "time": "08:28",
+          "origin": "auto"
+        },
+        {
+          "title": "SUSE 因 AI 而计划裁员十分之一",
+          "summary": "德国开源软件公司 SUSE 现有员工 1900 人，它计划裁掉十分之一的员工。CEO Dirk-Peter van Leeuwen 在电子邮件里表示，自动化和 AI 降低了某些岗位的需求。他表示做出这一决定是非常痛苦的，但也是必要的。Van Leeuwen 称，在被瑞典私募股权投资公司殷拓集团收购后，…",
+          "category": "行业动态",
+          "source": "Solidot",
+          "url": "https://www.solidot.org/story?sid=85791",
+          "time": "16:23",
+          "origin": "auto"
+        },
+        {
+          "title": "Nexus Mods 公布 AI 生成内容政策",
+          "summary": "最大 PC 游戏 Mod 分享托管平台 Nexus Mods 公布了 AI 生成内容政策。Nexus Mods 没有禁止 AI 生成 Mod，但对此类 Mod 的分享设定了更严格的规定。新上传 Mod 必须披露是否使用 AI，AI 辅助 Mod 必须说明如何使用 AI 以及 AI 的使用范围。现有 Mod 需在 2027 年 1 月 2 日前符合新要求。…",
+          "category": "行业动态",
+          "source": "Solidot",
+          "url": "https://www.solidot.org/story?sid=85794",
+          "time": "18:57",
+          "origin": "auto"
+        },
+        {
+          "title": "富士胶片因 AI 热加大磁带产能",
+          "summary": "富士胶片表示它将大幅增加磁带产能，原因是磁带备份成为 AI 热的一个意外受益者。普通消费者可能早在几十年前就已不再使用磁带，但业界却从未将其抛弃。云服务巨头依靠磁带对海量数据进行备份。富士胶片称，大型云服务商和数据中心运营商正在扩大对磁带的使用，因为磁带能以相对较低的成本存储海量数据。磁带备份可以轻松与系统断开连接，存放在抽屉、保险库或独立设施内。富士胶片强调，…",
+          "category": "算力硬件",
+          "source": "Solidot",
+          "url": "https://www.solidot.org/story?sid=85795",
+          "time": "19:26",
+          "origin": "auto"
+        },
+        {
+          "title": "你不知道的客户端开发：AI 时代下的选型、原生与借力",
+          "summary": "选型选得好只是锦上添花，最终还是要先把用户最真实的需求解决好。 查看全文",
+          "category": "行业动态",
+          "source": "少数派",
+          "url": "https://sspai.com/post/117713",
+          "time": "20:25",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "category": "算力硬件",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "time": "22:30",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "highlights": [
+        "Anthropic S-1 揭示算力承诺与营收同步膨胀，前沿实验室转向盈利叙事",
+        "DeepMind Genie 4 实现实时世界模拟，具身 AI 成为基础设施层",
+        "OpenAI 融资目标下调，资本纪律取代投机扩张"
+      ],
+      "items": [
+        {
+          "title": "Anthropic 修订版 S-1 披露约 8954 亿美元算力承诺",
+          "summary": "截至 9 月底各项承诺支出总额达 8950 亿美元，其中约 4480 亿美元预计 2030 年底前发生；三季度营业利润由盈转亏。黑石提示上市后未必立即获得投资级信用评级。",
+          "category": "融资并购",
+          "source": "S-1 / 界面新闻",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "09:20",
+          "origin": "seed"
+        },
+        {
+          "title": "DeepMind Genie 4 实现大规模实时世界模拟",
+          "summary": "视觉保真度显著提升并达到实时性能，移除机器人训练与游戏开发的关键瓶颈，被视为具身 AI 与合成训练数据管线的基础设施进展。",
+          "category": "研究突破",
+          "source": "Google DeepMind",
+          "url": "https://themodelwire.com/",
+          "time": "09:40",
+          "origin": "seed"
+        },
+        {
+          "title": "OpenAI 将最新一轮融资目标下调至约 200 亿美元、估值 1.25 万亿美元",
+          "summary": "较原计划减少约 100 亿美元，并加紧筹资以赶在 Anthropic 预计 11 月中旬上市前获得投资者承诺。行业竞争焦点从模型能力转向安全可控与资金保障。",
+          "category": "融资并购",
+          "source": "金融时报",
+          "url": "https://www.toutiao.com/a7703883059736691215",
+          "time": "10:00",
+          "origin": "seed"
+        },
+        {
+          "title": "GPT-6.1 Terra 强调视觉推理与计算机使用",
+          "summary": "面向知识工作自动化：从文档起草、表单填写到视频编辑，反映行业从纯语言性能转向多模态任务执行。",
+          "category": "模型发布",
+          "source": "Simon Willison",
+          "url": "https://themodelwire.com/",
+          "time": "10:20",
+          "origin": "seed"
+        },
+        {
+          "title": "小米披露机器人业务两项落地进展",
+          "summary": "人形机器人在中控台侧盖板排序工站首次挑战 8 小时作业，满足全天生产需求，实现异常自主纠偏与产线系统级协同；同期获世界互联网大会领先科技奖。",
+          "category": "行业动态",
+          "source": "界面新闻",
+          "url": "https://www.jiemian.com/article/15288958.html",
+          "time": "10:40",
+          "origin": "seed"
+        },
+        {
+          "title": "Cohere 宣布 Series E，目标 C$70 亿创加拿大私募融资纪录",
+          "summary": "估值 C$357 亿，资金用于前沿模型路线、算力基础设施与面向受监管行业及政府的垂直 AI 方案。",
+          "category": "融资并购",
+          "source": "Cohere",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:00",
+          "origin": "seed"
+        },
+        {
+          "title": "NVIDIA 与 Meta 扩大 Muse 合作，拟投资 30 亿美元",
+          "summary": "双方改进 Muse 模型家族的推理与训练性能，探索用 NVIDIA OpenShell 安全部署智能体、Sentry 做行为监控；Meta 计划更广泛部署 Vera Rubin 与 Vera CPU。",
+          "category": "算力硬件",
+          "source": "NVIDIA / Meta",
+          "url": "https://headsupai.io/ai-news-and-updates/this-month",
+          "time": "11:20",
+          "origin": "seed"
+        },
+        {
+          "title": "本周行业研判：前沿实验室转向可盈利运营",
+          "summary": "Modelwire 追踪 441 条报道后指出，Anthropic 的 IPO 文件与 OpenAI 的融资缺口共同标志投机性巨额融资阶段结束，前沿实验室开始以商业回报而非单纯能力竞争；同时安全监控能力明显落后于部署速度。",
+          "category": "行业动态",
+          "source": "The Model Wire",
+          "url": "https://themodelwire.com/",
+          "time": "11:40",
+          "origin": "seed"
+        },
+        {
+          "title": "The latest AI news we announced in October 2026",
+          "summary": "Animated carousel of images from AI posts in October",
+          "category": "行业动态",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+          "time": "01:45",
+          "origin": "auto"
+        },
+        {
+          "title": "Preparing our next security sprint to harden OpenAI",
+          "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+          "time": "02:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+          "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+          "time": "02:05",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+          "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+          "time": "08:00",
+          "origin": "auto"
+        },
+        {
+          "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份",
+          "summary": "Anthropic 更新 IPO 招股书：第三季度营收近 170 亿美元，算力承诺达 8954 亿美元 11 月 2 日，Anthropic 向美国证券交易委员会提交更新后的 S-1 招股文件，首次补充截至今年 9 月底的第三季度财务数据。 Anthropic 第三季度营收达到 169.6 亿美元，较第二季度增长 47%，但增速低于第二季度的 144%。…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373358",
+          "time": "08:40",
+          "origin": "auto"
+        },
+        {
+          "title": "Heimstaden is changing residential real estate management with AI",
+          "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/heimstaden",
+          "time": "16:00",
+          "origin": "auto"
+        },
+        {
+          "title": "How Cisco defends at machine speed with OpenAI",
+          "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/cisco-cyber",
+          "time": "16:00",
+          "origin": "auto"
+        },
+        {
+          "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
+          "summary": "作者｜苏子华 编辑｜郑玄 博尔赫斯 写过一则著名的寓言。一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流。后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂。 真正在一个地方走路的人，靠的从来不是一张一比一的图纸，而是脚底的感觉、眼睛的判断，以及走错了再调整的能力。 具身智能行业正在上演这则寓言的现实版。 过去两年，…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373424",
+          "time": "19:54",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "highlights": [
+        "传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
+        "Qodo builds context into AI code review with Codex",
+        "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization"
+      ],
+      "items": [
+        {
+          "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+          "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai",
+          "time": "08:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Qodo builds context into AI code review with Codex",
+          "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/qodo-codex-plugin",
+          "time": "08:00",
+          "origin": "auto"
+        },
+        {
+          "title": "传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
+          "summary": "苹果 CEO：不会为了做 AI 而做产品 苹果 CEO 约翰·特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护。过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线。 特努斯是苹果资深高管，9 月初正式出任 CEO。他承认「每个人都有自己的看法」，但坚称：「我对我们现在所处的阶段很满意。」 特努斯补充，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373252",
+          "time": "08:27",
+          "origin": "auto"
+        },
+        {
+          "title": "Scaling Git at OpenAI",
+          "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/scaling-git-at-openai",
+          "time": "23:30",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "highlights": [
+        "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+        "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+        "DeepSeek，怎么就变成了一条「大肥鱼」"
+      ],
+      "items": [
+        {
+          "title": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+          "summary": "DeepSeek 发布全新 Agent 架构 10 月 31 日晚间，DeepSeek Harness 团队在官方公众号发表技术文章《Super-agent 设计探索：迈向更自主的 Agent 系统》。 DeepSeek 表示，模型能力提升催生了新的应用形态，个人助手（Personal Agent）开始集中涌现。然而，…",
+          "category": "算力硬件",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373243",
+          "time": "08:29",
+          "origin": "auto"
+        },
+        {
+          "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+          "summary": "作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。 由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili 网友纷纷效仿，…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373248",
+          "time": "17:57",
+          "origin": "auto"
+        },
+        {
+          "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+          "summary": "作者｜汤一涛 编辑｜靖宇 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse， 购物 是 Muse 最常见的用途，超过 四分之一 的用户在用它买东西，平均客单价超过 200 美元 ；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373249",
+          "time": "18:03",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "highlights": [
+        "国行 Apple 智能官网正式上线：千问接入，11 月推送",
+        "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道",
+        "Supersonic airliner in doubt as company shifts to powering AI data centers"
+      ],
+      "items": [
+        {
+          "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+          "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans/",
+          "time": "00:53",
+          "origin": "auto"
+        },
+        {
+          "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+          "summary": "Low costs and offline security mean magnetic tape still has a job.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+          "time": "01:38",
+          "origin": "auto"
+        },
+        {
+          "title": "Basically no one is using AI agents for their DoorDash orders",
+          "summary": "But it's still early days for the relatively new e-commerce use case.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
+          "time": "03:30",
+          "origin": "auto"
+        },
+        {
+          "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+          "summary": "People who love AI don't always love telling others they used it.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+          "time": "04:40",
+          "origin": "auto"
+        },
+        {
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+          "time": "05:09",
+          "origin": "auto"
+        },
+        {
+          "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+          "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+          "category": "算力硬件",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+          "time": "05:41",
+          "origin": "auto"
+        },
+        {
+          "title": "国行 Apple 智能官网正式上线：千问接入，11 月推送",
+          "summary": "头图图片来源：Apple 10 月 31 日，苹果中国官网的 Newsroom 发布新闻稿《Apple 智能即将登陆中国》，给了一张具体的时间表：11 月 4 日起，首批 Apple 智能功能随最新的 iOS 开发者 Beta 版开放测试；12 月 iOS 27.3 正式发布时，面向中国用户推出。 苹果中国官网的 Apple 智能页面也改了口。…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373238",
+          "time": "06:26",
+          "origin": "auto"
+        },
+        {
+          "title": "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道",
+          "summary": "国行 Apple 智能确定上线时间：11 月开放测试，千问接入 Siri 10 月 31 日，苹果宣布，国行 Apple 智能首批功能将于 11 月 4 日随 iOS 开发者 Beta 版开放测试，12 月随 iOS 27.3 正式面向用户推出。首批功能包括实时翻译、写作工具、照片消除、智绘表情和通知摘要等，…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373220",
+          "time": "08:03",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "highlights": [
+        "Google 母集团市值蒸发 5000 亿美元创纪录；苹果高管回应新 iPad mini 60Hz 刷新率；因电池问题，理想 MEGA 退一赔一｜极客早知道",
+        "TRAE 开发者个人助理，打响 AI Coding 的下半场",
+        "An updated Model Spec for more capable and beneficial AI"
+      ],
+      "items": [
+        {
+          "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+          "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+          "time": "00:24",
+          "origin": "auto"
+        },
+        {
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "category": "产品更新",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/updated-model-spec",
+          "time": "01:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Google 母集团市值蒸发 5000 亿美元创纪录；苹果高管回应新 iPad mini 60Hz 刷新率；因电池问题，理想 MEGA 退一赔一｜极客早知道",
+          "summary": "谷歌市值创纪录蒸发 5000 亿美元 AI 侵蚀营收 Alphabet Inc 股价一度下跌逾 13%，市值蒸发逾 5000 亿美元，单日市值缩水规模创公司纪录。此前公司公布的搜索和广告业务营收令人失望，加剧了投资者对人工智能（AI）威胁其核心业务的担忧。 这家谷歌母公司公布，第三季度不含合作伙伴分成的营收为 1112 亿美元，低于分析师预测。…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373154",
+          "time": "08:15",
+          "origin": "auto"
+        },
+        {
+          "title": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
+          "summary": "作者｜Cynthia 编辑｜郑玄 过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒。 一句话生成页面，几分钟搭出原型，一个开发者用半天时间做完了过去需要一周才能完成的开发任务…… 但在这之后，即使某项单点开发任务获得五倍、十倍的提速，一个项目从需求提出到产品交付的速度，有时候未必能有两倍效率提升。…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373190",
+          "time": "13:49",
+          "origin": "auto"
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "time": "17:30",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "highlights": [
+        "苹果发触屏笔记本，最高 11 万元；DeepSeek V5 模型代码现身；宇树首发财报，净利增 270%",
+        "How Ropes & Gray is developing AI for transactional diligence",
+        "Evernote turns AI-driven discovery into paid subscriptions"
+      ],
+      "items": [
+        {
+          "title": "Google AI gets cagey when asked who won the 2020 elections",
+          "summary": "But the AI responses get more forthright when asked outside the US.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+          "time": "01:46",
+          "origin": "auto"
+        },
+        {
+          "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+          "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+          "time": "02:47",
+          "origin": "auto"
+        },
+        {
+          "title": "Evernote turns AI-driven discovery into paid subscriptions",
+          "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/ads/customers/evernote",
+          "time": "03:40",
+          "origin": "auto"
+        },
+        {
+          "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+          "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/credit-saison",
+          "time": "08:00",
+          "origin": "auto"
+        },
+        {
+          "title": "苹果发触屏笔记本，最高 11 万元；DeepSeek V5 模型代码现身；宇树首发财报，净利增 270%",
+          "summary": "苹果发布首款触屏 MacBook Pro，顶配超 11 万 元 北京时间 10 月 29 日，苹果发布全新 MacBook Pro，首次为 Mac 引入屏幕触控和灵动岛，并采用双层串联 OLED 技术的 PROLED XDR 显示屏。 新机提供 14 英寸和 16 英寸两种版本，搭载 M5 Pro 或 M5 Max 芯片。根据苹果中国区发布信息，…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373085",
+          "time": "08:05",
+          "origin": "auto"
+        },
+        {
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "time": "15:00",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "highlights": [
+        "斯坦福的研究，红海的珊瑚，与一个中国模型",
+        "Legora is building the agentic operating system for legal work",
+        "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity"
+      ],
+      "items": [
+        {
+          "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+          "summary": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+          "category": "融资并购",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+          "time": "05:31",
+          "origin": "auto"
+        },
+        {
+          "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+          "summary": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+          "time": "05:50",
+          "origin": "auto"
+        },
+        {
+          "title": "斯坦福的研究，红海的珊瑚，与一个中国模型",
+          "summary": "2026 年 9 月 4 日，又一年柏林国际消费电子展 IFA 大会开幕，会展中心的创新舞台座无虚席。 IFA 2026 的开幕主题演讲题目是《个人 AI 时代：想象力的未来》，主讲人是 AMD 高级副总裁、计算与图形事业部总经理 Jack Huynh。 作为消费电子圈每年最重要的场合之一，台下所有人都在等 AMD 拿出年度最重磅的内容。…",
+          "category": "算力硬件",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373059",
+          "time": "15:37",
+          "origin": "auto"
+        },
+        {
+          "title": "Legora is building the agentic operating system for legal work",
+          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/legora",
+          "time": "17:30",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "time": "21:15",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "highlights": [
+        "苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道",
+        "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
+        "左手开源模型，右手创作 Agent，Hi3D 的 AI 3D 下半场"
+      ],
+      "items": [
+        {
+          "title": "Our newest AI Quest: Mapping the human brain",
+          "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+          "category": "行业动态",
+          "source": "Google AI",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+          "time": "00:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Introducing GPT-6.1 Terra",
+          "summary": "Delivering fast and capable computer use at scale",
+          "category": "算力硬件",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "time": "02:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "time": "06:00",
+          "origin": "auto"
+        },
+        {
+          "title": "苹果回应 iPhone 折叠屏问题：可申请换机；传腾讯绿泡泡短剧月活过亿；；Anthropic或下月上市｜极客早知道",
+          "summary": "Anthropic 公开递交纳斯达克 IPO 申请：目标 11 月 16 日当周上市 Anthropic 正式踏上上市之路。这家成立仅五年、身处生成式 AI 浪潮核心的企业，本次 IPO 有望创下历史纪录。 Anthropic 在提交给美国证券交易委员会（SEC）的文件中披露，计划登陆纳斯达克交易所，股票代码定为「ANT」，目标在 11 月 16 日当周进行 IPO。…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/372952",
+          "time": "08:26",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+          "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+          "category": "行业动态",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "time": "15:00",
+          "origin": "auto"
+        },
+        {
+          "title": "左手开源模型，右手创作 Agent，Hi3D 的 AI 3D 下半场",
+          "summary": "作者｜Cynthia 编辑｜郑玄 2026 年的 AI 3D 赛道，正站在一个微妙的分水岭上。 一级市场的热度仍在攀升，新模型、新创业公司层出不穷，单图生 3D 的正面渲染效果几乎已经做到了以假乱真。 但剥开炫目的 Demo 外壳：绝大多数生成结果依然停留在「转台展示」阶段：一个精致的角色或机械模型，在灯光下缓缓旋转，…",
+          "category": "模型发布",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/372939",
+          "time": "15:59",
+          "origin": "auto"
+        },
+        {
+          "title": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
+          "summary": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开启预购。1999 美元起售，首批产能紧张，没过多久交付日期就排到了明年 1 月。 这一次抢首发的，不只是守在屏幕前的人。 今年 Agent 成为 iPhone Duo 黄牛最严厉的父亲｜图片来源：Apple 在 MacRumors 论坛上，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373002",
+          "time": "16:42",
+          "origin": "auto"
+        },
+        {
+          "title": "看了招股书，我终于知道为什么 Anthropic 不在乎用户了",
+          "summary": "大的，终于来了。 10 月 26 日，Anthropic 向美国证监会公开递交了 S-1 招股书，准备在纳斯达克全球精选市场挂牌上市，股票代码定为 ANT。媒体报道中， 这家公司的估值讨论区间已经来到了 1.5 万亿至 2 万亿美元 ，发行价区间尚未披露。 24 小时内，这本 300 多页的招股书已经被科技圈和金融圈翻了个底朝天，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373006",
+          "time": "16:55",
+          "origin": "auto"
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+          "category": "模型发布",
+          "source": "OpenAI Blog",
+          "url": "https://openai.com/index/retell-ai",
+          "time": "23:00",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "highlights": [
+        "今年的 1024，可能是最后一个程序员节"
+      ],
+      "items": [
+        {
+          "title": "今年的 1024，可能是最后一个程序员节",
+          "summary": "作者｜Wildcard 编辑｜靖宇 今天一整天， X 上都有人在讨论，「 1024 程序员节日快乐，今年会不会是最后一个程序员节了 」。 这一天恰好是周六。微博上的话题叫「今年程序员节自带休息日」，配文说 AI 工具分担了重复编码，程序员终于能过一个不被紧急需求打断的节。 影石连续第五年给优秀程序员发黄金键帽，今年新增了一颗「F5」键，寓意不断刷新迭代。颁奖现场，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/372944",
+          "time": "18:16",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "highlights": [
+        "Gemini 4 Argon: Built to solve your hardest problems"
+      ],
+      "items": [
+        {
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "summary": "TBD",
+          "category": "行业动态",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "time": "00:00",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "highlights": [
+        "The latest AI news we announced in September 2026"
+      ],
+      "items": [
+        {
+          "title": "The latest AI news we announced in September 2026",
+          "summary": "A video showing the September AI updates",
+          "category": "产品更新",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+          "time": "23:00",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "highlights": [
+        "New experts join Google’s AI & Economy team"
+      ],
+      "items": [
+        {
+          "title": "New experts join Google’s AI & Economy team",
+          "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+          "category": "研究突破",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+          "time": "22:00",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "highlights": [
+        "AI for Societal Impact",
+        "Building AI to accelerate science and improve lives",
+        "AI for everyone in every language"
+      ],
+      "items": [
+        {
+          "title": "AI for Societal Impact",
+          "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+          "category": "研究突破",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+          "time": "00:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Building AI to accelerate science and improve lives",
+          "summary": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
+          "category": "行业动态",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+          "time": "00:00",
+          "origin": "auto"
+        },
+        {
+          "title": "AI for everyone in every language",
+          "summary": "Animation of several words in different languages slowly zooming past",
+          "category": "行业动态",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+          "time": "00:00",
+          "origin": "auto"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "highlights": [
+        "New insights from Google’s AI & Economy ATLAS"
+      ],
+      "items": [
+        {
+          "title": "New insights from Google’s AI & Economy ATLAS",
+          "summary": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
+          "category": "行业动态",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+          "time": "21:00",
+          "origin": "auto"
+        }
+      ]
+    }
+  ]
+}
