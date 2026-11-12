@@ -3,6 +3,7 @@
   'use strict';
   const BASE = window.AI_BASE_DATA || {};
   const NEWS = window.AI_NEWS_DATA || { updatedAt: '-', days: [] };
+  const DEALS = window.AI_DEALS_DATA || { meta: {}, deals: [] };
   const $ = (s, root) => (root || document).querySelector(s);
   const $$ = (s, root) => Array.from((root || document).querySelectorAll(s));
 
@@ -27,6 +28,40 @@
     const out = [];
     (NEWS.days || []).forEach((d) => (d.items || []).forEach((it) => out.push(Object.assign({}, it, { date: d.date }))));
     return out;
+  }
+
+  /* ---------- 优惠福利 · 倒计时与状态 ---------- */
+  function todayStr() {
+    const d = new Date();
+    return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+  }
+  const TODAY = todayStr();
+  function daysLeft(deadline) {
+    if (!deadline) return null;
+    const a = new Date(TODAY + 'T00:00:00'), b = new Date(deadline + 'T00:00:00');
+    return isNaN(b) ? null : Math.round((b - a) / 86400000);
+  }
+  const DEAL_STATUS = { soon: '即将结束', active: '进行中', evergreen: '长期开放', ended: '已结束' };
+  const DEAL_ORDER = { soon: 0, active: 1, evergreen: 2, ended: 3 };
+  const DEAL_TYPES = ['免费额度', '限时折扣', '学生教育', '永久免费', '邀请福利'];
+  function dealStatus(d) {
+    const l = daysLeft(d.deadline);
+    if (l === null) return 'evergreen';
+    if (l < 0) return 'ended';
+    if (l <= 7) return 'soon';
+    return 'active';
+  }
+  function allDeals() {
+    return (DEALS.deals || []).map((d) => Object.assign({}, d, { _st: dealStatus(d), _left: daysLeft(d.deadline) }));
+  }
+  const dealsAll = allDeals();
+  function sortDeals(list) {
+    return list.sort((a, b) => {
+      const oa = DEAL_ORDER[a._st], ob = DEAL_ORDER[b._st];
+      if (oa !== ob) return oa - ob;
+      if (a._st === 'evergreen') return 0;
+      return a._st === 'ended' ? (b._left - a._left) : (a._left - b._left);
+    });
   }
 
   /* ---------- 顶部状态 & 统计 ---------- */
@@ -206,7 +241,7 @@
   }
 
   /* ---------- 新闻 ---------- */
-  const CATEGORIES = ['模型发布', '产品更新', '融资并购', '政策监管', '算力硬件', '研究突破', '行业动态'];
+  const CATEGORIES = ['模型发布', '产品更新', '优惠福利', '融资并购', '政策监管', '算力硬件', '研究突破', '行业动态'];
   function renderNews(filter) {
     const days = (NEWS.days || []).map((d) => ({
       date: d.date, highlights: d.highlights || [],
@@ -259,6 +294,117 @@
     const srcs = (NEWS.sources && NEWS.sources.length) ? NEWS.sources : fallbackSources;
     $('#rss-sources').innerHTML = srcs.map((s) =>
       `<span><span>${esc(s.name)}</span><em>${esc(s.host)}</em></span>`).join('');
+  }
+
+  /* ---------- 优惠福利 ---------- */
+  const dealFilter = { status: '全部', type: '全部', region: '全部' };
+
+  function dealBadge(d) {
+    if (d._st === 'soon') return `<span class="deal-badge soon">仅剩 ${d._left} 天</span>`;
+    if (d._st === 'active') return `<span class="deal-badge active">还剩 ${d._left} 天</span>`;
+    if (d._st === 'evergreen') return '<span class="deal-badge ever">长期开放</span>';
+    return '<span class="deal-badge ended">已结束</span>';
+  }
+
+  function dealCard(d) {
+    return `
+      <div class="card deal-card ${d._st === 'ended' ? 'is-ended' : ''}" data-search="${esc((d.platform + d.name + d.type + d.quota + d.benefit + d.region + (d.tags || []).join('')).toLowerCase())}">
+        <div class="deal-top"><span class="deal-platform">${esc(d.platform)}</span>${dealBadge(d)}</div>
+        <div class="deal-name">${esc(d.name)}</div>
+        <div class="deal-quota">${esc(d.quota)}</div>
+        <div class="deal-quota-label">额度 / 优惠力度</div>
+        <div class="tag-row">${tags([d.type, d.region, ...(d.tags || [])], '')}</div>
+        <div class="card-body" style="margin-top:12px">${esc(d.benefit)}</div>
+        <div class="card-line"><b>截止</b><span>${d.deadline ? esc(d.deadline) : '无明确截止日'}</span></div>
+        <div class="card-line"><b>对象</b><span>${esc(d.audience)}</span></div>
+        <div class="card-line"><b>领取</b><span>${esc(d.how)}</span></div>
+        <div class="card-note">${esc(d.note)}</div>
+        <div class="card-src"><a href="${safeUrl(d.url)}" target="_blank" rel="noopener">官方入口 ↗</a><a href="${safeUrl(d.source)}" target="_blank" rel="noopener">信息来源 ↗</a></div>
+      </div>`;
+  }
+
+  function renderDeals() {
+    const c = { soon: 0, active: 0, evergreen: 0, ended: 0 };
+    dealsAll.forEach((d) => { c[d._st]++; });
+    const activeCount = c.soon + c.active;
+    const hero = $('#deals-active-count');
+    if (hero) hero.textContent = activeCount;
+    $('#deal-stats').innerHTML = [
+      { n: activeCount, l: '当前可领', s: '含 ' + c.soon + ' 项 7 天内截止', cls: 'hot' },
+      { n: c.soon, l: '即将结束', s: '按截止日优先排序', cls: 'warn' },
+      { n: c.evergreen, l: '长期开放', s: '无明确截止日', cls: 'ok' },
+      { n: c.ended, l: '已结束', s: '保留作参考 · 勿照旧教程', cls: 'dim' }
+    ].map((x) => `<div class="stat ${x.cls}"><div class="num">${x.n}</div><div class="label">${x.l}</div><div class="sub">${esc(x.s)}</div></div>`).join('');
+
+    const list = sortDeals(dealsAll.filter((d) =>
+      (dealFilter.status === '全部' || DEAL_STATUS[d._st] === dealFilter.status) &&
+      (dealFilter.type === '全部' || d.type === dealFilter.type) &&
+      (dealFilter.region === '全部' || d.region === dealFilter.region)));
+    $('#deals-count').textContent = '共 ' + dealsAll.length + ' 项 · 当前显示 ' + list.length + ' 项';
+    $('#deals-grid').innerHTML = list.map(dealCard).join('') || '<div class="empty">该筛选条件下暂无活动</div>';
+  }
+
+  function renderDealsOverview() {
+    const soon = sortDeals(dealsAll.filter((d) => d._st === 'soon' || d._st === 'active')).slice(0, 3);
+    $('#deal-teaser').innerHTML = `
+      <div class="teaser-head">
+        <h3>限时福利 · 先看这几条 <span class="tag amber">${dealsAll.filter((d) => d._st === 'soon').length} 项即将截止</span></h3>
+        <a href="#deals" id="go-deals">查看全部优惠福利 →</a>
+      </div>
+      <div class="ph-sub">按截止日排序 · 人工校订于 ${esc((DEALS.meta && DEALS.meta.updated) || '-')} · 额度与限制以官方活动页为准</div>
+      <div class="teaser-list">${soon.map((d) => `
+        <div class="teaser-item">
+          <span class="teaser-plat">${esc(d.platform)}</span>
+          <span class="teaser-name">${esc(d.name)}</span>
+          <span class="teaser-quota">${esc(d.quota)}</span>
+          ${dealBadge(d)}
+        </div>`).join('') || '<div class="empty" style="padding:20px">当前没有限时活动，可查看长期开放的免费通道</div>'}</div>`;
+    const go = $('#go-deals');
+    if (go) go.addEventListener('click', (e) => { e.preventDefault(); switchSection('deals'); });
+  }
+
+  function renderDealRefs() {
+    $('#deals-updated').textContent = (DEALS.meta && DEALS.meta.updated) || '-';
+    $('#deal-disclaimer').textContent = (DEALS.meta && DEALS.meta.disclaimer) || '';
+    $('#deal-refs').innerHTML = ((DEALS.meta && DEALS.meta.references) || []).map((r) => `
+      <div class="card" style="padding:14px 16px" data-search="${esc(r.name.toLowerCase())}">
+        <div class="card-title" style="font-size:13px"><a href="${safeUrl(r.url)}" target="_blank" rel="noopener">${esc(r.name)} ↗</a></div>
+      </div>`).join('');
+  }
+
+  const DEAL_LEAD_RE = /免费|赠送|限免|折扣|优惠|福利|秒杀|代金券|双11|双十一|词元|不限量|降价|额度|定价|价格|包年|首月|tokens|0\.1 元|\bfree\b|\bdiscount\b|\bcredits\b|\bpromo\b|\boffer\b/i;
+  function renderDealLeads() {
+    const leads = newsAll.filter((n) => n.category === '优惠福利' || DEAL_LEAD_RE.test(n.title || '')).slice(0, 12);
+    $('#deal-leads').innerHTML = leads.length ? leads.map((n) => `
+      <div class="news-item" data-search="${esc((n.title + n.summary + n.source).toLowerCase())}">
+        <div class="news-time">${esc((n.date || '').slice(5))}</div>
+        <div>
+          <div class="news-title"><a href="${safeUrl(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></div>
+          <div class="news-sum">${esc(n.summary)}</div>
+          <div class="news-meta"><span class="cat">优惠福利</span><span>${esc(n.source)}</span><a href="${safeUrl(n.url)}" target="_blank" rel="noopener">原文 ↗</a></div>
+        </div>
+      </div>`).join('') : '<div class="empty">今日暂无自动识别到的福利线索，上方人工校订的活动清单仍可正常查看</div>';
+  }
+
+  function initDealFilters() {
+    const configs = [
+      { sel: '#filter-deal-status', key: 'status', items: ['全部', '即将结束', '进行中', '长期开放', '已结束'] },
+      { sel: '#filter-deal-type', key: 'type', items: ['全部', ...DEAL_TYPES] },
+      { sel: '#filter-deal-region', key: 'region', items: ['全部', '国内', '海外'] }
+    ];
+    configs.forEach((cfg) => {
+      const box = $(cfg.sel);
+      if (!box) return;
+      box.innerHTML = cfg.items.map((it, i) => `<button class="chip ${i === 0 ? 'active' : ''}" data-v="${esc(it)}">${esc(it)}</button>`).join('');
+      box.addEventListener('click', (e) => {
+        const btn = e.target.closest('.chip');
+        if (!btn) return;
+        $$('.chip', box).forEach((c) => c.classList.remove('active'));
+        btn.classList.add('active');
+        dealFilter[cfg.key] = btn.dataset.v;
+        renderDeals();
+      });
+    });
   }
 
   /* ---------- 研判 ---------- */
@@ -360,7 +506,12 @@
   renderOverview();
   renderCoders();
   renderInsights();
+  renderDeals();
+  renderDealsOverview();
+  renderDealRefs();
+  renderDealLeads();
   initFilters();
+  initDealFilters();
   initNav();
   initSearch();
   applyHash();

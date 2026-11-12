@@ -20,8 +20,8 @@
 
   "keywords": {
     "_comment": "标题或摘要命中任一关键词才被视为 AI 相关新闻（综合科技源必需此过滤）",
-    "zh": ["AI", "人工智能", "大模型", "语言模型", "智能体", "生成式", "AIGC", "机器学习", "深度学习", "神经网络", "LLM", "GPT", "Claude", "Gemini", "DeepSeek", "Qwen", "千问", "豆包", "混元", "文心", "Kimi", "智谱", "GLM", "Grok", "Copilot", "Cursor", "OpenAI", "Anthropic", "英伟达", "算力", "GPU", "TPU", "HBM", "芯片", "推理", "训练", "多模态", "具身智能", "人形机器人", "Transformer", "扩散模型", "AGI", "Token", "开源模型", "模型权重", "智能助手", "AI 编程", "AI搜索", "数据中心", "Sora", "Llama", "Mistral", "Perplexity", "Midjourney", "Stable Diffusion", "算法"],
-    "en": ["AI", "artificial intelligence", "LLM", "large language model", "GPT", "ChatGPT", "Claude", "Gemini", "agent", "agentic", "generative", "machine learning", "deep learning", "neural", "OpenAI", "Anthropic", "DeepSeek", "Qwen", "Grok", "Copilot", "Cursor", "inference", "GPU", "Nvidia", "TPU", "training", "multimodal", "robotics", "transformer", "diffusion", "AGI", "token", "model weights", "open-weight", "foundation model", "benchmark", "fine-tun", "chatbot", "data center", "HBM", "AI chip"]
+    "zh": ["AI", "人工智能", "大模型", "语言模型", "智能体", "生成式", "AIGC", "机器学习", "深度学习", "神经网络", "LLM", "GPT", "Claude", "Gemini", "DeepSeek", "Qwen", "千问", "豆包", "混元", "文心", "Kimi", "智谱", "GLM", "Grok", "Copilot", "Cursor", "OpenAI", "Anthropic", "英伟达", "算力", "GPU", "TPU", "HBM", "芯片", "推理", "训练", "多模态", "具身智能", "人形机器人", "Transformer", "扩散模型", "AGI", "Token", "开源模型", "模型权重", "智能助手", "AI 编程", "AI搜索", "数据中心", "Sora", "Llama", "Mistral", "Perplexity", "Midjourney", "Stable Diffusion", "算法", "词元", "Tokens", "免费额度", "代金券", "限免"],
+    "en": ["AI", "artificial intelligence", "LLM", "large language model", "GPT", "ChatGPT", "Claude", "Gemini", "agent", "agentic", "generative", "machine learning", "deep learning", "neural", "OpenAI", "Anthropic", "DeepSeek", "Qwen", "Grok", "Copilot", "Cursor", "inference", "GPU", "Nvidia", "TPU", "training", "multimodal", "robotics", "transformer", "diffusion", "AGI", "token", "model weights", "open-weight", "foundation model", "benchmark", "fine-tun", "chatbot", "data center", "HBM", "AI chip", "free tier", "free credits"]
   },
 
   "categories": {
@@ -33,6 +33,10 @@
     "产品更新": {
       "strong": ["上线", "更新", "升级", "新增功能", "推出功能", "开放测试", "正式版", "内测", "接入", "发布新版", "rolls out", "launches", "now supports", "adds support", "new feature", "update", "beta", "generally available", "ships"],
       "weak": ["功能", "用户", "体验", "版本", "app", "feature", "product", "integration"]
+    },
+    "优惠福利": {
+      "strong": ["免费领", "免费领取", "免费额度", "赠送", "代金券", "限免", "限时免费", "免费试用", "免费使用", "注册送", "免费送", "秒杀", "双11", "双十一", "折扣", "优惠", "福利", "白嫖", "降价", "0 元", "0.1 元", "包年", "首月", "学生优惠", "免费一年", "积分赠送", "词元不限量", "free tier", "free credits", "free tokens", "discount", "promotion", "giveaway", "free access", "student discount", "coupon"],
+      "weak": ["免费", "额度", "领取", "活动", "促销", "省钱", "套餐", "订阅", "credits", "promo", "offer", "deal", "plan"]
     },
     "融资并购": {
       "strong": ["融资", "收购", "并购", "IPO", "上市", "估值", "领投", "递表", "轮融资", "投资", "融资额", "raises", "funding", "acquires", "acquisition", "IPO", "valuation", "Series A", "Series B", "Series C", "Series D", "Series E", "investment", "stake"],

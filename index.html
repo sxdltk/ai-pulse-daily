@@ -24,11 +24,12 @@
       <span class="pill">数据基准 <b id="baseline" style="color:var(--text)">2026-11-06</b></span>
       <span class="pill">最近更新 <b id="updated-at" style="color:var(--text)">-</b></span>
       <span class="pill">今日新增 <b id="today-count" style="color:var(--cyan)">0</b> 条</span>
+      <span class="pill">在领优惠 <b id="deals-active-count" style="color:var(--amber)">0</b> 项</span>
     </div>
   </div>
   <p class="hero-desc">
     一份<strong>可以每天自动更新</strong>的 AI 行业看板：横向拆解 <strong>大模型 · AI 产品 · 智能体 · 编程器</strong> 四条赛道，
-    并持续聚合<strong>每日 AI 行业新闻</strong>。基础格局数据人工校订，新闻数据由采集脚本从 10+ 个中英文 RSS 源自动抓取、分类、去重后写入。
+    持续聚合<strong>每日 AI 行业新闻</strong>，并跟踪各平台的<strong>免费额度、赠送 Tokens 与限时福利</strong>。基础格局数据人工校订，新闻与福利线索由采集脚本从 15 个中英文 RSS 源自动抓取、分类、去重后写入。
   </p>
   <div class="stats" id="stats"></div>
 </header>
@@ -42,6 +43,7 @@
     <button class="nav-btn" data-sec="agents">智能体</button>
     <button class="nav-btn" data-sec="coders">编程器</button>
     <button class="nav-btn" data-sec="news">每日新闻</button>
+    <button class="nav-btn" data-sec="deals">优惠福利</button>
     <button class="nav-btn" data-sec="insights">行业研判</button>
     <button class="nav-btn" data-sec="about">更新机制</button>
     <div class="nav-search">
@@ -60,6 +62,7 @@
       <div class="sec-note">数据截至 2026-11-06 · 多源聚合</div>
     </div>
     <div class="grid g2" id="overview-stats" style="margin-bottom:22px"></div>
+    <div class="panel deal-teaser" id="deal-teaser" style="margin-bottom:22px"></div>
     <div class="grid g2">
       <div class="panel">
         <h3>今日最新情报</h3><div class="ph-sub">按时间倒序 · 点击查看原文</div>
@@ -128,7 +131,7 @@
   <!-- ========== 新闻 ========== -->
   <section class="section" id="sec-news">
     <div class="sec-head">
-      <div><h2><span>DAILY INTELLIGENCE</span>每日 AI 行业新闻</h2><p>按日期归档，自动分类为模型发布 / 产品更新 / 融资并购 / 政策监管 / 算力硬件 / 研究突破 / 行业动态。标注「自动采集」的条目由每日脚本抓取，其余为人工校订的精选稿。</p></div>
+      <div><h2><span>DAILY INTELLIGENCE</span>每日 AI 行业新闻</h2><p>按日期归档，自动分类为模型发布 / 产品更新 / 优惠福利 / 融资并购 / 政策监管 / 算力硬件 / 研究突破 / 行业动态。标注「自动采集」的条目由每日脚本抓取，其余为人工校订的精选稿。</p></div>
       <div class="sec-note" id="news-count"></div>
     </div>
     <div class="chips" id="filter-news"></div>
@@ -159,6 +162,37 @@
     </div>
   </section>
 
+  <!-- ========== 优惠福利 ========== -->
+  <section class="section" id="sec-deals">
+    <div class="sec-head">
+      <div><h2><span>DEALS &amp; FREEBIES</span>AI 平台优惠与福利</h2><p>汇总主流 AI 平台的免费额度、赠送 Tokens、限时折扣、学生 / 教育计划与永久免费通道。按截止日自动标记「即将结束 / 已结束」，过期活动保留作参考，避免踩到网上已经失效的领取教程。</p></div>
+      <div class="sec-note" id="deals-count"></div>
+    </div>
+
+    <div class="deal-stats" id="deal-stats"></div>
+
+    <div class="deal-filters">
+      <div class="filter-row"><span class="filter-label">状态</span><div class="chips" id="filter-deal-status"></div></div>
+      <div class="filter-row"><span class="filter-label">类型</span><div class="chips" id="filter-deal-type"></div></div>
+      <div class="filter-row"><span class="filter-label">地区</span><div class="chips" id="filter-deal-region"></div></div>
+    </div>
+
+    <div class="grid g3" id="deals-grid"></div>
+
+    <div class="panel" style="margin-top:32px">
+      <h3>近期价格与额度动态</h3>
+      <div class="ph-sub">每日采集脚本从 15 个新闻源中自动识别涉及免费、额度、定价、折扣的报道，按日期倒序，用于发现新活动；上方卡片才是人工核实过的活动清单。行业媒体源中此类报道较少，故条数有限。</div>
+      <div id="deal-leads"></div>
+    </div>
+
+    <div class="panel" style="margin-top:20px">
+      <h3>信息来源与校订说明</h3>
+      <div class="ph-sub">人工校订于 <b id="deals-updated" style="color:var(--text)">2026-11-12</b> · 以下为核对过的公开来源，各条活动卡片也单独标注了出处</div>
+      <div class="grid g3" id="deal-refs" style="margin-top:14px"></div>
+      <p class="deal-disclaimer" id="deal-disclaimer"></p>
+    </div>
+  </section>
+
   <!-- ========== 研判 ========== -->
   <section class="section" id="sec-insights">
     <div class="sec-head">
@@ -178,7 +212,7 @@
 
     <div class="flow">
       <div class="flow-step"><div class="sn">STEP 01</div><h4>抓取</h4><p>并发拉取 10+ 个中英文 AI 新闻 RSS / Atom 源，全部使用 Python 标准库，无需安装第三方依赖。</p></div>
-      <div class="flow-step"><div class="sn">STEP 02</div><h4>清洗</h4><p>AI 相关性过滤、正文去标签、时间统一到北京时间、按链接与标题去重，并按关键词自动归入 7 个分类。</p></div>
+      <div class="flow-step"><div class="sn">STEP 02</div><h4>清洗</h4><p>AI 相关性过滤、正文去标签、时间统一到北京时间、按链接与标题去重，并按关键词自动归入 8 个分类（含「优惠福利」）。</p></div>
       <div class="flow-step"><div class="sn">STEP 03</div><h4>归档</h4><p>与历史数据合并，按日期分组生成当日要点，保留最近 60 天，写入 <b>data/news.js</b> 与 <b>data/news.json</b>。</p></div>
       <div class="flow-step"><div class="sn">STEP 04</div><h4>发布</h4><p>GitHub Actions 每天定时运行并提交数据变更，GitHub Pages 自动发布；也可用本地 cron 或手动触发。</p></div>
     </div>
@@ -219,6 +253,7 @@ assets/app.js           <span class="c"># 渲染 / 搜索 / 图表</span>
 data/base.js            <span class="c"># 模型·产品·智能体·编程器（人工校订）</span>
 data/news.js            <span class="c"># 每日新闻（脚本自动写入）</span>
 data/news.json          <span class="c"># 同内容 JSON，供其他程序消费</span>
+data/deals.js           <span class="c"># 平台优惠福利（人工校订）</span>
 scripts/sources.json    <span class="c"># 新闻源与分类关键词配置</span>
 scripts/daily_update.py <span class="c"># 采集主脚本</span>
 scripts/run_daily.sh    <span class="c"># 定时入口</span>
@@ -229,10 +264,11 @@ scripts/run_daily.sh    <span class="c"># 定时入口</span>
         <div class="ph-sub">三处可配置，不需要动前端代码。</div>
         <p style="color:var(--text-dim);font-size:12.8px;line-height:2">
           <b style="color:var(--text)">加新闻源</b>：编辑 <code style="color:#a5d6ff">scripts/sources.json</code> 的 <code style="color:#a5d6ff">feeds</code> 数组，填 name / url / lang 即可。<br>
-          <b style="color:var(--text)">改分类规则</b>：编辑同文件的 <code style="color:#a5d6ff">categories</code> 关键词表，脚本按标题关键词打标签。<br>
+          <b style="color:var(--text)">改分类规则</b>：编辑同文件的 <code style="color:#a5d6ff">categories</code> 关键词表，脚本按标题关键词打标签；含「优惠福利」类，命中的新闻会自动出现在福利线索里。<br>
           <b style="color:var(--text)">改AI过滤词</b>：编辑 <code style="color:#a5d6ff">keywords</code>，决定哪些条目算 AI 新闻。<br>
           <b style="color:var(--text)">改保留天数</b>：<code style="color:#a5d6ff">KEEP_DAYS</code> 常量，默认 60 天。<br>
-          <b style="color:var(--text)">换基准数据</b>：直接编辑 <code style="color:#a5d6ff">data/base.js</code>，脚本不会覆盖它。
+          <b style="color:var(--text)">换基准数据</b>：直接编辑 <code style="color:#a5d6ff">data/base.js</code>，脚本不会覆盖它。<br>
+          <b style="color:var(--text)">改优惠活动</b>：编辑 <code style="color:#a5d6ff">data/deals.js</code>，填 <code style="color:#a5d6ff">deadline</code> 后页面自动算倒计时并标记过期。
         </p>
         <p style="color:var(--text-faint);font-size:11.5px;margin-top:14px;line-height:1.8">提示：RSS 抓取受源站限流影响，脚本对单个源失败做了容错，不会中断整体更新；若某天全部失败，会保留原有数据并给出告警。</p>
       </div>
@@ -265,6 +301,7 @@ scripts/run_daily.sh    <span class="c"># 定时入口</span>
           <li><a href="#" data-jump="agents">智能体</a></li>
           <li><a href="#" data-jump="coders">编程器</a></li>
           <li><a href="#" data-jump="news">每日新闻</a></li>
+          <li><a href="#" data-jump="deals">优惠福利</a></li>
         </ul>
       </div>
     </div>
@@ -274,6 +311,7 @@ scripts/run_daily.sh    <span class="c"># 定时入口</span>
 
 <script src="data/base.js"></script>
 <script src="data/news.js"></script>
+<script src="data/deals.js"></script>
 <script src="assets/app.js"></script>
 <script>
   // 页脚跳转与侧栏状态（在 app.js 之后执行）

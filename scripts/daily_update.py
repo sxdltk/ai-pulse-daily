@@ -8,7 +8,7 @@ AI 全景观察 · 每日新闻采集脚本
 做的事：
   1. 并发抓取 scripts/sources.json 中配置的中英文 RSS / Atom 新闻源
   2. 用关键词过滤出 AI 相关条目，清洗 HTML、统一到北京时间
-  3. 按关键词自动归入 7 个分类，去重（链接 + 规范化标题）
+  3. 按关键词自动归入 8 个分类（含「优惠福利」），去重（链接 + 规范化标题）
   4. 与 data/news.js 中的历史数据合并，生成当日要点，保留最近 N 天
   5. 重写 data/news.js（给静态页面用）与 data/news.json（给其他程序用）
 
@@ -45,7 +45,7 @@ TZ8 = timezone(timedelta(hours=8), "Asia/Shanghai")
 TAG_RE = re.compile(r"<[^>]+>")
 SPACE_RE = re.compile(r"\s+")
 PUNCT_RE = re.compile(r"[\W_]+", re.UNICODE)
-CATEGORIES = ["模型发布", "产品更新", "融资并购", "政策监管", "算力硬件", "研究突破", "行业动态"]
+CATEGORIES = ["模型发布", "产品更新", "优惠福利", "融资并购", "政策监管", "算力硬件", "研究突破", "行业动态"]
 
 
 def log(msg: str) -> None:
