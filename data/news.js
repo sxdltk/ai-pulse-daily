@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-12 13:22:23",
+  "updatedAt": "2026-11-12 13:51:36",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -387,19 +387,22 @@ window.AI_NEWS_DATA = {
     "1abab8978de3ce75",
     "4aee674f721dd2fa",
     "cea4a44285f65e0a",
-    "9eac9ca3a7fcb336"
+    "9eac9ca3a7fcb336",
+    "6bf3cbc4fe6796dd",
+    "892c5cb3c7a189f2",
+    "75963fd01e8a258c"
   ],
   "lastRun": {
     "okSources": 15,
     "totalSources": 15,
     "failedSources": [],
-    "newItems": 70,
+    "newItems": 3,
     "skipped": {
       "old": 20,
       "non_ai": 145,
-      "dup": 39
+      "dup": 150
     },
-    "durationSec": 5.7
+    "durationSec": 4.2
   },
   "days": [
     {
@@ -570,6 +573,33 @@ window.AI_NEWS_DATA = {
           "source": "IT之家",
           "url": "https://www.ithome.com/1/026/038.htm",
           "time": "13:10",
+          "origin": "auto"
+        },
+        {
+          "title": "助力 Anthropic IPO：Claude 10 月网站访问量 12.53 亿次创历史新高，超过 OpenAI ChatGPT 和谷歌 Gemini",
+          "summary": "IT之家 11 月 12 日消息，《福布斯》当地时间 11 月 11 日报道称，就在 Anthropic 准备首次公开募股（IPO）之际，旗下 Claude 的网站访问量实现大幅增长，增幅超过同期主要竞争对手。 根据数字市场分析机构 Similarweb 提供的数据，Anthropic 旗下 AI 聊天机器人 Claude 今年 10 月的网站访问量约 13 亿次，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/026/041.htm",
+          "time": "13:26",
+          "origin": "auto"
+        },
+        {
+          "title": "百度李彦宏：今天的具身智能大约相当于 2016 年前后的无人驾驶",
+          "summary": "IT之家 11 月 12 日现场消息，在今日举办的百度世界 2026 大会开幕式上，百度创始人李彦宏表示， 今天的具身智能大约相当于 2016 年前后无人驾驶的发展水平 。 李彦宏表示，无人驾驶是百度坚持了十几年的技术方向，百度的无人驾驶目前处在全球第一梯队。他相信， 无人驾驶将是人工智能技术竞争当中不可或缺的一环 ，也非常相信萝卜快跑有着非常好的发展前景。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/026/042.htm",
+          "time": "13:27",
+          "origin": "auto"
+        },
+        {
+          "title": "三星电子韩国温阳产区新 HBM 产线动工，总投资额 46 万亿韩元",
+          "summary": "IT之家 11 月 12 日消息，韩国当地时间今日在忠清南道牙山市的三星电子温阳产区新产线动工现场举行忠清圈“超级项目”动工仪式，该国总统李在明出席并致辞。 ▲ 三星电子温阳产区 此次动工建设的三星电子温阳产区 新产线为 HBM 后端先进封装设施 ，包括 5 条生产线，项目总投资达 46 万亿韩元 （IT之家注：现汇率约合 2,295.4 亿元人民币） ，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/026/045.htm",
+          "time": "13:45",
           "origin": "auto"
         }
       ]
