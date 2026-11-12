@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-12 13:51:36",
+  "updatedAt": "2026-11-12 16:02:30",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -396,13 +396,13 @@ window.AI_NEWS_DATA = {
     "okSources": 15,
     "totalSources": 15,
     "failedSources": [],
-    "newItems": 3,
+    "newItems": 0,
     "skipped": {
       "old": 20,
-      "non_ai": 145,
-      "dup": 150
+      "non_ai": 143,
+      "dup": 134
     },
-    "durationSec": 4.2
+    "durationSec": 129.7
   },
   "days": [
     {

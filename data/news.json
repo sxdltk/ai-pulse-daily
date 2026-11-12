@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 13:51:36",
+  "updatedAt": "2026-11-12 16:02:30",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -394,13 +394,13 @@
     "okSources": 15,
     "totalSources": 15,
     "failedSources": [],
-    "newItems": 3,
+    "newItems": 0,
     "skipped": {
       "old": 20,
-      "non_ai": 145,
-      "dup": 150
+      "non_ai": 143,
+      "dup": 134
     },
-    "durationSec": 4.2
+    "durationSec": 129.7
   },
   "days": [
     {
