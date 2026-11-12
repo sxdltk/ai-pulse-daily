@@ -3,3 +3,5 @@ __pycache__/
 *.log
 update.log
 .DS_Store
+# 本地代码审查报告：仅本地留存，不发布到公开站点
+code-review-report.html

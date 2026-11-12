@@ -9,8 +9,11 @@ AI 全景观察 · 每日新闻采集脚本
   1. 并发抓取 scripts/sources.json 中配置的中英文 RSS / Atom 新闻源
   2. 用关键词过滤出 AI 相关条目，清洗 HTML、统一到北京时间
   3. 按关键词自动归入 8 个分类（含「优惠福利」），去重（链接 + 规范化标题）
-  4. 与 data/news.js 中的历史数据合并，生成当日要点，保留最近 N 天
+  4. 与 data/news.json 中的历史数据合并，生成当日要点，保留最近 N 天
   5. 重写 data/news.js（给静态页面用）与 data/news.json（给其他程序用）
+
+注意：历史数据以 data/news.json 为准；读取失败时直接报错退出，绝不静默降级为空，
+      以免一次文件格式变动就清空全部归档。
 
 用法：
   python3 scripts/daily_update.py                 # 采集并写入
@@ -57,19 +60,44 @@ def load_config() -> dict:
         return json.load(f)
 
 
+def _empty_data() -> dict:
+    return {"updatedAt": "-", "timezone": "Asia/Shanghai", "sourceCount": 0, "days": []}
+
+
 def load_existing() -> dict:
-    """从 data/news.js 中读出已有的 JSON 数据（文件是 JS 包装的 JSON）。"""
-    if not NEWS_JS.exists():
-        return {"updatedAt": "-", "timezone": "Asia/Shanghai", "sourceCount": 0, "days": []}
-    text = NEWS_JS.read_text(encoding="utf-8")
-    try:
-        start, end = text.index("{"), text.rindex("}")
-        data = json.loads(text[start:end + 1])
+    """读取历史归档。优先用纯 JSON；news.js 仅作回退，且解析失败一律报错退出。
+
+    旧实现用 index('{')/rindex('}') 从 JS 包装里截 JSON：只要文件末尾多一行含 '}' 的
+    注释就会 JSONDecodeError，随后静默返回空 days —— 下次运行会清空 60 天归档。
+    """
+    if NEWS_JSON.exists():
+        text = NEWS_JSON.read_text(encoding="utf-8")
+        try:
+            data = json.loads(text)
+        except json.JSONDecodeError as e:
+            raise ValueError(f"data/news.json 无法解析，拒绝继续（避免覆盖历史数据）：{e}") from e
+        if not isinstance(data, dict):
+            raise ValueError("data/news.json 顶层不是对象，拒绝继续")
+        if not data.get("days") and len(text.strip()) > 100:
+            raise ValueError("data/news.json 不含 days 归档数据，拒绝以空数据覆盖写入")
         data.setdefault("days", [])
         return data
-    except (ValueError, json.JSONDecodeError) as e:
-        log(f"警告：无法解析已有 news.js（{e}），将以空数据启动")
-        return {"updatedAt": "-", "timezone": "Asia/Shanghai", "sourceCount": 0, "days": []}
+
+    # 回退：仅当 news.json 不存在时才从 JS 包装里取数据对象
+    if not NEWS_JS.exists():
+        return _empty_data()
+    text = NEWS_JS.read_text(encoding="utf-8")
+    m = re.search(r"window\.AI_NEWS_DATA\s*=\s*(\{.*\})\s*;", text, re.S)
+    if not m:
+        raise ValueError("data/news.js 无法定位数据对象，且 data/news.json 不存在，拒绝以空数据启动")
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError as e:
+        raise ValueError(f"data/news.js 中的数据无法解析，拒绝继续：{e}") from e
+    if not data.get("days"):
+        raise ValueError("data/news.js 未解析到归档数据，拒绝以空数据启动")
+    data.setdefault("days", [])
+    return data
 
 
 def local_name(tag: str) -> str:
@@ -213,11 +241,21 @@ def title_hash(nk: str) -> str:
 
 
 def kw_match(kw: str, text: str) -> bool:
-    """中文用子串匹配；英文用左词边界 + 前缀匹配，避免 fine 命中 Finance、AI 命中 said。"""
+    """中文用子串匹配；英文长词用左词边界 + 前缀匹配（覆盖 agentic / tokenization 等派生词）。
+
+    短缩写（AI / GPT / GPU / AGI / LLM / IPO / TPU，≤3 字符）必须用完整词边界，
+    否则 "ai" 会命中 airline / aid、"gpu" 会命中 gpupdate，把普通科技新闻收进来。
+    边界只按 ASCII 字母数字判定：这样 "AI芯片""AI 编程" 这类中英混排仍能命中，
+    而 airline（后接 ASCII 字母）不会。
+    """
     k = kw.lower()
-    if k.isascii():
-        return re.search(r"(?<!\w)" + re.escape(k), text) is not None
-    return k in text
+    if not k.isascii():
+        return k in text
+    if len(k) <= 3:
+        pat = r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])"
+    else:
+        pat = r"(?<!\w)" + re.escape(k)
+    return re.search(pat, text) is not None
 
 
 def all_keywords(keywords: dict) -> list[str]:
@@ -302,13 +340,16 @@ def build_highlights(items: list[dict], n: int) -> list[str]:
 def main() -> int:
     ap = argparse.ArgumentParser(description="AI 全景观察 · 每日新闻采集")
     ap.add_argument("--dry-run", action="store_true", help="只预览，不写入文件")
-    ap.add_argument("--days", type=int, default=None, help="覆盖保留天数")
+    ap.add_argument("--days", type=int, default=None, help="覆盖保留天数（正整数）")
     args = ap.parse_args()
+    if args.days is not None and args.days < 1:
+        ap.error("--days 必须为正整数")
 
     t0 = time.time()
     cfg = load_config()
     settings = cfg.get("settings", {})
-    keep_days = args.days or settings.get("keepDays", 60)
+    # 用 is not None 而非 or：显式传入的 0 不会被静默忽略（上面已校验为正整数）
+    keep_days = args.days if args.days is not None else settings.get("keepDays", 60)
     feeds = [f for f in cfg.get("feeds", []) if f.get("enabled", True)]
     log(f"开始采集：{len(feeds)} 个新闻源，保留 {keep_days} 天，北京时间")
 
@@ -328,8 +369,10 @@ def main() -> int:
     log(f"抓取完成：成功 {ok_sources}/{len(feeds)} 个源，原始 {len(all_raw)} 条")
 
     if ok_sources == 0:
-        log("警告：所有新闻源均不可用，保留原有数据不变（本次不写入）")
-        return 0
+        # 静默断更是每日站点最危险的失效模式：非零退出码让 Actions 变红，
+        # workflow 的 failure() 步骤会创建告警 issue 并邮件通知。
+        log("错误：所有新闻源均不可用，保留原有数据不变（本次不写入）")
+        return 1
     if failed:
         log(f"提示：{len(failed)} 个源本次失败，已跳过，不影响其余数据")
 
@@ -385,12 +428,36 @@ def main() -> int:
         item["_rel"] = rel
         new_by_day.setdefault(d.isoformat(), []).append(item)
 
-    # 每天只保留相关度最高的若干条自动采集结果，避免淹没人工校订的精选稿
+    def forget(items: list[dict]) -> None:
+        """撤销被截断丢弃条目的「已见记录」，避免它们被永久丢弃。
+
+        条目本次未写进归档，但若仍留在 seenHashes 中，下次抓取会被判为重复，
+        单日上限一满就再也没有机会进入归档。
+        """
+        if not items:
+            return
+        hashes = {title_hash(norm_key(it["title"])) for it in items}
+        seen_list[:] = [h for h in seen_list if h not in hashes]
+        seen_set.difference_update(hashes)
+        for it in items:
+            known_titles.discard(norm_key(it["title"]))
+            if it.get("url"):
+                known_urls.discard(it["url"])
+
+    # 每天只保留相关度最高的若干条自动采集结果，避免淹没人工校订的精选稿。
+    # 配额按「当天已写入的 auto 条数」计算（符合 maxAutoPerDay 的 PerDay 语义）：
+    # 这样同一天第二次运行不会把上一轮被挤掉的候选又补进来，重复运行仍保持新增 0 条。
     for date_str in list(new_by_day):
-        arr = sorted(new_by_day[date_str], key=lambda x: x["_rel"], reverse=True)[:max_auto]
-        for it in arr:
+        existing_auto = sum(
+            1 for i in days_map.get(date_str, {}).get("items", []) if i.get("origin") == "auto"
+        )
+        quota = max(0, max_auto - existing_auto)
+        arr = sorted(new_by_day[date_str], key=lambda x: x["_rel"], reverse=True)
+        kept, dropped = arr[:quota], arr[quota:]
+        forget(dropped)
+        for it in kept:
             it.pop("_rel", None)
-        new_by_day[date_str] = arr
+        new_by_day[date_str] = kept
 
     total_new = sum(len(v) for v in new_by_day.values())
     log(f"清洗结果：新增 {total_new} 条；跳过 过期 {skipped['old']} / 非AI {skipped['non_ai']} / 重复 {skipped['dup']}")
@@ -399,7 +466,12 @@ def main() -> int:
     for date_str, items in new_by_day.items():
         day = days_map.get(date_str, {"date": date_str, "highlights": [], "items": []})
         day.setdefault("items", [])
-        day["items"] = (day["items"] + items)[:max_per_day]
+        merged = day["items"] + items
+        kept = merged[:max_per_day]
+        # 第二层截断（单日总条数上限）同样要撤销被丢条目的已见记录
+        kept_ids = {id(x) for x in kept}
+        forget([it for it in items if id(it) not in kept_ids])
+        day["items"] = kept
         # 人工校订的精选稿排在前，自动采集的补充流排在后面；组内按时间升序
         day["items"].sort(key=lambda x: (0 if x.get("origin") == "seed" else 1, x.get("time", "00:00")))
         days_map[date_str] = day
@@ -420,12 +492,14 @@ def main() -> int:
     for d in kept_days:
         d.setdefault("highlights", [])
 
+    # 已见记录上限随保留天数联动：调大 keepDays 时旧闻不会因记录被裁掉而重现
+    seen_cap = max(2000, keep_days * max_auto * 3)
     result = {
         "updatedAt": f"{now:%Y-%m-%d %H:%M:%S}",
         "timezone": "Asia/Shanghai",
         "sourceCount": len(feeds),
         "sources": [{"name": f["name"], "host": urlparse(f["url"]).netloc.replace("www.", "")} for f in feeds],
-        "seenHashes": seen_list[-12000:],
+        "seenHashes": seen_list[-seen_cap:],
         "lastRun": {
             "okSources": ok_sources,
             "totalSources": len(feeds),

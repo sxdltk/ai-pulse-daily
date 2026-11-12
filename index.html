@@ -4,7 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 全景观察 · 模型 / 智能体 / 编程器 / 每日情报</title>
-<meta name="description" content="AI 行业每日更新的数据看板：主流大模型、AI 产品、智能体、AI 编程工具格局分析与每日新闻聚合。">
+<meta name="description" content="AI 行业每日更新的数据看板：主流大模型、AI 产品、智能体、AI 编程工具格局分析与每日新闻聚合，并跟踪各平台免费额度与限时福利。">
+<link rel="canonical" href="https://sxdltk.github.io/ai-pulse-daily/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI 全景观察 · 模型 / 智能体 / 编程器 / 每日情报">
+<meta property="og:description" content="AI 行业每日更新的数据看板：四条赛道格局分析、每日新闻聚合与平台优惠福利追踪。">
+<meta property="og:url" content="https://sxdltk.github.io/ai-pulse-daily/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2338bdf8'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%23050914'%3EAI%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -21,7 +28,7 @@
     </div>
     <div class="hero-status">
       <span class="pill live"><span class="dot"></span>每日自动更新</span>
-      <span class="pill">数据基准 <b id="baseline" style="color:var(--text)">2026-11-06</b></span>
+      <span class="pill">数据基准 <b id="baseline" style="color:var(--text)">-</b></span>
       <span class="pill">最近更新 <b id="updated-at" style="color:var(--text)">-</b></span>
       <span class="pill">今日新增 <b id="today-count" style="color:var(--cyan)">0</b> 条</span>
       <span class="pill">在领优惠 <b id="deals-active-count" style="color:var(--amber)">0</b> 项</span>
@@ -29,7 +36,7 @@
   </div>
   <p class="hero-desc">
     一份<strong>可以每天自动更新</strong>的 AI 行业看板：横向拆解 <strong>大模型 · AI 产品 · 智能体 · 编程器</strong> 四条赛道，
-    持续聚合<strong>每日 AI 行业新闻</strong>，并跟踪各平台的<strong>免费额度、赠送 Tokens 与限时福利</strong>。基础格局数据人工校订，新闻与福利线索由采集脚本从 15 个中英文 RSS 源自动抓取、分类、去重后写入。
+    持续聚合<strong>每日 AI 行业新闻</strong>，并跟踪各平台的<strong>免费额度、赠送 Tokens 与限时福利</strong>。基础格局数据人工校订，新闻与福利线索由采集脚本从 <b id="src-count">15</b> 个中英文 RSS 源自动抓取、分类、去重后写入。
   </p>
   <div class="stats" id="stats"></div>
 </header>
@@ -47,19 +54,20 @@
     <button class="nav-btn" data-sec="insights">行业研判</button>
     <button class="nav-btn" data-sec="about">更新机制</button>
     <div class="nav-search">
-      <input id="global-search" type="search" placeholder="搜索模型 / 产品 / 新闻…" autocomplete="off">
+      <input id="global-search" type="search" placeholder="搜索模型 / 产品 / 新闻…" autocomplete="off" aria-label="全站搜索模型、产品、智能体、编程器与新闻">
     </div>
   </div>
 </nav>
 
 <main class="wrap">
+  <div id="data-alert" class="data-alert hidden" role="alert"></div>
   <div id="search-result" class="pill hidden" style="margin-bottom:20px;width:100%;border-radius:10px;padding:11px 16px"></div>
 
   <!-- ========== 总览 ========== -->
   <section class="section active" id="sec-overview">
     <div class="sec-head">
       <div><h2><span>OVERVIEW</span>行业格局速览</h2><p>四条赛道的关键切面与今日情报。点击顶部导航查看完整数据，或直接搜索任意厂商、模型与新闻关键词。</p></div>
-      <div class="sec-note">数据截至 2026-11-06 · 多源聚合</div>
+      <div class="sec-note">基准 <b id="baseline-2" style="color:var(--cyan)">-</b> · 多源聚合</div>
     </div>
     <div class="grid g2" id="overview-stats" style="margin-bottom:22px"></div>
     <div class="panel deal-teaser" id="deal-teaser" style="margin-bottom:22px"></div>
@@ -111,7 +119,7 @@
   <section class="section" id="sec-coders">
     <div class="sec-head">
       <div><h2><span>AI CODING TOOLS</span>AI 编程器市场格局</h2><p>终端智能体在 2026 年中完成对 IDE 插件范式的反超。份额口径为「开发者最常用的主力 AI 编程工具」，来自 First Page Sage 2026 年 8-9 月对 2350 名北美与欧洲专业开发者的调研。</p></div>
-      <div class="sec-note">份额数据 · 2026-10</div>
+      <div class="sec-note">份额数据 · 基准 <b id="baseline-3" style="color:var(--cyan)">-</b></div>
     </div>
     <div class="grid g2" style="margin-bottom:22px">
       <div class="panel">
@@ -145,7 +153,7 @@
         <div class="side-card">
           <h3>采集新闻源</h3>
           <div class="src-list" id="rss-sources"></div>
-          <p style="color:var(--text-faint);font-size:11px;margin-top:14px;line-height:1.7">脚本每日从以上 RSS / Atom 源抓取，按 AI 关键词过滤、自动分类、去重后追加到时间线，保留最近 60 天。</p>
+          <p style="color:var(--text-faint);font-size:11px;margin-top:14px;line-height:1.7">脚本每日从以上 RSS / Atom 源抓取，按 AI 关键词过滤、自动分类、去重后追加到时间线，保留天数由 <b style="color:var(--text-dim)">scripts/sources.json</b> 配置。</p>
         </div>
         <div class="side-card">
           <h3>更新状态</h3>
@@ -176,18 +184,19 @@
       <div class="filter-row"><span class="filter-label">类型</span><div class="chips" id="filter-deal-type"></div></div>
       <div class="filter-row"><span class="filter-label">地区</span><div class="chips" id="filter-deal-region"></div></div>
     </div>
+    <p class="tz-note">所有截止日与「剩余天数」均按北京时间（UTC+8）计算；额度、地域限制与领取方式以各平台官方活动页为准。</p>
 
     <div class="grid g3" id="deals-grid"></div>
 
     <div class="panel" style="margin-top:32px">
       <h3>近期价格与额度动态</h3>
-      <div class="ph-sub">每日采集脚本从 15 个新闻源中自动识别涉及免费、额度、定价、折扣的报道，按日期倒序，用于发现新活动；上方卡片才是人工核实过的活动清单。行业媒体源中此类报道较少，故条数有限。</div>
+      <div class="ph-sub">每日采集脚本从 <b id="src-count-2">15</b> 个新闻源中自动识别涉及免费领、赠送、限免、折扣等强信号词的报道，按日期倒序，每条显示其真实分类，用于发现新活动；上方卡片才是人工核实过的活动清单。行业媒体源中此类报道较少，故条数有限。</div>
       <div id="deal-leads"></div>
     </div>
 
     <div class="panel" style="margin-top:20px">
       <h3>信息来源与校订说明</h3>
-      <div class="ph-sub">人工校订于 <b id="deals-updated" style="color:var(--text)">2026-11-12</b> · 以下为核对过的公开来源，各条活动卡片也单独标注了出处</div>
+      <div class="ph-sub">人工校订于 <b id="deals-updated" style="color:var(--text)">-</b> · 以下为核对过的公开来源，各条活动卡片也单独标注了出处</div>
       <div class="grid g3" id="deal-refs" style="margin-top:14px"></div>
       <p class="deal-disclaimer" id="deal-disclaimer"></p>
     </div>
@@ -211,9 +220,9 @@
     </div>
 
     <div class="flow">
-      <div class="flow-step"><div class="sn">STEP 01</div><h4>抓取</h4><p>并发拉取 10+ 个中英文 AI 新闻 RSS / Atom 源，全部使用 Python 标准库，无需安装第三方依赖。</p></div>
+      <div class="flow-step"><div class="sn">STEP 01</div><h4>抓取</h4><p>并发拉取 15 个中英文 AI 新闻 RSS / Atom 源，全部使用 Python 标准库，无需安装第三方依赖。</p></div>
       <div class="flow-step"><div class="sn">STEP 02</div><h4>清洗</h4><p>AI 相关性过滤、正文去标签、时间统一到北京时间、按链接与标题去重，并按关键词自动归入 8 个分类（含「优惠福利」）。</p></div>
-      <div class="flow-step"><div class="sn">STEP 03</div><h4>归档</h4><p>与历史数据合并，按日期分组生成当日要点，保留最近 60 天，写入 <b>data/news.js</b> 与 <b>data/news.json</b>。</p></div>
+      <div class="flow-step"><div class="sn">STEP 03</div><h4>归档</h4><p>与历史数据合并，按日期分组生成当日要点，保留天数由配置决定，写入 <b>data/news.js</b> 与 <b>data/news.json</b>（脚本以后者为历史基准）。</p></div>
       <div class="flow-step"><div class="sn">STEP 04</div><h4>发布</h4><p>GitHub Actions 每天定时运行并提交数据变更，GitHub Pages 自动发布；也可用本地 cron 或手动触发。</p></div>
     </div>
 
@@ -266,11 +275,11 @@ scripts/run_daily.sh    <span class="c"># 定时入口</span>
           <b style="color:var(--text)">加新闻源</b>：编辑 <code style="color:#a5d6ff">scripts/sources.json</code> 的 <code style="color:#a5d6ff">feeds</code> 数组，填 name / url / lang 即可。<br>
           <b style="color:var(--text)">改分类规则</b>：编辑同文件的 <code style="color:#a5d6ff">categories</code> 关键词表，脚本按标题关键词打标签；含「优惠福利」类，命中的新闻会自动出现在福利线索里。<br>
           <b style="color:var(--text)">改AI过滤词</b>：编辑 <code style="color:#a5d6ff">keywords</code>，决定哪些条目算 AI 新闻。<br>
-          <b style="color:var(--text)">改保留天数</b>：<code style="color:#a5d6ff">KEEP_DAYS</code> 常量，默认 60 天。<br>
+          <b style="color:var(--text)">改保留天数</b>：<code style="color:#a5d6ff">scripts/sources.json</code> 的 <code style="color:#a5d6ff">settings.keepDays</code>（默认 60），也可运行时用 <code style="color:#a5d6ff">--days N</code> 覆盖。<br>
           <b style="color:var(--text)">换基准数据</b>：直接编辑 <code style="color:#a5d6ff">data/base.js</code>，脚本不会覆盖它。<br>
           <b style="color:var(--text)">改优惠活动</b>：编辑 <code style="color:#a5d6ff">data/deals.js</code>，填 <code style="color:#a5d6ff">deadline</code> 后页面自动算倒计时并标记过期。
         </p>
-        <p style="color:var(--text-faint);font-size:11.5px;margin-top:14px;line-height:1.8">提示：RSS 抓取受源站限流影响，脚本对单个源失败做了容错，不会中断整体更新；若某天全部失败，会保留原有数据并给出告警。</p>
+        <p style="color:var(--text-faint);font-size:11.5px;margin-top:14px;line-height:1.8">提示：RSS 抓取受源站限流影响，脚本对单个源失败做了容错，不会中断整体更新；若某天全部失败或历史数据文件损坏，脚本会以失败状态退出，Actions 变红并创建告警 issue，原有数据保持不变。</p>
       </div>
     </div>
   </section>
@@ -326,7 +335,14 @@ scripts/run_daily.sh    <span class="c"># 定时入口</span>
     var N = window.AI_NEWS_DATA || {};
     var B = window.AI_BASE_DATA || {};
     var set = function (id, v) { var el = document.getElementById(id); if (el) el.textContent = v; };
-    set('baseline', (B.meta && B.meta.baseline) || '-');
+    // 基准日期与新闻源数量统一从数据文件注入，避免硬编码日期随改版过期
+    var baseline = (B.meta && B.meta.baseline) || '-';
+    var srcCount = N.sourceCount || 15;
+    set('baseline', baseline);
+    set('baseline-2', baseline);
+    set('baseline-3', baseline);
+    set('src-count', srcCount);
+    set('src-count-2', srcCount);
     set('side-updated', N.updatedAt || '-');
     set('side-days', (N.days || []).length);
     set('side-total', (N.days || []).reduce(function (s, d) { return s + (d.items || []).length; }, 0));

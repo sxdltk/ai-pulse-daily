@@ -70,6 +70,6 @@
     "retries": 1,
     "workers": 6,
     "highlightsPerDay": 3,
-    "userAgent": "Mozilla/5.0 (compatible; AIPulseDailyBot/1.0; +https://example.invalid/bot)"
+    "userAgent": "Mozilla/5.0 (compatible; AIPulseDailyBot/1.0; +https://github.com/sxdltk/ai-pulse-daily)"
   }
 }
