@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-13 21:40:34",
+  "updatedAt": "2026-11-14 09:31:38",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -408,7 +408,24 @@ window.AI_NEWS_DATA = {
     "596103a1517a172e",
     "34ca64ed103a3805",
     "e7d25fc4365466bc",
-    "b28f01aa06c2fa9c"
+    "b28f01aa06c2fa9c",
+    "67a5de592373ea5c",
+    "7935cbdabfc42a12",
+    "aac71ca9a527db88",
+    "836139f35c17b9e1",
+    "d00b8d61ef540baa",
+    "a05c145a788ab0f7",
+    "ddbb7954eae2aa5d",
+    "8ae3e6529e39122a",
+    "8a25dfab69b04cc3",
+    "87aab8b2e6c96582",
+    "1e1b39afb5b65104",
+    "f04c68f0a04af7ee",
+    "6f7aa2dc5e4fd394",
+    "b1e064528427a02b",
+    "5514f0870c71f826",
+    "3461e2da50313fe3",
+    "62842ff2582562eb"
   ],
   "lastRun": {
     "okSources": 14,
@@ -416,15 +433,178 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 17,
     "skipped": {
       "old": 0,
-      "non_ai": 157,
-      "dup": 75
+      "non_ai": 154,
+      "dup": 71
     },
-    "durationSec": 5.0
+    "durationSec": 51.2
   },
   "days": [
+    {
+      "date": "2026-11-14",
+      "highlights": [
+        "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
+        "路透社：Arm 掌门人哈斯进入接棒黄仁勋候选视野，曾在英伟达工作 7 年"
+      ],
+      "items": [
+        {
+          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+          "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "time": "00:00",
+          "origin": "auto"
+        },
+        {
+          "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+          "summary": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨 李秋悦 编辑丨 吴 彤 一支女团跳舞，镜头不必再听导演安排，观众甚至能看到拍摄时不存在的机位。 传统MV拍摄，摄影机架在哪里，观众看到的就是哪个角度。现在用多台摄像机同时记录舞者动作，再重建出一个三维动态场景，镜头可以任意调换位置；从队形正面绕到侧面，穿过舞者之间，甚至换一个从未真正架设过的机位，…",
+          "category": "行业动态",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
+          "time": "00:50",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+          "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+          "category": "研究突破",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+          "time": "01:25",
+          "origin": "auto"
+        },
+        {
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+          "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "time": "02:40",
+          "origin": "auto"
+        },
+        {
+          "title": "AI agent startup LangChain hits $3B valuation",
+          "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "time": "03:37",
+          "origin": "auto"
+        },
+        {
+          "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+          "time": "04:45",
+          "origin": "auto"
+        },
+        {
+          "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+          "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+          "time": "05:20",
+          "origin": "auto"
+        },
+        {
+          "title": "英伟达董事会澄清：尚未选定 CEO 招聘猎头，也未正式接触候选人",
+          "summary": "IT之家 11 月 14 日消息，英国《金融时报》报道称，英伟达董事会曾接触芯片设计公司 Arm 首席执行官雷内・哈斯（Rene Haas），将其作为潜在继任人选。 当地时间 11 月 13 日，英伟达董事会针对外界对新任 CEO 人选的猜测回应 CNBC 称，公司尚未选定负责首席执行官招聘工作的猎头机构，也尚未正式联系任何潜在候选人。 IT之家此前报道，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/026/998.htm",
+          "time": "06:39",
+          "origin": "auto"
+        },
+        {
+          "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+          "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+          "time": "06:43",
+          "origin": "auto"
+        },
+        {
+          "title": "路透社：Arm 掌门人哈斯进入接棒黄仁勋候选视野，曾在英伟达工作 7 年",
+          "summary": "IT之家 11 月 14 日消息，金融时报昨日（11 月 13 日）发布博文，报道称英伟达董事会已聘请外部机构物色新 CEO 候选人， 除了苹果芯片负责人约翰尼 · 斯鲁吉（Johny Srouji）外 ，Arm 首席执行官雷内 · 哈斯（Rene Haas）也被列为潜在考虑对象。 路透社表示英伟达董事会有意向接触哈斯，但目前哈斯只是英伟达董事会考虑的多名人选之一，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/002.htm",
+          "time": "07:07",
+          "origin": "auto"
+        },
+        {
+          "title": "要让 GPT-6 Astra 等通用 AI 当机器人“大脑”：OpenAI 宣布重组具身智能团队",
+          "summary": "IT之家 11 月 14 日消息，《财富》昨日（11 月 13 日）发布博文，爆料称 OpenAI 已解散独立机器人团队，并将相关人员调至公司其他部门。OpenAI 向该媒体确认了此次组织调整， 只是强调本次调整并非退出机器人领域，机器人仍是其长期愿景的核心，重组旨在加快研发。 在架构调整方面，机器人研究人员并入核心研究团队，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/004.htm",
+          "time": "07:17",
+          "origin": "auto"
+        },
+        {
+          "title": "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
+          "summary": "IT之家 11 月 14 日消息，开发者 Georgi Gerganov（X 账号为 @ggerganov）昨日（11 月 13 日）在 X 平台发布推文， 宣布开源 AI 推理项目 llama.cpp 与底层机器学习引擎 ggml 的库版本迈入 1.0.0。 IT之家查询公开资料，Gerganov 是开源项目 llama.cpp 的创建者，也是 ggml、 whisper.…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/019.htm",
+          "time": "08:14",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1114：曝黄仁勋离任前夕心力交瘁；微软 365 核心服务全球宕机超 10 个小时；华为首个动态血糖仪官宣；37.98 万元起鸿蒙智行问界新 M8 上市...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 14 日星期六，今天的重要科技资讯有： 1. “我算个什么东西”：黄仁勋离任英伟达 CEO 最后时刻心力交瘁，把“随便”和“我不在乎”挂在嘴边 彭博社 11 月 13 日发布博文，报道称黄仁勋在董事会施压下，辞去英伟达首席执行官职务之后心力交瘁，昔日的活力荡然无存。据一位知情人士透露，黄仁勋此前雷厉风行，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/020.htm",
+          "time": "08:16",
+          "origin": "auto"
+        },
+        {
+          "title": "马斯克声援黄仁勋：将签署请愿，支持其重返英伟达 CEO 岗位",
+          "summary": "IT之家 11 月 14 日消息，全球首富埃隆 · 马斯克（Elon Musk）昨日（11 月 13 日）发布推文，回应网友关于“ 约 1600 名英伟达员工呼吁黄仁勋回归 ”的推文， 表示“一项要求让黄仁勋复职的请愿正在进行，我也会签署。” 网友 @yunta_tsai 主张，希望黄仁勋回归的员工可以通过辞职表达立场，并强调工程师对公司的重要性。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/033.htm",
+          "time": "08:56",
+          "origin": "auto"
+        },
+        {
+          "title": "礼来 CEO 回应“AI 十年内攻克癌症”：愿景很美好，但不太可能",
+          "summary": "IT之家 11 月 14 日消息，礼来（Eli Lilly）董事长兼首席执行官戴夫 · 里克斯（Dave Ricks）于 11 月 12 日在 X 平台发布推文，回应 Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）有关“AI 将在不到十年内攻克癌症等疾病”的预测， 称这一愿景“令人向往”，但实现的可能性不大。 IT之家此前报道，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/037.htm",
+          "time": "09:10",
+          "origin": "auto"
+        },
+        {
+          "title": "9点1氪丨马斯克在X平台公开表态，将参与要求黄仁勋重返英伟达的请愿活动",
+          "summary": "整理丨 宋清瑜 今日热点导览 微软：初步迹象显示系统已趋于稳定，复原工作仍在进行中 Anthropic与OpenAI被控抄袭神经网络专利 金价再迎暴跌专家劝别抄底，国际金价失守3900美元 段永平：目前不会卖出英伟达，当天卖出不少看跌期权 华硕前三季度营收7424亿元新台币，归母净利润505亿元新台币 TOP3大新闻 英伟达市值重返美股第二，…",
+          "category": "融资并购",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4068905666859912?f=rss",
+          "time": "09:15",
+          "origin": "auto"
+        },
+        {
+          "title": "DeepSeek 前端代码出现“额度耗尽”提示，开发者猜测将首次推出 C 端付费方案",
+          "summary": "IT之家 11 月 14 日消息， 有开发者在 chat.deepseek.com 的前端代码中发现了一整套额度管理逻辑，提示文案包括“使用额度已达上限，请额度恢复后再试”。 此外，其代码还包含额度耗尽后的错误处理分支，以及“分享对话后继续聊”场景下对 quotas 数组中 is_exhausted 状态的检查 。 根据开发者们挖出的信息，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/038.htm",
+          "time": "09:20",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "highlights": [
@@ -2866,23 +3046,6 @@ window.AI_NEWS_DATA = {
           "source": "Google AI",
           "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
           "time": "00:00",
-          "origin": "auto"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-15",
-      "highlights": [
-        "New insights from Google’s AI & Economy ATLAS"
-      ],
-      "items": [
-        {
-          "title": "New insights from Google’s AI & Economy ATLAS",
-          "summary": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
-          "category": "行业动态",
-          "source": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
-          "time": "21:00",
           "origin": "auto"
         }
       ]
