@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-14 09:31:38",
+  "updatedAt": "2026-11-14 21:25:20",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -425,7 +425,8 @@ window.AI_NEWS_DATA = {
     "b1e064528427a02b",
     "5514f0870c71f826",
     "3461e2da50313fe3",
-    "62842ff2582562eb"
+    "62842ff2582562eb",
+    "108c26da27d117cc"
   ],
   "lastRun": {
     "okSources": 14,
@@ -433,13 +434,13 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 17,
+    "newItems": 1,
     "skipped": {
       "old": 0,
-      "non_ai": 154,
-      "dup": 71
+      "non_ai": 155,
+      "dup": 79
     },
-    "durationSec": 51.2
+    "durationSec": 16.2
   },
   "days": [
     {
@@ -601,6 +602,15 @@ window.AI_NEWS_DATA = {
           "source": "IT之家",
           "url": "https://www.ithome.com/1/027/038.htm",
           "time": "09:20",
+          "origin": "auto"
+        },
+        {
+          "title": "前 Anthropic 研究员考克森：当今若要重新训练 Mythos，只需初始的一小部分算力",
+          "summary": "IT之家 11 月 14 日消息，曾任职于 OpenAI 和 Anthropic、因公开警告 AI 风险而受到广泛关注的研究员雅各布 · 考克森称，Anthropic 在 IPO 路演中展示的一张幻灯片，是促使他离职的重要原因。 考克森在 Anthropic 只工作了约四个月。让他决定离职的原因之一，是公司 IPO 路演中 一张展示 AI 模型训练算力需求变化的图表 。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/221.htm",
+          "time": "19:45",
           "origin": "auto"
         }
       ]
