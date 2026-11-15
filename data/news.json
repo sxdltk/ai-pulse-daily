@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14 21:25:20",
+  "updatedAt": "2026-11-15 09:38:19",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -424,7 +424,15 @@
     "5514f0870c71f826",
     "3461e2da50313fe3",
     "62842ff2582562eb",
-    "108c26da27d117cc"
+    "108c26da27d117cc",
+    "00fcf24e583dfa78",
+    "74cbc53247da9657",
+    "2c38decff436759a",
+    "5fc5d1af57a2c94e",
+    "31fa6d45398009e5",
+    "0c47fe35078d6a22",
+    "6f57639a8dc75ec1",
+    "03e723ae5308b074"
   ],
   "lastRun": {
     "okSources": 14,
@@ -432,15 +440,97 @@
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 1,
+    "newItems": 8,
     "skipped": {
-      "old": 0,
-      "non_ai": 155,
-      "dup": 79
+      "old": 1,
+      "non_ai": 156,
+      "dup": 77
     },
-    "durationSec": 16.2
+    "durationSec": 20.8
   },
   "days": [
+    {
+      "date": "2026-11-15",
+      "highlights": [
+        "国产算力巨头超聚变创业板 IPO 过会，前身是华为 X86 服务器业务",
+        "Where was Nvidia’s security team?",
+        "一天暴涨 6 万：请愿恢复黄仁勋英伟达 CEO 职务人数突破 12 万人，马斯克也参与签名"
+      ],
+      "items": [
+        {
+          "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+          "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "time": "00:34",
+          "origin": "auto"
+        },
+        {
+          "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+          "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "time": "01:30",
+          "origin": "auto"
+        },
+        {
+          "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+          "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "time": "05:41",
+          "origin": "auto"
+        },
+        {
+          "title": "一天暴涨 6 万：请愿恢复黄仁勋英伟达 CEO 职务人数突破 12 万人，马斯克也参与签名",
+          "summary": "IT之家 11 月 15 日消息，今年 11 月 12 日，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。 随后，一个名为“Stand with Jensen”的请愿活动在网上流传开来，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/252.htm",
+          "time": "07:18",
+          "origin": "auto"
+        },
+        {
+          "title": "SpaceX 星舰飞船首次被发射塔机械臂捕获回收，马斯克将建 AI 数据中心星座",
+          "summary": "IT之家 11 月 15 日消息，当地时间 11 月 14 日，SpaceX 在星舰第 15 次试飞中首次用发射塔机械臂接住从轨道返回的第二级飞船， 这是星舰飞船首次完成发射塔捕获 。 据介绍，SpaceX 计划使用该飞船在 LEO 轨道上构建一个庞大的网络 —— 根据埃隆 · 马斯克的说法，这个网络将包含一个由百万艘航天器组成的 AI 数据中心星座 。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/253.htm",
+          "time": "07:26",
+          "origin": "auto"
+        },
+        {
+          "title": "国产算力巨头超聚变创业板 IPO 过会，前身是华为 X86 服务器业务",
+          "summary": "IT之家 11 月 15 日消息，深交所上市审核委员会本月 12 日召开 2026 年第 61 次审议会议，会议结果为超聚变数字技术股份有限公司（以下简称超聚变）（首发） 符合发行条件、上市条件和信息披露要求 。 在深圳证券交易所上市审核委员会的会议现场，问询超聚变的主要问题包括：结合算力需求变化、下游客户资本开支、技术先进性、经营性现金流量净额状况、客户和供应商集中度等情况，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/255.htm",
+          "time": "07:38",
+          "origin": "auto"
+        },
+        {
+          "title": "Where was Nvidia’s security team?",
+          "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chi…",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "time": "08:08",
+          "origin": "auto"
+        },
+        {
+          "title": "韩国电信运营商 LG U+ 明年进军 AI Token 业务，帮助企业降低 AI 转型成本",
+          "summary": "IT之家 11 月 15 日消息，据韩媒 Etnews 今天报道，韩国电信运营商 LG U+ 将于明年进军 AI Token 业务，利用自主研发的 Token 优化技术，帮助企业降低 AI 转型（AX）成本。 据介绍，这项服务拥有用于设计 Agent 任务执行路径的“Harness Engineering”、根据问题类型分配模型的“智能路由”，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/262.htm",
+          "time": "08:42",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "highlights": [
@@ -3017,43 +3107,6 @@
           "source": "Google AI",
           "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
           "time": "22:00",
-          "origin": "auto"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-16",
-      "highlights": [
-        "AI for Societal Impact",
-        "Building AI to accelerate science and improve lives",
-        "AI for everyone in every language"
-      ],
-      "items": [
-        {
-          "title": "AI for Societal Impact",
-          "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
-          "category": "研究突破",
-          "source": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
-          "time": "00:00",
-          "origin": "auto"
-        },
-        {
-          "title": "Building AI to accelerate science and improve lives",
-          "summary": "B-roll showing diverse environments and people, including a teacher and students in a classroom and a patient with a doctor",
-          "category": "行业动态",
-          "source": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
-          "time": "00:00",
-          "origin": "auto"
-        },
-        {
-          "title": "AI for everyone in every language",
-          "summary": "Animation of several words in different languages slowly zooming past",
-          "category": "行业动态",
-          "source": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
-          "time": "00:00",
           "origin": "auto"
         }
       ]
