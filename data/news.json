@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 09:38:19",
+  "updatedAt": "2026-11-15 21:26:22",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -432,7 +432,17 @@
     "31fa6d45398009e5",
     "0c47fe35078d6a22",
     "6f57639a8dc75ec1",
-    "03e723ae5308b074"
+    "03e723ae5308b074",
+    "6a339c725ca0cc80",
+    "ab1b9d311bec4946",
+    "485549531daa2081",
+    "532258d18ff995ab",
+    "218b5a11803eb2e0",
+    "1c9e66e56668987d",
+    "de1bee9a7605848f",
+    "f40c472930d567a6",
+    "73456dc47fb5c03c",
+    "db29e8a91bbf9270"
   ],
   "lastRun": {
     "okSources": 14,
@@ -440,13 +450,13 @@
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 8,
+    "newItems": 10,
     "skipped": {
       "old": 1,
-      "non_ai": 156,
-      "dup": 77
+      "non_ai": 145,
+      "dup": 80
     },
-    "durationSec": 20.8
+    "durationSec": 7.3
   },
   "days": [
     {
@@ -527,6 +537,96 @@
           "source": "IT之家",
           "url": "https://www.ithome.com/1/027/262.htm",
           "time": "08:42",
+          "origin": "auto"
+        },
+        {
+          "title": "算力狂飙而净利率跌破5%：为什么工业AI算不出实体企业的真利润？",
+          "summary": "聊天对话框省不出利润率，物理AI真正的金矿藏在“同源耦合”的水下。当算力狂飙遇上制造业5%净利率泥潭，全行业都把工业决策引擎的账算小了十倍。",
+          "category": "算力硬件",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8205381.html",
+          "time": "10:30",
+          "origin": "auto"
+        },
+        {
+          "title": "AI撞上美国“新世界”：暴跌、监管、政治博弈，数据中心何去何从？",
+          "summary": "AI叙事正式转变？",
+          "category": "政策监管",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8205551.html",
+          "time": "10:30",
+          "origin": "auto"
+        },
+        {
+          "title": "全球芯片股较峰值回撤近四成，AI泡沫破了吗？",
+          "summary": "非AI板块却创了新高。",
+          "category": "算力硬件",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8205717.html",
+          "time": "12:19",
+          "origin": "auto"
+        },
+        {
+          "title": "【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……",
+          "summary": "（11月9日-14日） DeepSeek发布全家桶应用API；谷歌发布Gemini 4 Hydrogen；微软全球服务中断十小时致歉；美国人工智能建设遭遇电力瓶颈……",
+          "category": "融资并购",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8205592.html",
+          "time": "14:19",
+          "origin": "auto"
+        },
+        {
+          "title": "开发者借助 Claude 开发出体积仅 97KB 水下探索模拟项目 Abyssal Garden",
+          "summary": "IT之家 11 月 15 日消息，据 XDA 报道，一位开发者 Any-Reputation8118 利用 Anthropic Claude 编写代码，开发出一款名为“Abyssal Garden”的浏览器水下探索模拟项目，相应项目体积仅 97 KB，场景中的所有视觉元素均由代码在页面加载时实时生成。 从演示视频来看，Abyssal Garden 的项目完成度相当高，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/406.htm",
+          "time": "16:58",
+          "origin": "auto"
+        },
+        {
+          "title": "前 OpenAI 研究员：当前活着的人最有可能死于 AI 失控",
+          "summary": "IT之家 11 月 15 日消息，人工智能失控导致人类灭绝，听起来或许像科幻电影中的情节，但前 OpenAI 研究员保罗 · 克里斯蒂亚诺（Paul Christiano）认为，这可能成为当今在世人群最有可能面临的死亡原因。 当地时间周一，克里斯蒂亚诺在希尔顿讲座（The Hinton Lectures）上表示：“我认为，在座的大多数人，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/419.htm",
+          "time": "18:09",
+          "origin": "auto"
+        },
+        {
+          "title": "世界首颗：单次矩阵方程求解时间小于 100 纳秒，国产新型模拟计算芯片问世",
+          "summary": "IT之家 11 月 15 日消息，据科技日报从模拟计算芯片公司安纳智芯了解到，该公司自主研发的 AX100 芯片已于 10 月完成流片，这是 世界首颗全集成一步求解矩阵方程模拟计算芯片 。 经测试， 该芯片单次矩阵方程求解时间小于 100 纳秒 ，单次计算功耗约为 80 毫瓦，完全符合理论仿真与设计预期。 据介绍，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/430.htm",
+          "time": "18:53",
+          "origin": "auto"
+        },
+        {
+          "title": "澳大利亚央行研究：AI 最先冲击年轻劳动者，尤其是软件、客服岗位",
+          "summary": "IT之家 11 月 15 日消息，据 THE DECODER 报道，目前，人工智能（AI）对澳大利亚整体就业市场的冲击仍然有限，但对于刚刚进入软件开发等受 AI 影响较大行业的年轻劳动者来说，就业形势已经开始变得严峻。 澳大利亚储备银行（RBA）的迈克 · 梅杰（Mike Major）开展了一项研究，并建立了一套就业市场监测系统，重点关注最有可能率先受到 AI 影响的群体，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/432.htm",
+          "time": "19:03",
+          "origin": "auto"
+        },
+        {
+          "title": "黄仁勋卸任后，英伟达新任 CEO 面临重建员工信任难题",
+          "summary": "IT之家 11 月 15 日消息，据 Business Insider 报道，去年在一场 NBA 科技峰会上，时任英伟达首席执行官黄仁勋曾谈到自己的管理风格，称公司内部一直坚持开放、透明的沟通方式。 “我所有的时间都花在保持透明上。”黄仁勋当时表示。长期以来，他因带领英伟达实现惊人增长而备受赞誉。 然而，如今有关黄仁勋婚外情的报道，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/433.htm",
+          "time": "19:19",
+          "origin": "auto"
+        },
+        {
+          "title": "AI 版拓麻歌子来了：日常物品秒变需要被照顾的虚拟宠物",
+          "summary": "IT之家 11 月 15 日消息，忘记给家里的植物浇水了？这一次，你看到的可能不是逐渐变黄的叶子，而是一只显示在小屏幕上的植物形状宠物。它看起来垂头丧气、一脸委屈，仿佛在提醒你赶紧拿起浇水壶。而当你把水浇进土壤后，屏幕上的小宠物又会立刻变得兴奋起来。 这正是 OATs（Object Agent Twins，物体智能体双生体）的设计理念。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/443.htm",
+          "time": "20:43",
           "origin": "auto"
         }
       ]
