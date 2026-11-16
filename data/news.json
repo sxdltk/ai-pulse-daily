@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 09:52:22",
+  "updatedAt": "2026-11-16 23:33:33",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -459,21 +459,23 @@
     "116ef2e122a79b61",
     "449baba42a1a8285",
     "ff666243b6c76548",
-    "462b8ed091af57c3"
+    "462b8ed091af57c3",
+    "f2c956999e956ad4"
   ],
   "lastRun": {
-    "okSources": 14,
+    "okSources": 13,
     "totalSources": 15,
     "failedSources": [
-      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
+      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
+      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 372, column 110"
     ],
-    "newItems": 17,
+    "newItems": 1,
     "skipped": {
-      "old": 1,
-      "non_ai": 153,
-      "dup": 77
+      "old": 0,
+      "non_ai": 132,
+      "dup": 78
     },
-    "durationSec": 4.9
+    "durationSec": 5.5
   },
   "days": [
     {
@@ -635,6 +637,15 @@
           "source": "The Verge AI",
           "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
           "time": "09:47",
+          "origin": "auto"
+        },
+        {
+          "title": "模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型",
+          "summary": "11月16日，千问办公一口气上线10款模型，包括刚刚发布的Qwen4-Max，以及Kimi、GLM、DeepSeek、MiniMax、Step等多款三方大模型。目前，千问办公的模型列表已向用户开放选择，个人版和企业标准版用户可结合自身使用场景自由选择模型。 此前，千问办公在模型供给上为用户提供了标准、高级和Qwen3.8-Max三档模型选择，可满足绝大多数日常办公任务的需求。…",
+          "category": "产品更新",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/industrynews/tDhzNl3D84AjopSh.html",
+          "time": "12:08",
           "origin": "auto"
         }
       ]
