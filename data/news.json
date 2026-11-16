@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15 21:26:22",
+  "updatedAt": "2026-11-16 09:52:22",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -442,7 +442,24 @@
     "de1bee9a7605848f",
     "f40c472930d567a6",
     "73456dc47fb5c03c",
-    "db29e8a91bbf9270"
+    "db29e8a91bbf9270",
+    "a2819f9b20a2a698",
+    "343d7e0ff298d28d",
+    "71df500cf270ea80",
+    "c037cde1ae82eded",
+    "6eaddb55c79c7bd3",
+    "88c8f1255a0ce250",
+    "b6c85d8cb87fc161",
+    "6152b6474b58b85e",
+    "ab4e4e8a932630ef",
+    "19780b7d66e76949",
+    "1d5db54a281024f9",
+    "10dccd0334857276",
+    "ee683cc9110dcc80",
+    "116ef2e122a79b61",
+    "449baba42a1a8285",
+    "ff666243b6c76548",
+    "462b8ed091af57c3"
   ],
   "lastRun": {
     "okSources": 14,
@@ -450,15 +467,178 @@
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 10,
+    "newItems": 17,
     "skipped": {
       "old": 1,
-      "non_ai": 145,
-      "dup": 80
+      "non_ai": 153,
+      "dup": 77
     },
-    "durationSec": 7.3
+    "durationSec": 4.9
   },
   "days": [
+    {
+      "date": "2026-11-16",
+      "highlights": [
+        "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+        "8点1氪丨黄仁勋考虑回归担任英伟达CEO；129万/支的“天价抗癌药”进医保了；美国罕见全国停飞超4小时",
+        "斑马AI学发布2027版本"
+      ],
+      "items": [
+        {
+          "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+          "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips.…",
+          "category": "算力硬件",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "time": "03:15",
+          "origin": "auto"
+        },
+        {
+          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+          "summary": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a nu…",
+          "category": "算力硬件",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "time": "04:49",
+          "origin": "auto"
+        },
+        {
+          "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+          "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+          "time": "05:56",
+          "origin": "auto"
+        },
+        {
+          "title": "投资 19 亿美元：三星被曝将在美国为马斯克 SpaceX 生产卫星芯片，目标 2030 年投产",
+          "summary": "IT之家 11 月 16 日消息，三星电子正将其位于得克萨斯州奥斯汀的芯片工厂拓展至航天供应链。 据韩国《首尔经济日报》11 月 15 日报道，三星计划在奥斯汀工厂为 SpaceX 的星链卫星生产 STM32V8 微控制器（MCU），为此将投资 19 亿美元 （IT之家注：现汇率约合 127.1 亿元人民币） 扩产，目标在 2030 年投入运行。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/465.htm",
+          "time": "07:01",
+          "origin": "auto"
+        },
+        {
+          "title": "纽约市禁止“大数据杀熟”，企业利用监控算法实现差异化报价最高罚款 1000 美元",
+          "summary": "IT之家 11 月 16 日消息，美国纽约市议会当地时间 11 月 12 日通过一项限制算法个性化定价的法案，禁止企业利用消费者个人数据和算法，对购买相同商品或服务的不同消费者收取不同价格。 该法案由纽约市议会议长朱莉 · 梅宁（Julie Menin）提出，…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/469.htm",
+          "time": "07:23",
+          "origin": "auto"
+        },
+        {
+          "title": "消息称黄仁勋考虑重返英伟达担任 CEO，其硅谷盟友正施压董事会",
+          "summary": "IT之家 11 月 16 日消息，据英国《金融时报》昨天报道，黄仁勋正考虑重返英伟达担任首席执行官。如今他在硅谷的多位盟友正向英伟达董事会施压，要求公司重新任命他。 据多名知情人士透露，黄仁勋已经和亲信讨论了重返公司的可能性。与此同时，英伟达董事会还在开展独立调查。 一位黄仁勋的盟友表示， 他们正在组建一个由硅谷高管构成的“作战室” ， 游说黄仁勋重返英伟达 ，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/470.htm",
+          "time": "07:26",
+          "origin": "auto"
+        },
+        {
+          "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+          "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+          "time": "07:30",
+          "origin": "auto"
+        },
+        {
+          "title": "8点1氪丨黄仁勋考虑回归担任英伟达CEO；129万/支的“天价抗癌药”进医保了；美国罕见全国停飞超4小时",
+          "summary": "今日热点导览 OpenAI解散机器人团队 SpaceX首次实现“筷子夹飞船” 2026年版国家基本医保药品目录发布，新增107种药品 微软就全球服务中断道歉 加密货币全线大跳水，超31万人爆仓 TOP3大新闻 黄仁勋讨论重掌英伟达，硅谷盟友游说支持回归 据报道，在被董事会驱逐数天之后，英伟达公司前首席执行官黄仁勋正在讨论重返公司的可能性。随着几位硅谷盟友开始游说支持他回归，…",
+          "category": "行业动态",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4071682515817605?f=rss",
+          "time": "08:09",
+          "origin": "auto"
+        },
+        {
+          "title": "未提前规划黄仁勋接班人，财富500强前CEO：英伟达董事会严重失职",
+          "summary": "多名见证英伟达这场风波的前企业CEO表示，英伟达董事会没能通过这场最重要的考验。在三位财富500强前CEO以及一位知名咨询顾问看来，这家运营良好的企业本应备好成熟继任方案，而英伟达完全没有，这暴露了其公司治理层面惊人的短板。他们都在知名企业董事会任职。令这些受访人士难以理解的是：这家全球市值第二高的企业，已经经营33年、上市27年，…",
+          "category": "融资并购",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4071700040668296?f=rss",
+          "time": "08:36",
+          "origin": "auto"
+        },
+        {
+          "title": "腾讯 WorkBuddy 国际版上线 Gemini 4 Carbon 大模型：支持百万 Token 上下文，暂仅限 Pro 用户使用",
+          "summary": "IT之家 11 月 16 日消息，腾讯 WorkBuddy 国际版昨日宣布，已正式上线谷歌 Gemini 4 Carbon 模型，主要面向需要更深入推理和处理更长任务的使用场景。 官方将其定位为适合处理复杂问题的模型，目前仅面向 Pro 计划用户开放。 IT之家此前报道，谷歌称 Gemini 4 Carbon 模型主要面向长周期智能体工作流，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/487.htm",
+          "time": "08:44",
+          "origin": "auto"
+        },
+        {
+          "title": "曝黄仁勋考虑重返英伟达担任 CEO；苹果计划明年发布首款智能眼镜；OpenAI 撤销独立机器人研究团队",
+          "summary": "曝黄仁勋考虑重返英伟达担任 CEO，盟友正施压董事会 据英国《金融时报》周日报道，黄仁勋正考虑重返英伟达担任首席执行官。如今他在硅谷的多位盟友正向英伟达董事会施压，要求公司重新任命他。 报道称，黄仁勋已经和亲信讨论了重返公司的可能性。与此同时，英伟达董事会还在开展独立调查。 一位黄仁勋的盟友表示，他们正在组建一个由硅谷高管构成的「作战室」，游说黄仁勋重返英伟达，…",
+          "category": "算力硬件",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/373994",
+          "time": "08:47",
+          "origin": "auto"
+        },
+        {
+          "title": "韩国LS电气斩获1300亿韩元美国AI数据中心电力设备订单",
+          "summary": "据公司声明，LS电气获得了一家全球大型科技公司约1300亿韩元的订单，将为美国的一座超大规模AI数据中心提供配电系统。该公司将为该数据中心供应38千伏（kV）高压及低压开关柜。LS电气自该项目初期便已参与，并在此次扩建项目中再次中标。公司表示，近期已与另一家大型科技公司签署了长期供货协议，并计划继续扩大该业务规模。（新浪财经）",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4071729157641095?f=rss",
+          "time": "08:57",
+          "origin": "auto"
+        },
+        {
+          "title": "不调用图像模型，Anthropic Claude Fable 5.2 用 Python 代码模拟真实画笔作画",
+          "summary": "IT之家 11 月 16 日消息，Anthropic 于当地时间 11 月 9 日发布了最新的 Claude Fable 5.2 和 Claude Mythos 5.2 模型。 其中，Fable 5.2 不仅面向复杂编程、科学研究和工程任务，还展示了一种异类的“AI 生图”功能（IT之家注：Anthropic 目前仍无传统意义上的文生图模型，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/490.htm",
+          "time": "09:01",
+          "origin": "auto"
+        },
+        {
+          "title": "融资90亿的AI眼镜风口，被35元的华强北山寨货截胡",
+          "summary": "AI眼镜的想象力，正在被透支。",
+          "category": "融资并购",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8205823.html",
+          "time": "09:04",
+          "origin": "auto"
+        },
+        {
+          "title": "斑马AI学发布2027版本",
+          "summary": "36氪获悉，近日，斑马AI学发布2027版本，面向小学高年级阶段的斑马英语S8、斑马思维S7、斑马大阅读S7正式发布，这是斑马针对旗下AI学产品体系的一次系统性升级，意味着其产品已从兴趣启蒙全面进化至小学高阶的学习阶段。斑马自主研发的斑马儿童科教大模型，面向儿童学习场景打造，并已完成国家网信办生成式人工智能服务备案。基于这款大模型，在此次发布的三个高阶级别产品中，…",
+          "category": "产品更新",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4071740620673924?f=rss",
+          "time": "09:08",
+          "origin": "auto"
+        },
+        {
+          "title": "AI泡沫监测·之三：英伟达的毛利期权——一张美国AI泡沫的层积图",
+          "summary": "英伟达五万亿估值的本质，是70%以上毛利率的期权——全产业链都在替它交租。这篇把债务、选票、公司、收入、全球五层账本拼成一张图：租金退回（毛利归位）与刚性解锁（它亲手废约）两步棋怎么走，11月17日英伟达财报是第一场对账。",
+          "category": "融资并购",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8206051.html",
+          "time": "09:33",
+          "origin": "auto"
+        },
+        {
+          "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+          "summary": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are.…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+          "time": "09:47",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "highlights": [
