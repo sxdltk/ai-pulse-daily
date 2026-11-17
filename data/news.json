@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16 23:33:33",
+  "updatedAt": "2026-11-17 09:42:47",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -460,24 +460,214 @@
     "449baba42a1a8285",
     "ff666243b6c76548",
     "462b8ed091af57c3",
-    "f2c956999e956ad4"
+    "f2c956999e956ad4",
+    "d82ec1993b85cedb",
+    "0547db57b825e961",
+    "5417357970f5ad53",
+    "f80d17317f473227",
+    "67d886cee8e488aa",
+    "6453f1a6dbf68684",
+    "c90e1a0371dc19c8",
+    "5b0ef6c38c13b76e",
+    "180b8a1c72dda3d6",
+    "20d89ac9373c6cfa",
+    "0956691660d0e080",
+    "5b4bf648f5205e31",
+    "b1f06425c1743c77",
+    "a57186ccf288b6f2",
+    "7171b7f97273b822",
+    "207893e93545a552",
+    "d95ed5affe749e80",
+    "b08387c3342acc94"
   ],
   "lastRun": {
     "okSources": 13,
     "totalSources": 15,
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
-      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 372, column 110"
+      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 471, column 110"
     ],
-    "newItems": 1,
+    "newItems": 18,
     "skipped": {
-      "old": 0,
-      "non_ai": 132,
-      "dup": 78
+      "old": 3,
+      "non_ai": 120,
+      "dup": 65
     },
-    "durationSec": 5.5
+    "durationSec": 6.1
   },
   "days": [
+    {
+      "date": "2026-11-17",
+      "highlights": [
+        "OpenAI will embed safety researchers to investigate AI subversion",
+        "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
+        "做 App 副业的最佳 AI 助手：谷歌推出系列工具，瞄准最头疼的变现环节"
+      ],
+      "items": [
+        {
+          "title": "英伟达发布 Rubin HPC GPU：单卡超 5 万 CUDA 核心创纪录，预计 2028 年上市",
+          "summary": "IT之家 11 月 17 日消息，英伟达今日在 SC26 大会发布 Rubin HPC GPU，基于 Vera Rubin 平台打造，专为科学研究、工程设计、数据分析仿真计算等工作设计。 IT之家从英伟达新闻稿获悉， Rubin HPC GPU 配备创纪录的 CUDA 核心 ， 单 GPU 的 CUDA 数超过 5 万个 。作为对比，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/998.htm",
+          "time": "00:06",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+          "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+          "category": "模型发布",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+          "time": "01:00",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI will embed safety researchers to investigate AI subversion",
+          "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their ind…",
+          "category": "研究突破",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+          "time": "01:02",
+          "origin": "auto"
+        },
+        {
+          "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+          "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+          "category": "政策监管",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+          "time": "02:11",
+          "origin": "auto"
+        },
+        {
+          "title": "US moves to cut China’s remote access to AI chips",
+          "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+          "category": "算力硬件",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+          "time": "03:10",
+          "origin": "auto"
+        },
+        {
+          "title": "California state AG sues OpenAI over rogue agent incidents",
+          "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+          "category": "政策监管",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "time": "04:07",
+          "origin": "auto"
+        },
+        {
+          "title": "美国推动全栈 AI / SI 技术出海：首批 33 个联盟获指定，覆盖芯片、模型及行业应用",
+          "summary": "IT之家 11 月 17 日消息，美国商务部当地时间 11 月 16 日宣布，美国 SI 出口计划（American SI Exports Program）进入新阶段，首批指定 33 个预先组建的产业联盟，提供面向海外市场的全栈超级智能（SI）技术出口方案。同时，项目将于 11 月 30 日开放按需组建联盟的申请。 根据美国商务部国际贸易管理局当天发布的公告，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/022.htm",
+          "time": "07:01",
+          "origin": "auto"
+        },
+        {
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face.…",
+          "category": "政策监管",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "time": "07:04",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 与 Goodfire 达成 AI 安全合作，此前曾探讨超 50 亿美元收购",
+          "summary": "IT之家 11 月 17 日消息，今日，OpenAI 宣布与 Apollo Research、METR、Transluce 和 Goodfire 达成合作，将启动首阶段嵌入式评估项目（Embedded Assessments），共同开展模型可解释性与安全评估工作。 与此同时，据《The Information》今日报道，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/024.htm",
+          "time": "07:12",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 扩大 ChatGPT 学术研究免费计划：11 月 23 日再开放 5 万个名额，从抽签改为先到先得",
+          "summary": "IT之家 11 月 17 日消息，OpenAI 宣布扩大面向学术研究人员的 ChatGPT 免费使用计划（ChatGPT for Academic Researchers），目标是为全球最多 20 万名研究人员提供免费访问权限。 OpenAI 今日宣布，新一轮申请将于当地时间 11 月 23 日开放，计划新增 5 万个免费访问名额。 根据 OpenAI 公告，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/027.htm",
+          "time": "07:18",
+          "origin": "auto"
+        },
+        {
+          "title": "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控",
+          "summary": "IT之家 11 月 17 日消息，当地时间 11 月 16 日，美国加利福尼亚州正式起诉 OpenAI，指控该公司在开发和测试先进人工智能模型时缺乏必要的安全防护与监控措施，导致 AI 智能体多次失去控制，并对第三方网络发起未经授权的攻击。 IT之家注意到，加州检察长罗布 · 邦塔（Rob Bonta）在加州司法部官网发文《这里是黄金之州，…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/028.htm",
+          "time": "07:26",
+          "origin": "auto"
+        },
+        {
+          "title": "做 App 副业的最佳 AI 助手：谷歌推出系列工具，瞄准最头疼的变现环节",
+          "summary": "IT之家 11 月 17 日消息，谷歌昨日（11 月 16 日）发布博文，宣布为旗下移动应用广告平台 AdMob 引入新一批 AI 工具，包括对话助手 Ask AdMob 以及面向 AI 编程助手的 AdMob 智能体技能， 帮助开发者简化广告接入、排查配置问题，并寻找增加广告收入的机会。 Ask AdMob 基于 Gemini 构建，将直接嵌入开发者的 AdMob 账户。…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/029.htm",
+          "time": "07:30",
+          "origin": "auto"
+        },
+        {
+          "title": "英特尔 350W 新卡 D270 亮剑，金融算力较英伟达 600W 加速卡飙升 5.9 倍",
+          "summary": "IT之家 11 月 16 日消息，英特尔 11 月 16 日公布数据中心 GPU D270 的性能数据，称这款功耗设定为 350W 的加速卡，在特定金融计算测试中的应用吞吐量， 最高达到 600W 英伟达 RTX PRO 6000 Blackwell 服务器版的 5.9 倍。 规格方面，数据中心 GPU D270 相关信息如下： 硅片与精度：Xe 3P 架构，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/027/972.htm",
+          "time": "08:06",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1117：特朗普支持苹果库克执掌英伟达但不介意黄仁勋回归；阿里千问 4Max 上线；华为 Mate X8 折叠屏 11 月 24 日发布；OPPO Reno17 手机发布...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 17 日星期二，今天的重要科技资讯有： 1. 特朗普：支持苹果库克执掌英伟达，但不介意黄仁勋回归 当地时间 11 月 16 日在美国白宫接受 NBC News 等记者采访时，美国总统特朗普表示不介意黄仁勋重新担任英伟达首席执行官，并称有不少人希望这位公司联合创始人回归。>> 查看详情 2. 2.…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/038.htm",
+          "time": "08:14",
+          "origin": "auto"
+        },
+        {
+          "title": "卖股票必须提前 30 天写书面计划：Anthropic 上市前把“高管紧箍咒”套在了每个普通员工头上",
+          "summary": "IT之家 11 月 17 日消息，科技媒体 Business Insider 今天（11 月 17 日）发布博文，报道称 人工智能公司 Anthropic 为了降低内幕交易风险，计划在首次公开募股（IPO）后，要求出售公司股票的员工使用预设交易计划。 对于 Anthropic 公司员工而言，未来他们如果想要出售持股，大多需要提前做好安排，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/040.htm",
+          "time": "08:20",
+          "origin": "auto"
+        },
+        {
+          "title": "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
+          "summary": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职 11 月 17 日消息，CNBC 今天（11 月 17 日）发布博文，援引一名知情人士透露信息，英伟达董事会目前没有考虑让黄仁勋重新担任首席执行官，也未就其回归展开讨论。报道称英伟达董事会的工作重心，目前聚焦推进针对黄仁勋相关行为的调查。 报道称，英伟达已聘请 Wachtell Lipton 律师事务所，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374056",
+          "time": "08:42",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 奥尔特曼谈黄仁勋离职：我也被解雇过，相信 AI 行业能平稳度过",
+          "summary": "IT之家 11 月 17 日消息，据彭博社今天报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，即使英伟达前 CEO 黄仁勋不再掌舵，AI 行业依然会“运转良好”。 当被问及是否认为黄仁勋应该重返英伟达时，奥尔特曼表示：“我认为自己掌握的信息不足以回答这个问题。” 不过他对黄仁勋的处境表示同情 ， 并提到了自己 2023 年被 OpenAI 董事会罢免的经历 。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/052.htm",
+          "time": "09:03",
+          "origin": "auto"
+        },
+        {
+          "title": "超频玩家借助 AI 修改主板 BIOS：尝试复活华擎 SkyOC BCLK 超频功能，绕过英特尔非 K 处理器限制",
+          "summary": "IT之家 11 月 17 日消息，据 Tom's Hardware 昨日报道，一名硬件超频爱好者尝试借助 AI 修改主板 BIOS，重新启用华擎此前已经取消的 SkyOC 技术，以绕过英特尔非 K 系列处理器的超频限制。 Hardware 360º 在 X 上发布消息称，他借助 ChatGPT Astra，对两个不同版本的华擎 BIOS 进行了反编译和代码对比。…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/053.htm",
+          "time": "09:04",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "highlights": [
@@ -3381,23 +3571,6 @@
           "source": "Google AI",
           "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
           "time": "23:00",
-          "origin": "auto"
-        }
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "highlights": [
-        "New experts join Google’s AI & Economy team"
-      ],
-      "items": [
-        {
-          "title": "New experts join Google’s AI & Economy team",
-          "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-          "category": "研究突破",
-          "source": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-          "time": "22:00",
           "origin": "auto"
         }
       ]
