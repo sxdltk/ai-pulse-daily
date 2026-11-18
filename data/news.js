@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-17 21:43:25",
+  "updatedAt": "2026-11-18 09:46:10",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -480,23 +480,214 @@ window.AI_NEWS_DATA = {
     "7171b7f97273b822",
     "207893e93545a552",
     "d95ed5affe749e80",
-    "b08387c3342acc94"
+    "b08387c3342acc94",
+    "cb8a650ba8662a69",
+    "b50fec8271e8ccd8",
+    "992735717d846165",
+    "d8e480edb4057f5e",
+    "4577bc6bff7e6933",
+    "3ba094a80ede60ab",
+    "9c025d42f0b54963",
+    "8613752cbbec5218",
+    "526dfbdd46c0911e",
+    "d4caf7294a758059",
+    "6e51572c6d8924e7",
+    "21102c1d6b5b8c86",
+    "daf44e67c2f53109",
+    "6477858893deb10f",
+    "07f43e8e02d4ff07",
+    "b1970a3a773635e8",
+    "b0cf14dbb1580371",
+    "a77a957352f8f67b"
   ],
   "lastRun": {
-    "okSources": 14,
+    "okSources": 13,
     "totalSources": 15,
     "failedSources": [
-      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
+      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
+      "钛媒体 -> HTTPError: HTTP Error 503: Service Unavailable"
     ],
-    "newItems": 0,
+    "newItems": 18,
     "skipped": {
-      "old": 3,
-      "non_ai": 138,
-      "dup": 64
+      "old": 2,
+      "non_ai": 118,
+      "dup": 47
     },
-    "durationSec": 22.4
+    "durationSec": 6.7
   },
   "days": [
+    {
+      "date": "2026-11-18",
+      "highlights": [
+        "“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶",
+        "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+        "微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini"
+      ],
+      "items": [
+        {
+          "title": "Google makes it easier to use Gemini without training AI on your data",
+          "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+          "category": "行业动态",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+          "time": "00:50",
+          "origin": "auto"
+        },
+        {
+          "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+          "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+          "time": "02:04",
+          "origin": "auto"
+        },
+        {
+          "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+          "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, …",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+          "time": "02:58",
+          "origin": "auto"
+        },
+        {
+          "title": "谷歌更新 Gemini 隐私控制，可保留聊天记录且不参与 AI 训练",
+          "summary": "IT之家 11 月 18 日消息，谷歌昨日发布公告，宣布更新 Gemini 应用程序的控制选项， 允许用户自行决定是否将 Gemini 聊天记录用于 AI 模型训练 。 谷歌表示，新增的设置选项允许用户在保留 Gemini 聊天记录的同时，选择不将聊天记录用于生成式 AI 模型训练。用户仍然可以调整聊天记录的保存期限，并手动查看或删除聊天记录。 IT之家注意到，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/581.htm",
+          "time": "06:51",
+          "origin": "auto"
+        },
+        {
+          "title": "“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶",
+          "summary": "IT之家 11 月 18 日消息，微软昨日（11 月 17 日）发布推出 MAI Image 2.7 和 MAI Image 2.7 Flash 图像生成与编辑模型，并上线由 Flash 驱动的交互式创作空间 Canvas。 费用方面，两款模型已在 Microsoft Foundry 开启公开预览，官方公布的每千张图片成本分别约为 35 美元 （IT之家注：现汇率约合 233.…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/582.htm",
+          "time": "06:55",
+          "origin": "auto"
+        },
+        {
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+          "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+          "time": "07:04",
+          "origin": "auto"
+        },
+        {
+          "title": "微软最具性价比网安 AI 模型 MAI Cyber 2 Flash 登场：性能比肩 GPT-6 Astra，每任务成本约为其 2%",
+          "summary": "IT之家 11 月 18 日消息，微软 AI 部门于 11 月 17 日发布全新专用安全模型 MAI Cyber 2 Flash， 定位为面向企业安全团队的“高性价比”网络安全 AI。 该模型旨在帮助安全人员全天候发现软件漏洞、推荐修复方案并调查网络威胁，同时显著降低大规模使用 AI 的算力与成本。 微软称，…",
+          "category": "模型发布",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/585.htm",
+          "time": "07:06",
+          "origin": "auto"
+        },
+        {
+          "title": "微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini",
+          "summary": "IT之家 11 月 18 日消息， 微软昨日（11 月 17 日）宣布正式推出 Microsoft-Decision-1.1 决策 AI 模型， 目前已在 Microsoft Foundry、OpenRouter 和 Vercel 平台上线。 该模型面向企业级软件中的高频决策场景，可帮助应用在路由、分类、优先级排序、内容核验和工作流控制等任务中快速做出结构化判断。 价格方面，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/593.htm",
+          "time": "07:40",
+          "origin": "auto"
+        },
+        {
+          "title": "英伟达 Q3 电话会议：公司业务一切照常，不会急于寻找黄仁勋继任者",
+          "summary": "北京时间 11 月 18 日，AI 芯片巨头英伟达公司今天发布了 2027 财年第三季度财报。财报发布后，英伟达临时 CEO 科莱特 · 克雷斯 (Colette Kress)、新任董事会主席哈维 · 琼斯 (Harvey Jones) 出席了电话会议，回答分析师提问。 这是黄仁勋辞去 CEO 后，英伟达首次举行财报电话会议，许多问题正等待解答。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/594.htm",
+          "time": "07:42",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1118：黄仁勋称愿重返英伟达任 CEO 董事会主席明确反对复职；中国“灵晟”蝉联全球超算榜首；GPT-6.2Astra 和 Sol 发布；苹果回应服务大规模中断...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 18 日星期三，今天的重要科技资讯有： 1. 英伟达董事会主席明确表态：无意让黄仁勋回归重新担任 CEO 英伟达新任董事长哈维・琼斯在财报电话会议上表示，黄仁勋因个人行为违反公司准则辞任，董事会一致接受辞呈且无意让其回归。此前黄仁勋曾表态愿意重返公司出任 CEO。>> 查看详情 2.…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/595.htm",
+          "time": "07:43",
+          "origin": "auto"
+        },
+        {
+          "title": "微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍",
+          "summary": "IT之家 11 月 18 日消息，昨日（11 月 17 日）召开的 Ignite 2026 活动中，微软宣布旗下第二代自研人工智能加速器 Maia 200 现已正式投入规模化生产， 并开始在数据中心运行微软最大规模的前沿 AI 大模型。 与“领先 GPU 基础设施”相比，该加速器在 Microsoft Teams、Copilot 和 Cowork 等内置 AI 功能中，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/597.htm",
+          "time": "07:51",
+          "origin": "auto"
+        },
+        {
+          "title": "爱尔兰叫停X：禁止用AI智能体抓取第三方数据训练Grok",
+          "summary": "爱尔兰数据保护委员会（DPC）证实，已勒令X停止将AI智能体采集的数据用于AI模型训练。这家马斯克旗下社交巨头已经暂停使用其Grok Bot AI智能体采集的第三方数据来训练AI系统。该智能体自10月末开始抓取这类数据。爱尔兰数据保护委员会专员戴尔·桑德兰在采访中表示，监管机构近几周对该类数据处理行为提出了“重大关切”。“我们要求他们暂停这项数据处理，…",
+          "category": "政策监管",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4074539437888390?f=rss",
+          "time": "08:42",
+          "origin": "auto"
+        },
+        {
+          "title": "英伟达临时CEO称AI需求旺盛，预计将持续至2028年",
+          "summary": "英伟达临时CEO兼首席财务官科莱特·克雷斯当地时间11月17日在第三财季财报电话会上表示，目前市场需求非常庞大，大型企业正持续开发各类智能体解决方案和新模型，客户近期仍在不断要求英伟达增加供货。她预计，相关需求不仅将在2027财年持续，还会延续至2028财年。克雷斯还表示，英伟达将2028财年营收增长预期从此前的约70%上调至约75%，…",
+          "category": "模型发布",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4074538601387141?f=rss",
+          "time": "08:45",
+          "origin": "auto"
+        },
+        {
+          "title": "派早报：国区 App Store 将 AIGC 合规设为上架必填、OpenAI 发布 GPT-6.2 Astra 等",
+          "summary": "iPhone Duo 测试 2D 人脸解锁功能，松下发布紧凑型电影摄影机 SHX1 等。 查看全文",
+          "category": "政策监管",
+          "source": "少数派",
+          "url": "https://sspai.com/post/119210",
+          "time": "08:46",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道",
+          "summary": "OpenAI 发布 GPT-6.2 Astra 和 Sol，强化编程、电脑操作与专业工作 OpenAI 正式发布 GPT-6.2 Astra 和 GPT-6.2 Sol 两款模型，重点提升专业任务、Coding、电脑操作和执行效率，并降低部分使用成本。新模型将应用于 ChatGPT Work、Codex 和 API。 其中，Astra 面向复杂编程和专业工作，…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374109",
+          "time": "08:48",
+          "origin": "auto"
+        },
+        {
+          "title": "微软 CEO 纳德拉称自己是“AGI 信徒”，但否认 AI 具有意识",
+          "summary": "IT之家 11 月 18 日消息，据科技媒体 The Verge 今天报道，微软 CEO 萨提亚 · 纳德拉在一场圆桌讨论中表示， 自己如今已成为“AGI 信徒”（AGI-pilled） 。 IT之家从原报道获悉，纳德拉表示：“我之所以相信 AGI，是因为我们需要在经济层面思考，围绕 AGI，政治经济体系将会形成怎样的组织结构？” 不过这名 CEO 认为，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/028/609.htm",
+          "time": "08:52",
+          "origin": "auto"
+        },
+        {
+          "title": "英伟达季度营收破千亿美金，但昨日的世界已经远去",
+          "summary": "作者 | 邱晓芬 编辑 | 袁斯来 在黄仁勋离职卷起的风暴眼中，英伟达交出了近年来可能最受瞩目的财报。 北京时间11月18日凌晨，英伟达发布2027财年第三季度财报。这是原CFO Colette Kress接任临时CEO以来，英伟达的首份成绩单。 财报数据显示，英伟达第三季度营收达到 1158亿美元 ， 同比增长103%； 净利润达到 653亿美元 ， 同比增长105% ，…",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4074562529645445?f=rss",
+          "time": "09:01",
+          "origin": "auto"
+        },
+        {
+          "title": "三星电机与英伟达扩大在AI芯片组件方面的合作",
+          "summary": "三星电子旗下的电子元件子公司三星电机周三表示，已同意扩大与英伟达的合作，以支持这家美国芯片制造商提升其加速计算平台的产量，从而满足全球对人工智能（AI）基础设施日益增长的需求。三星电机指出，此次合作扩展是在双方上个月建立的半导体封装基板供应战略合作伙伴关系基础上进行的，重点在于增加用于英伟达下一代图形处理器（GPU）的先进封装基板的供应量。作为协议的一部分，…",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4074592872518793?f=rss",
+          "time": "09:30",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-17",
       "highlights": [
