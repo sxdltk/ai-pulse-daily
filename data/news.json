@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 21:45:27",
+  "updatedAt": "2026-11-19 09:43:50",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -496,7 +496,25 @@
     "07f43e8e02d4ff07",
     "b1970a3a773635e8",
     "b0cf14dbb1580371",
-    "a77a957352f8f67b"
+    "a77a957352f8f67b",
+    "a92494c5abe775a9",
+    "3705bdd576390459",
+    "19ed1fbcfd81cabc",
+    "468ba796b010be78",
+    "b9a9d8ca0e316528",
+    "1c886e5e2f35d682",
+    "43d479bf2d61f44f",
+    "67636ad762c9e1f7",
+    "2c72e639ea79aa2a",
+    "a94fff6beba024ec",
+    "cbb983d72227d782",
+    "26131d2d494b34c8",
+    "d7fe5db817f6f112",
+    "3c466ba5f7d89ce6",
+    "3bff47a54dc25de5",
+    "56b71e0f992b4725",
+    "7fe0956adf621aca",
+    "9ab1ebe3c1312b38"
   ],
   "lastRun": {
     "okSources": 14,
@@ -504,15 +522,187 @@
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 18,
     "skipped": {
-      "old": 2,
-      "non_ai": 130,
-      "dup": 51
+      "old": 1,
+      "non_ai": 122,
+      "dup": 42
     },
-    "durationSec": 4.9
+    "durationSec": 4.8
   },
   "days": [
+    {
+      "date": "2026-11-19",
+      "highlights": [
+        "供应链确认 OpenAI 首款 AI 硬件年底启动出货：前苹果设计师 Jony Ive 合作打造，立讯精密等中国厂商深度参与",
+        "Remember the frontier AI pause? Chip companies don’t either",
+        "OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天"
+      ],
+      "items": [
+        {
+          "title": "Remember the frontier AI pause? Chip companies don’t either",
+          "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently…",
+          "category": "算力硬件",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+          "time": "00:25",
+          "origin": "auto"
+        },
+        {
+          "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+          "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+          "time": "01:32",
+          "origin": "auto"
+        },
+        {
+          "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+          "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+          "time": "03:56",
+          "origin": "auto"
+        },
+        {
+          "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+          "summary": "The Trump administration announced plans to clamp down on China’s access to AI chips. Apparently, the cheating scandal of the century was the motivation they were missing.",
+          "category": "算力硬件",
+          "source": "Wired AI",
+          "url": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+          "time": "05:15",
+          "origin": "auto"
+        },
+        {
+          "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+          "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+          "time": "06:58",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 发布芯片设计最新成果：AMD 旗舰 GPU PPA 最高提升 14%，自研芯片 Jalapeño 面积最高减少 13%",
+          "summary": "IT之家 11 月 19 日消息，OpenAI 于当地时间 11 月 18 日发布最新技术报告《Advancing chip design with OpenAI models》，披露了利用 AI 模型辅助芯片设计的最新进展。 据介绍，OpenAI 已将相关技术应用于自研推理芯片 Jalapeño，以及 AMD 下一代 GPU 和 CPU 的设计优化，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/135.htm",
+          "time": "07:07",
+          "origin": "auto"
+        },
+        {
+          "title": "2GB 内存的手机也能流畅用 AI，谷歌降低安卓 Gemini App 使用门槛",
+          "summary": "IT之家 11 月 19 日消息，谷歌昨日（11 月 18 日）发布博文， 宣布面向 Android Go 设备开放 Gemini 应用，让内存较小的安卓手机（英文原文中并未提及具体内存容量）也能使用其个人 AI 助手。 谷歌表示通过重新设计应用架构，可以在内存较小的手机上流畅运行 Gemini 的核心体验，从而扩大其个人 AI 助手的用户群体，潜在覆盖人群达数亿人。…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/141.htm",
+          "time": "07:32",
+          "origin": "auto"
+        },
+        {
+          "title": "谷歌推出 Gemini 4 Neon 模型，编程 AI 智能体指数超 Claude Opus 5.5 排第一",
+          "summary": "IT之家 11 月 19 日消息，谷歌今天（11 月 18 日）宣布推出 AI 模型 Gemini 4 Neon， 主攻复杂编程、科学研究和企业工作流程，更好平衡推理能力、任务处理速度与成本 ，目前已开始向开发者、企业及部分付费订阅用户开放。 费用方面，Gemini 4 Neon 在 API 调用方面，…",
+          "category": "模型发布",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/144.htm",
+          "time": "07:53",
+          "origin": "auto"
+        },
+        {
+          "title": "8点1氪丨Anthropic IPO定价83美元；iPhone Duo铰链风波升级；浑水宣布做空英伟达",
+          "summary": "今日热点导览 OpenAI发布GPT-6.2 Astra，GPT-6.2双模型分层定价 董明珠APEC现场寻找合作机会，称格力研发机器人十几年了 马斯克：预计SpaceX不会向OpenAI出售任何算力 大疆Osmo Pocket 4系列涨价，…",
+          "category": "融资并购",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4075920892581000?f=rss",
+          "time": "08:01",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天",
+          "summary": "IT之家 11 月 19 日消息，OpenAI 今天（11 月 18 日）发布题为《管理前沿 AI 风险：从训练到部署》的安全政策说明， 首次系统披露研发、内部使用到公开发布阶段，如何在高能力模型的全生命周期中管控风险。 IT之家援引博文介绍，OpenAI 称由于前沿模型的能力正快速增强，因此理解、对齐和保障模型的能力必须“始终领先一步”。公司维持引入“安全案例”流程，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/145.htm",
+          "time": "08:09",
+          "origin": "auto"
+        },
+        {
+          "title": "微软 CEO 纳德拉谈 6 万人自愿离职计划：部分团队尚未适应 AI 转型，公司希望给予员工更多自主权、让合适的人才进入合适的岗位",
+          "summary": "IT之家 11 月 19 日消息，当地时间 11 月 16 日，微软 CEO 萨提亚 · 纳德拉在接受《The Pragmatic Engineer》播客节目采访时谈到了一些大家关心的问题。 当被问及公司面向约 6 万名员工推出自愿离职计划，是否意味着微软将借助 AI 提高效率并进一步裁员。 对此，纳德拉没有直接给出肯定或否定的答复，而是坦言，随着 AI 改变软件开发方式，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/147.htm",
+          "time": "08:19",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI首款AI硬件或于年底启动出货，立讯精密等中国供应商参与",
+          "summary": "据供应链消息，OpenAI首款AI端侧硬件产品或将于今年年底启动出货，多家中国厂商参与该项目。其中，立讯精密独家承担整机制造，并供应核心零部件。关于这款产品形态OpenAI尚未正式公布。不过，此前有消息称，OpenAI与苹果前首席设计官Jony Ive团队合作开发的首款消费级硬件，将是一款类似“甜甜圈”形状的无屏AI设备，集成麦克风、扬声器、摄像头及多种传感器，…",
+          "category": "行业动态",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4075950980699011?f=rss",
+          "time": "08:31",
+          "origin": "auto"
+        },
+        {
+          "title": "供应链确认 OpenAI 首款 AI 硬件年底启动出货：前苹果设计师 Jony Ive 合作打造，立讯精密等中国厂商深度参与",
+          "summary": "IT之家 11 月 19 日消息，每日经济新闻今日援引供应链消息，OpenAI 首款 AI 硬件产品计划于 2026 年底启动出货，多家中国厂商参与该项目，其中立讯精密独家承担整机制造，并同时供应核心零部件。关于这款硬件的具体形态，OpenAI 官方尚未正式公布。 此前有报道称，该设备由 OpenAI 与前苹果首席设计官 Jony Ive 的 LoveFrom 工作室合作开发，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/152.htm",
+          "time": "08:36",
+          "origin": "auto"
+        },
+        {
+          "title": "中信建投：建议关注具身智能与国产算力板块",
+          "summary": "36氪获悉，中信建投研报指出，通用大模型快速切入机器人任务规划层，但精密力控仍是落地瓶颈；本体产能爬坡、供给曲线抬升，北京地方产业政策同步加码算力、数据底座与场景建设。海外高端芯片管制持续收紧，境外算力租赁通道不确定性抬升。国产算力芯片供需两旺，叠加封装、HBM上游供给改善以及海外供给收紧，超节点订单落地，行业景气与替代逻辑共振。AI硬件链条景气度持续，…",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4075937197937799?f=rss",
+          "time": "08:39",
+          "origin": "auto"
+        },
+        {
+          "title": "Cassava寻求筹集10亿美元购买英伟达芯片",
+          "summary": "据报道，非洲科技集团Cassava Technologies正寻求筹集最多10亿美元，用于购买英伟达芯片，以便在整个非洲大陆建设计算基础设施。此次融资是Cassava创始人、津巴布韦亿万富翁斯特赖夫·马西伊瓦（Strive Masiyiwa）推动的一项宏大计划的一部分，旨在抓住人工智能热潮，在非洲建设本土计算基础设施。大部分融资资金将用于购买芯片，为非洲各地的数据中心提供算力，…",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4075940799583366?f=rss",
+          "time": "08:53",
+          "origin": "auto"
+        },
+        {
+          "title": "奥尔特曼称 OpenAI 没法让所有人满意，必须平衡 AI 安全与发展",
+          "summary": "IT之家 11 月 19 日消息，美国当地时间 11 月 18 日周三召开的 DealBook 峰会上， OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）表示，其公司正在“安全”与“发展”寻找 AI 平衡点。 奥尔特曼和 OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）共同参与本次活动，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/158.htm",
+          "time": "09:00",
+          "origin": "auto"
+        },
+        {
+          "title": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
+          "summary": "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为公司高管和董事购买了责任保险，最高赔付额度达 9.5 亿美元，但公司自身没有购买通常用于覆盖证券诉讼辩护费用、和解金与判决赔偿的企业责任保险。 这意味着，如果围绕黄仁勋突然辞去 CEO 职务引发的诉讼最终胜诉，涉及股价暴跌的赔偿需要由公司自行承担。…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374177",
+          "time": "09:03",
+          "origin": "auto"
+        },
+        {
+          "title": "AMD 发文“热爱游戏玩家”引争议，苏姿丰此前曾表态“数据中心优先”",
+          "summary": "IT之家 11 月 19 日消息，当地时间 11 月 17 日，AMD 日本官方账号在 X 上发文称，AMD 热爱游戏玩家，并表示公司最重视与玩家之间的交流，而这正是 AMD 的优势。 不过，这番表态很快引发玩家之间的讨论，原因是不到两周前，AMD CEO 苏姿丰刚刚公开表示，AMD 是一家“数据中心优先”（Data Center First）的公司。 在此之前，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/168.htm",
+          "time": "09:33",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "highlights": [
