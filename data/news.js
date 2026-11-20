@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-19 21:47:00",
+  "updatedAt": "2026-11-20 09:38:12",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -516,7 +516,25 @@ window.AI_NEWS_DATA = {
     "3bff47a54dc25de5",
     "56b71e0f992b4725",
     "7fe0956adf621aca",
-    "9ab1ebe3c1312b38"
+    "9ab1ebe3c1312b38",
+    "14e3bbf22af8cc79",
+    "490b26e45c81e563",
+    "07a461404da94874",
+    "e8aabb7897d237b3",
+    "31d6e0fe8f807c91",
+    "3205d610832007a3",
+    "e17a9069b8c0ba1e",
+    "5624e8e7b87664ae",
+    "d50f28647f94f07f",
+    "47c2680beb4345dd",
+    "43241e1e66a73d43",
+    "989748a2d1204a82",
+    "8b5b6eda81c08b89",
+    "beff7616fd125c49",
+    "eee3db95b85228d6",
+    "408b6b17431adeb2",
+    "85a37eee5eccbe04",
+    "33d854ff0f2b26f3"
   ],
   "lastRun": {
     "okSources": 14,
@@ -524,15 +542,187 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 18,
     "skipped": {
-      "old": 1,
-      "non_ai": 127,
-      "dup": 46
+      "old": 0,
+      "non_ai": 134,
+      "dup": 35
     },
-    "durationSec": 10.0
+    "durationSec": 7.5
   },
   "days": [
+    {
+      "date": "2026-11-20",
+      "highlights": [
+        "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+        "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
+        "苹果正自研 AI 智能体：可操控设备、浏览网页、编写代码，以期与 OpenAI、Anthropic 竞争"
+      ],
+      "items": [
+        {
+          "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+          "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+          "time": "00:19",
+          "origin": "auto"
+        },
+        {
+          "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+          "summary": "The company’s alternate-universe internet serves as a massive sandbox that allows the Chrome team to properly train AI browsing agents—without the risk of them going rogue.",
+          "category": "行业动态",
+          "source": "Wired AI",
+          "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+          "time": "01:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+          "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank acc…",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+          "time": "01:38",
+          "origin": "auto"
+        },
+        {
+          "title": "Google gives Gemini the ability to use your Mac for you",
+          "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+          "category": "产品更新",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "time": "02:09",
+          "origin": "auto"
+        },
+        {
+          "title": "These tech outages are giving Y2K, AI agent style",
+          "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity ex…",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+          "time": "05:42",
+          "origin": "auto"
+        },
+        {
+          "title": "谷歌 Gemini 现可直接操作苹果 Mac 电脑，可跨应用操作、制作 PPT、填写表单",
+          "summary": "IT之家 11 月 20 日消息，当地时间 11 月 19 日，谷歌宣布为 macOS 版 Gemini 应用推出全新的“电脑操控”（Computer Use）功能，允许 AI 直接操作 Mac 上的桌面应用、访问本地文件及浏览网页，独立完成多步骤任务（IT之家注：该功能目前面向美国地区的英语用户逐步开放）。 根据谷歌官方介绍，用户只需通过自然语言描述任务，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/749.htm",
+          "time": "06:48",
+          "origin": "auto"
+        },
+        {
+          "title": "苹果正自研 AI 智能体：可操控设备、浏览网页、编写代码，以期与 OpenAI、Anthropic 竞争",
+          "summary": "IT之家 11 月 20 日消息，彭博社马克 · 古尔曼（Mark Gurman）今日报道称，苹果正在开发自主 AI 智能体，计划让 AI 代替用户执行设备操控、应用操作、网页浏览和软件编程等任务，进一步进入由 OpenAI、Anthropic、Meta 等公司参与竞争的 AI 智能体市场。 古尔曼发现，苹果已经在官网发布招聘信息，其中一份职位招聘面向高级工程经理，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/750.htm",
+          "time": "06:56",
+          "origin": "auto"
+        },
+        {
+          "title": "微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线",
+          "summary": "IT之家 11 月 20 日消息，本月召开的 Ignite 2026 活动中，微软宣布携手英伟达加速本地 AI 体验落地，让 AI 从“必须联网才能用”的云端服务，逐步走向“能在自己电脑上运行”的本地体验。 根据双方公布的合作愿景，搭载英伟达 RTX Spark 的 Windows PC 能运行本地大语言模型能力，让用户不必完全依赖网络，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/747.htm",
+          "time": "07:09",
+          "origin": "auto"
+        },
+        {
+          "title": "Apple is hiring engineers to build its own AI agent",
+          "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services.…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+          "time": "07:13",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；苹果 App Store 惊现安卓虚拟机应用；比亚迪发布方向盘可折叠的方程豹钛 9...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 20 日星期五，今天的重要科技资讯有： 1. Anthropic 完成史上最大规模 IPO，上市估值达 1.5 万亿美元 Anthropic 的发行价定为每股 83 美元（现汇率约合 554.5 元人民币），高于上周公布的预期区间，完全稀释后市值达到 1.5 万亿美元（现汇率约合 10.02 万亿元人民币）。…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/755.htm",
+          "time": "07:21",
+          "origin": "auto"
+        },
+        {
+          "title": "8点1氪丨Anthropic上市首日暴涨17%；宗馥莉原“心腹”起诉娃哈哈；OpenAI进军手机领域",
+          "summary": "今日热点导览 Kimi API服务出现可用性下降，官方调查中 谷歌推出Gemini 4 Neon模型 马斯克点赞深圳，称是中国的超级粉丝 欧莱雅将收购阿玛尼15%股权 Meta因面临法律挑战暂停新股发行计划 TOP 3大新闻 Anthropic上市首日暴涨17% 人工智能公司Anthropic正式登陆纳斯达克，发行价为83美元/股，开盘报111.5美元，较发行价上涨34%。…",
+          "category": "融资并购",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4077339293242504?f=rss",
+          "time": "08:04",
+          "origin": "auto"
+        },
+        {
+          "title": "只改一处代码，谷歌 AI 智能体优化 Harness 后任务成功率提升 8 倍",
+          "summary": "IT之家 11 月 20 日消息，谷歌研究人员当地时间 11 月 17 日最新发表的研究论文《Harnesses That Improve Themselves》（《能够自我改进的 Harness》）显示，通过让 AI 智能体逐步修改自身运行框架，并对每次修改进行验证，可以显著提高软件工程任务的完成率。 在一项 SWE-bench Lite 测试中，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/766.htm",
+          "time": "08:19",
+          "origin": "auto"
+        },
+        {
+          "title": "曝 Meta 全新 AI 硬件 Muse Charm 售 300 美元，附赠一年 5G 流量",
+          "summary": "IT之家 11 月 20 日消息，据《The Information》今日报道，Meta 旗下新款 AI 硬件设备 Muse Charm 的售价约为 300 美元 （IT之家注：现汇率约合 2,008 元人民币） ，并将附赠最长 12 个月的 5G 流量服务（Verizon 提供）。 Muse Charm 是一款配备屏幕的小型 AI 设备，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/771.htm",
+          "time": "08:37",
+          "origin": "auto"
+        },
+        {
+          "title": "苹果公司研发自己的AI智能体，拟与OpenAI和Anthropic竞争",
+          "summary": "苹果公司正在开发可以代表用户完成任务的自主AI智能体，并希望进入这个已被OpenAI、Anthropic PBC、Meta Platforms Inc.及其他公司占据的快速增长的市场。苹果公司本周在网站上列出的招聘信息揭示了这一计划。其中一则信息称，苹果正在为一款主动式、智能AI助手寻找一位高级工程师经理。根据招聘信息，…",
+          "category": "行业动态",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4077376355472258?f=rss",
+          "time": "08:41",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 开放 GPT-Live-1.1 API：支持实时双向对话，智能体可边聊天边处理复杂任务",
+          "summary": "IT之家 11 月 20 日消息，OpenAI 今日宣布向开发者开放 GPT-Live-1.1 API 语音模型，允许第三方开发者将其集成到自己的应用程序中，构建能够实时聆听、回应并执行复杂任务的 AI 语音智能体。 据 OpenAI 介绍，GPT-Live-1.1 是 GPT-Live-1 的升级版本，具备全双工语音交互能力，可以同时聆听和说话，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/776.htm",
+          "time": "08:50",
+          "origin": "auto"
+        },
+        {
+          "title": "Apple may be developing its own AI agent that runs your Mac",
+          "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+          "time": "08:56",
+          "origin": "auto"
+        },
+        {
+          "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
+          "summary": "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元 11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市， 首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%。 该股开盘即报 111.…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374235",
+          "time": "09:04",
+          "origin": "auto"
+        },
+        {
+          "title": "国内推出首个智能座舱 AI 分级评价体系，共分为 C1 到 C5 五级",
+          "summary": "IT之家 11 月 20 日消息，据央视新闻今日报道，随着新能源汽车快速普及，日前，中国汽车技术研究中心推出了国内首个汽车智能座舱 AI 能力分级评价体系。 IT之家从报道获悉，这次中汽中心推出的 AI 能力分级评价体系， 共分为 C1 到 C5 五级 ，把座舱 AI 主观体验转化为可量化的评价指标，覆盖八大能力和行为属性、九大用车场景。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/029/781.htm",
+          "time": "09:11",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "highlights": [
