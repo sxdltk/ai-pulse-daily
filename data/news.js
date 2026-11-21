@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-21 09:41:59",
+  "updatedAt": "2026-11-21 21:29:24",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -560,13 +560,13 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 18,
+    "newItems": 0,
     "skipped": {
       "old": 0,
-      "non_ai": 147,
-      "dup": 35
+      "non_ai": 156,
+      "dup": 42
     },
-    "durationSec": 4.5
+    "durationSec": 7.9
   },
   "days": [
     {
