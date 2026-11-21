@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-20 21:45:20",
+  "updatedAt": "2026-11-21 09:41:59",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -534,7 +534,25 @@ window.AI_NEWS_DATA = {
     "eee3db95b85228d6",
     "408b6b17431adeb2",
     "85a37eee5eccbe04",
-    "33d854ff0f2b26f3"
+    "33d854ff0f2b26f3",
+    "de7f0c7ba6a1346f",
+    "b041cf3f2e7823c4",
+    "d57150b8b46fa624",
+    "fd0c9e70e1edbb45",
+    "b3771af6a127c1b2",
+    "9c1d48c7dcaa4346",
+    "3de479c182e2d6a8",
+    "4cbede2473a8bb58",
+    "f1fa70034aa3d36f",
+    "37e4f3902f068607",
+    "45e65c953b229e31",
+    "e6fc30ff1f1e98c4",
+    "5bd05aa99882c5b0",
+    "88743ad33eb3d7da",
+    "db04732a10e8f182",
+    "b9ca2a16ba64cc43",
+    "f70913a8cced41ad",
+    "42d784ce14959ac0"
   ],
   "lastRun": {
     "okSources": 14,
@@ -542,15 +560,187 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 18,
     "skipped": {
       "old": 0,
-      "non_ai": 150,
-      "dup": 43
+      "non_ai": 147,
+      "dup": 35
     },
-    "durationSec": 18.4
+    "durationSec": 4.5
   },
   "days": [
+    {
+      "date": "2026-11-21",
+      "highlights": [
+        "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+        "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+        "OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑"
+      ],
+      "items": [
+        {
+          "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+          "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that h…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "time": "00:57",
+          "origin": "auto"
+        },
+        {
+          "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+          "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new…",
+          "category": "算力硬件",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+          "time": "02:50",
+          "origin": "auto"
+        },
+        {
+          "title": "独占特性确认：华为 Mate 系列旗舰机“无缘”OSTA 小星芒、AI 屏等功能",
+          "summary": "IT之家 11 月 21 日消息，首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于昨日下午正式发布 ，叠加国补后 4999 元起。华为星芒品牌总经理刘赫开通微博， 透露最受欢迎的 16G 版本已经在全平台售罄 。 ▲ IT之家开箱：华为全新子品牌星芒 OSTA O1 Pro 手机实拍 IT之家注意到，刘赫还在自己微博的评论区与网友展开了互动，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/284.htm",
+          "time": "03:20",
+          "origin": "auto"
+        },
+        {
+          "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+          "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+          "time": "03:32",
+          "origin": "auto"
+        },
+        {
+          "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+          "summary": "Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of…",
+          "category": "算力硬件",
+          "source": "Wired AI",
+          "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+          "time": "03:52",
+          "origin": "auto"
+        },
+        {
+          "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+          "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+          "category": "研究突破",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+          "time": "03:53",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+          "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+          "category": "算力硬件",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+          "time": "05:47",
+          "origin": "auto"
+        },
+        {
+          "title": "Google rolls out new search homepage with AI chat history and no search button",
+          "summary": "Google search is making it even easier to access AI tools on the search page.",
+          "category": "产品更新",
+          "source": "Ars Technica AI",
+          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+          "time": "05:58",
+          "origin": "auto"
+        },
+        {
+          "title": "谷歌搜索首页新增 AI 侧边栏，让你“接着聊”此前提问话题",
+          "summary": "IT之家 11 月 21 日消息，谷歌搜索产品副总裁罗比 · 斯坦（Robby Stein）昨日（11 月 20 日）在 X 平台发布推文，宣布 Google Search 首页将迎来新一轮调整， 面向全球桌面端逐步推出可折叠侧边栏，让用户直接从首页查找和继续此前的 AI 搜索对话。 根据演示，用户点击页面左侧的灰色条，即可展开侧边栏，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/287.htm",
+          "time": "06:53",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑",
+          "summary": "IT之家 11 月 21 日消息，OpenAI 今日宣布向 ChatGPT Plus 订阅用户开放 Spaces 协作空间功能。 该功能此前仅面向 Pro、Business 和 Enterprise 等付费方案用户提供，现在每月支付 20 美元 （IT之家注：现汇率约合 133.8 元人民币） 的 Plus 用户也可以创建自己的空间，与其他用户共同整理资料、协作处理文档和文件。…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/288.htm",
+          "time": "06:57",
+          "origin": "auto"
+        },
+        {
+          "title": "匿名 AI 模型 Gestalt 登顶 Contra 前沿设计榜单：性能远超 Claude Fable 5.2、GPT-6.1 Sol，Elo 评分超越人类参考作品",
+          "summary": "IT之家 11 月 21 日消息，Contra Labs 于当地时间 11 月 18 日发布 AI 设计能力评测榜单 Frontier Design Benchmark。 其中，一款代号为 Gestalt、目前处于隐身开发状态（Stealth）的匿名 AI 模型成为最大黑马，在专业设计师盲测中以明显优势登顶，超过 Anthropic 的 Claude Fable 5.…",
+          "category": "模型发布",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/291.htm",
+          "time": "07:17",
+          "origin": "auto"
+        },
+        {
+          "title": "国际版三星 Galaxy S27 Pro 手机跑分曝光：Exynos 2700 芯片、12GB 内存",
+          "summary": "IT之家 11 月 21 日消息，型号“SM-S957B”的三星手机昨日（11 月 20 日）现身 GeekBench 跑分库， 7.1.0 版本单核成绩为 3,061 分，多核成绩为 10,967 分，相关线索表明该机上市后为三星 Galaxy S27 Pro。 IT之家注：根据 GSMA IMEI 数据库此前公示的信息，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/295.htm",
+          "time": "07:32",
+          "origin": "auto"
+        },
+        {
+          "title": "440 亿美元！阿波罗与高盛完成迄今规模最大 GPU 融资定价，SpaceX 要买英伟达芯片",
+          "summary": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，阿波罗全球管理公司与高盛宣布，已完成约 440 亿美元 （IT之家注：现汇率约合 2,944.47 亿元人民币） 优先及次级票据融资定价， 资金将用于为 SpaceX 购买 GPU 及相关设备 。该交易因投资者需求强劲而获得超额认购并扩大规模，成为迄今规模最大的 GPU 融资交易。 阿波罗与高盛共同牵头此次融资，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/296.htm",
+          "time": "07:34",
+          "origin": "auto"
+        },
+        {
+          "title": "黎曼猜想真被 Claude 证明了？Anthropic 数学家仅发布 Lean 代码，陶哲轩称验证仍需时间",
+          "summary": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Levent Alpöge）宣称他与 Claude 合作，发现了黎曼猜想及其推广形式广义黎曼猜想（GRH）的证明。 阿尔珀格拥有哈佛大学本科学位和普林斯顿大学数学博士学位，目前在 Anthropic 从事研究工作。他在声明中称，…",
+          "category": "模型发布",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/297.htm",
+          "time": "07:40",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 推出 MedChemBench 基准，评估 AI 辅助药物研发能力",
+          "summary": "IT之家 11 月 21 日消息，当地时间 11 月 20 日，OpenAI 发布 MedChemBench 基准，用于评估 AI 模型在药物化学研究中的推理能力，包括识别分子结构、解读实验结果、比较化合物及预测其性质等。OpenAI 表示，模型在重建分子结构和解释实验依据方面表现较强，但在化合物筛选和数值性质预测方面仍有明显提升空间。 IT之家从官方介绍获悉，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/301.htm",
+          "time": "08:06",
+          "origin": "auto"
+        },
+        {
+          "title": "跌掉一个亚马逊：英伟达市值较 10 月高点蒸发 2.73 万亿美元，纳斯达克创 2020 年 3 月疫情后最差单周表现",
+          "summary": "IT之家 11 月 21 日消息，英伟达股价持续遭遇抛售。当地时间 11 月 20 日周五收盘，英伟达股价下跌 14%，创下 2025 年 5 月以来最低水平。这也是英伟达连续第七周收跌，为 2008 年金融危机以来最长的周线连跌纪录。 据《华尔街日报》今日报道，英伟达当前市值约为 3.03 万亿美元 （IT之家注：现汇率约合 20.28 万亿元人民币） 。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/302.htm",
+          "time": "08:08",
+          "origin": "auto"
+        },
+        {
+          "title": "现价近 7000 欧元的英伟达 RTX 5090 FE 显卡送修后被销毁，平台只愿退原价 2369 欧元",
+          "summary": "IT之家 11 月 21 日消息，Reddit 用户 @xw1y 昨日发帖称，自己送修的一张 NVIDIA GeForce RTX 5090 Founders Edition 显卡，疑似在欧洲零售商 Proshop 的维修合作方手中被销毁或丢弃。 据该用户披露，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/307.htm",
+          "time": "08:44",
+          "origin": "auto"
+        },
+        {
+          "title": "“几乎所有人将永久失业”：Anthropic 研究员预测 2027 年底 AI 在几乎所有领域超越顶尖专家",
+          "summary": "IT之家 11 月 21 日消息，11 月 15 日在接受 Palisade Research 采访时，Anthropic 公司技术团队成员 Tao Lin 预测到 2027 年年底，在编程、电影制作等几乎所有领域， 人工智能（AI）在发展大约还有 1.3 年后，可以媲美或超过世界顶尖人类专家的水平。 IT之家查询公开资料，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/308.htm",
+          "time": "08:53",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "highlights": [
