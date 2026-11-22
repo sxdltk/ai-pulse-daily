@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-21 21:29:24",
+  "updatedAt": "2026-11-22 09:39:16",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -552,7 +552,18 @@ window.AI_NEWS_DATA = {
     "db04732a10e8f182",
     "b9ca2a16ba64cc43",
     "f70913a8cced41ad",
-    "42d784ce14959ac0"
+    "42d784ce14959ac0",
+    "901ff2e97dce6cfe",
+    "384d552b2ad9a9dc",
+    "e32ee5a190dfa1df",
+    "4d14338ba4e3d1e2",
+    "e959f1b35be56916",
+    "1d5e5655dcdb6ff1",
+    "b3bf1c03dfe03946",
+    "2349b9acf575d253",
+    "87d4d9eac85ec49f",
+    "8d5a4c2a25872424",
+    "10a1c7e302a36e63"
   ],
   "lastRun": {
     "okSources": 14,
@@ -560,15 +571,124 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 11,
     "skipped": {
       "old": 0,
-      "non_ai": 156,
-      "dup": 42
+      "non_ai": 158,
+      "dup": 41
     },
-    "durationSec": 7.9
+    "durationSec": 15.3
   },
   "days": [
+    {
+      "date": "2026-11-22",
+      "highlights": [
+        "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息",
+        "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+        "消息称美国证券交易委员会对英伟达潜在会计问题展开调查，股价较 10 月高点腰斩"
+      ],
+      "items": [
+        {
+          "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+          "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+          "time": "00:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Here are the top AI agents that can live in your text messages",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "time": "01:00",
+          "origin": "auto"
+        },
+        {
+          "title": "A tale of two Nvidias",
+          "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+          "time": "05:07",
+          "origin": "auto"
+        },
+        {
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "time": "05:37",
+          "origin": "auto"
+        },
+        {
+          "title": "消息称美国证券交易委员会对英伟达潜在会计问题展开调查，股价较 10 月高点腰斩",
+          "summary": "IT之家 11 月 22 日消息，据路透社 11 月 20 日报道，两位知情人士透露，美国证券交易委员会（SEC）正在对英伟达潜在会计问题展开调查，这家芯片巨头面临的法律困境进一步加剧。 在此之前，《华尔街日报》周二报道称，SEC 正在对英伟达展开调查，但表示无法确定调查的具体重点。上述人士以匿名方式向路透社谈及这些机密问题，他们表示，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/514.htm",
+          "time": "07:07",
+          "origin": "auto"
+        },
+        {
+          "title": "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息",
+          "summary": "IT之家 11 月 22 日消息，开源端到端加密聊天应用 Signal 近日推出 iOS / Android 版更新，默认关闭应用程序内截图功能，以阻止 Siri AI 和 Gemini 等 AI 智能体读取用户私人消息。 Signal 总裁 Meredith Whittaker 表示，系统级 AI 智能体的影响力正不断扩大，这对 Signal 长期建立的隐私机制构成威胁，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/517.htm",
+          "time": "07:28",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1122：曝其他厂商也考虑推出阔直板形态手机；Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家；华为星芒 O1 Pro 定价 5499 元起引争议...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 22 日星期日，今天的重要科技资讯有： 1. 不只是华为，消息称其他厂商也考虑为旗舰产品线引入阔直板形态 博主 @数码闲聊站 21 日下午爆料称，当下手机市场“阔形态”升级势不可挡：除了华为，其他家也考虑在正代旗舰线加入阔形态，与常规直板机双线并行。>> 查看详情 2.…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/518.htm",
+          "time": "07:31",
+          "origin": "auto"
+        },
+        {
+          "title": "群联展示内置 NPU 与 64GB 内存的智能固态硬盘，可直接运行 AI 模型",
+          "summary": "IT之家 11 月 22 日消息，据科技媒体 Tom's Hardware 昨天报道，群联在 SC26 大会中展示两款企业级固态硬盘，专为 AI 场景设计。其中一款甚至带有 NPU 和 64GB 内存，可以直接运行 AI 模型。 IT之家从原报道获悉， 其中一款产品 SSD 内置 NPU（神经网络引擎） 、 64GB 内存 ，带宽达到 130GB/s，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/524.htm",
+          "time": "08:04",
+          "origin": "auto"
+        },
+        {
+          "title": "特锐德、LG抢跑进场，AI抢电抢到气田门口，气电先端走69%份额，真正的账单还在后面",
+          "summary": "数据中心抢购稳定电力，重画美国气电定价与电网调峰；国内东数西算调峰账本同步重算，订单兑现待观察。",
+          "category": "算力硬件",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8213639.html",
+          "time": "08:45",
+          "origin": "auto"
+        },
+        {
+          "title": "全球Meta一家独大，中国AI眼镜为何还在混战？",
+          "summary": "中国AI眼镜，胜负未分。",
+          "category": "行业动态",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8213674.html",
+          "time": "09:02",
+          "origin": "auto"
+        },
+        {
+          "title": "黄仁勋遭董事会罢免主要原因曝光；《GTA6》首发收入 37.9 亿美元，超《复联 4》总票房；马斯克收到上海工厂员工特制边角料手办",
+          "summary": "《GTA6》首发收入达 37.9 亿美元，超越《复仇者联盟 4》总票房 Take-Two Interactive 表示，《侠盗猎车手 6》（GTA6）的预购加上首发当日销售额达到 37.9 亿美元，这不仅创下电子游戏史上最高首发收入纪录，也大概率是娱乐史上所有创意作品中规模最大的首发。这场现象级首发展现了游戏 IP 在商业、文化以及好莱坞层面的巨大价值。…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374300",
+          "time": "09:05",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-21",
       "highlights": [
