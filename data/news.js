@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-22 09:39:16",
+  "updatedAt": "2026-11-22 21:28:41",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -563,7 +563,14 @@ window.AI_NEWS_DATA = {
     "2349b9acf575d253",
     "87d4d9eac85ec49f",
     "8d5a4c2a25872424",
-    "10a1c7e302a36e63"
+    "10a1c7e302a36e63",
+    "fdcc0d6a9669b470",
+    "639a8a73e7a99395",
+    "ae1405b2c751e5c9",
+    "62e0ced42c89727f",
+    "068772da89b32cdf",
+    "eebe9e57824e4b22",
+    "3ab541cfc33bdd50"
   ],
   "lastRun": {
     "okSources": 14,
@@ -571,13 +578,13 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 11,
+    "newItems": 7,
     "skipped": {
       "old": 0,
       "non_ai": 158,
-      "dup": 41
+      "dup": 43
     },
-    "durationSec": 15.3
+    "durationSec": 5.2
   },
   "days": [
     {
@@ -685,6 +692,69 @@ window.AI_NEWS_DATA = {
           "source": "极客公园",
           "url": "http://www.geekpark.net/news/374300",
           "time": "09:05",
+          "origin": "auto"
+        },
+        {
+          "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+          "summary": "头图来源：ChatGPT 生成 11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员现身 Reddit LocalLLaMA 社区，开启了混元团队史上第一场面向全球开发者的公开 AMA。 图片来源：x 两小时内，姚顺雨和混元团队解答了 300 余条开发者提问，从底层架构取舍到长期路线规划，从量化落地经验到开源生态适配，…",
+          "category": "算力硬件",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374301",
+          "time": "09:56",
+          "origin": "auto"
+        },
+        {
+          "title": "澳大利亚情报主管警示数据中心与AI潜藏风险",
+          "summary": "澳大利亚情报机构负责人表示，数据中心与人工智能可能让该国遭到外国势力干预，面临境外恶意主体的威胁。报道援引澳大利亚安全情报组织局长迈克・伯吉斯的说法，他提出数据中心存在隐性所有权的隐患，他国掌控这类基础设施，能够从物理或虚拟层面接触相关技术。伯吉斯称，AI与数据中心行业“热度、机遇和威胁并存”。这位安全主管此前已经警告过境外政府发起的网络威胁持续上升。",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4080472194175876?f=rss",
+          "time": "14:30",
+          "origin": "auto"
+        },
+        {
+          "title": "报告：美国会计行业 AI 采用率高，但技术整合成熟度不足",
+          "summary": "IT之家 11 月 22 日消息，会计师正在成为观察人工智能如何改变职场的一个意想不到的样本。 据IT之家了解，由于会计工作具有流程固定、数据密集等特点，会计事务所一直是较早采用人工智能技术的行业之一，也经常被列为最容易受到 AI 冲击、面临岗位替代风险的行业。 不过，一份最新报告显示，会计行业还反映出 AI 发展中的另一个重要问题： 技术宣传所描绘的前景，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/679.htm",
+          "time": "17:58",
+          "origin": "auto"
+        },
+        {
+          "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+          "summary": "要闻提示 1.OpenAI被曝入局智能手机赛道，富士康获组装订单 2.特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件 3.DeepSeek千亿融资落地，31家出资方入股梁文锋搭建的持股平台 4.马斯克自称“中国超级粉丝”：首次到访深圳被震撼，特斯拉将继续在华提高产量 5.字节跳动拟追加5亿美元微软云服务合同 6.…",
+          "category": "融资并购",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+          "time": "18:15",
+          "origin": "auto"
+        },
+        {
+          "title": "郭明錤：谷歌削减 2027 年博通设计的 TPU 8i 系列出货量约 100 万颗",
+          "summary": "IT之家 11 月 22 日消息，天风国际证券分析师郭明錤在 X 发文，其最新的产业调查显示，谷歌削减了 2027 年、由博通设计的 TPU 8i 系列共约 100 万颗（以单价较高的 8i Max / Whalefish 为主）。 IT之家获悉，此次削减约占 2027 年 TPU 8i 系列芯片 出货量的 20% 。 调查还指出，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/698.htm",
+          "time": "19:20",
+          "origin": "auto"
+        },
+        {
+          "title": "开发者将微型 Transformer 模型塞进软盘，让 486 老电脑也能用上 AI",
+          "summary": "IT之家 11 月 22 日消息，开发者 WollyMonjac 完成了一项颇具复古科技色彩的项目：将一个语言模型塞进软盘，让运行 DOS 系统的 486DX 和 Pentium 老电脑也能使用 AI。 不过需要说明的是，WollyMonjac 开发的 Tiny 2.1 并不是大型语言模型（LLM）。尽管它采用了与大型模型相同的 Transformer 架构，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/699.htm",
+          "time": "19:24",
+          "origin": "auto"
+        },
+        {
+          "title": "B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见",
+          "summary": "IT之家 11 月 22 日消息，近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵称，使用 DeepSeek 鲸鱼娘等形象作为头像，在评论区广泛活跃。 对此，B站官方账号“哔哩哔哩社区小管家”于 11 月 20 日发布《关于 AI“大肥鱼”你怎么看？》治理意见征询，面向用户征集对 AI 账号及相关行为的意见，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/702.htm",
+          "time": "19:44",
           "origin": "auto"
         }
       ]
