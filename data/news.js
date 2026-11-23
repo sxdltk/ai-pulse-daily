@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-23 09:45:59",
+  "updatedAt": "2026-11-23 21:52:28",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -586,21 +586,24 @@ window.AI_NEWS_DATA = {
     "e208ecb50a7f14cb",
     "37fc3f04e8bd3c07",
     "e8ed0054172a6e8d",
-    "2962a6514ea7d837"
+    "2962a6514ea7d837",
+    "e013aa68631bfc3a",
+    "e9240aed514f4b6a"
   ],
   "lastRun": {
-    "okSources": 14,
+    "okSources": 13,
     "totalSources": 15,
     "failedSources": [
-      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
+      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
+      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 243, column 55"
     ],
-    "newItems": 16,
+    "newItems": 2,
     "skipped": {
       "old": 0,
-      "non_ai": 158,
-      "dup": 41
+      "non_ai": 121,
+      "dup": 44
     },
-    "durationSec": 7.7
+    "durationSec": 6.2
   },
   "days": [
     {
@@ -753,6 +756,24 @@ window.AI_NEWS_DATA = {
           "source": "TechCrunch AI",
           "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
           "time": "09:25",
+          "origin": "auto"
+        },
+        {
+          "title": "深拆 GPT-6.2 Astra：性能涨了、价格降了，任务成本减少近一半，OpenAI 怎么做到的？",
+          "summary": "性能提升 6.2 分，Token 少 22%，API 价格降 20%。 作者丨 郑佳美 编辑丨岑 峰 刚刚，OpenAI 发布了 GPT-6.2 Astra 和 GPT-6.2 Sol。 这次更新有一个很具体的变化：模型开始更主动地判断一项工作应该怎么完成，包括什么时候需要调用工具、什么时候应该直接操作计算机、复杂任务需要投入多少推理资源，…",
+          "category": "产品更新",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html",
+          "time": "13:50",
+          "origin": "auto"
+        },
+        {
+          "title": "华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报",
+          "summary": "要闻提示 1.英伟达才说H200芯片不卖中国，美财长突喊：不用再限 2.限时售价5499元起！华为星芒总经理回应OSTA O1 Pro定价高：我们选择创新优先 3.ASML总裁急了：切断光刻机售后也没用，中国工厂依然能造芯 4.第一批买iPhone Duo的人亏麻了：渠道价大跌破发！差价至少4600元 5.娃哈哈董事长许思敏被曝辞职 6.小米从小鹏挖来了欧洲汽车业务负责人 7.…",
+          "category": "算力硬件",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html",
+          "time": "18:40",
           "origin": "auto"
         }
       ]
