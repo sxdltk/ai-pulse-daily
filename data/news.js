@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-22 21:28:41",
+  "updatedAt": "2026-11-23 09:45:59",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -570,7 +570,23 @@ window.AI_NEWS_DATA = {
     "62e0ced42c89727f",
     "068772da89b32cdf",
     "eebe9e57824e4b22",
-    "3ab541cfc33bdd50"
+    "3ab541cfc33bdd50",
+    "1646e2f23f5d6faa",
+    "57735890a4bb5864",
+    "3a08bfafbc97a35f",
+    "8e48313c4fca13bd",
+    "90ce4b5873041638",
+    "06efdc846cb49f15",
+    "0c5d94e8b4dac6ff",
+    "8ed156cb31129c1e",
+    "f126554611041810",
+    "8651f05045dccf0d",
+    "0a7bbfadc552df60",
+    "5062d2edebddca5e",
+    "e208ecb50a7f14cb",
+    "37fc3f04e8bd3c07",
+    "e8ed0054172a6e8d",
+    "2962a6514ea7d837"
   ],
   "lastRun": {
     "okSources": 14,
@@ -578,15 +594,169 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 7,
+    "newItems": 16,
     "skipped": {
       "old": 0,
       "non_ai": 158,
-      "dup": 43
+      "dup": 41
     },
-    "durationSec": 5.2
+    "durationSec": 7.7
   },
   "days": [
+    {
+      "date": "2026-11-23",
+      "highlights": [
+        "中国车企首次：小鹏图灵 AI 智驾率先开放欧洲公众体验，首站法国巴黎",
+        "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+        "古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo"
+      ],
+      "items": [
+        {
+          "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+          "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music.…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+          "time": "01:25",
+          "origin": "auto"
+        },
+        {
+          "title": "Why data centers are at the center of the Big Tech backlash",
+          "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+          "time": "02:08",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+          "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "time": "05:14",
+          "origin": "auto"
+        },
+        {
+          "title": "古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo",
+          "summary": "IT之家 11 月 23 日消息，彭博社记者马克 · 古尔曼昨晚发布了最新一期 Power On 新闻通讯，分析了苹果在 AI Agent 竞争中的处境，并披露了苹果 2027 年上半年的部分新品计划。 IT之家此前报道，苹果正在招聘负责 Agentic AI 项目的高级工程管理人员，招聘描述涉及跨应用操作、网页浏览、命令执行及代码编写和调试等能力。 古尔曼认为，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/719.htm",
+          "time": "06:42",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限",
+          "summary": "IT之家 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，不应突破约定的发展门槛。 他认为，传统 AI 能力评测基准会随着技术进步迅速过时，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/720.htm",
+          "time": "06:50",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1123：菲尔兹奖得主谈“AI 攻克黎曼猜想”仍需解决关键思路；特斯拉新功能堪比 GTA6；张雪机车计划明年推外卖电摩；国漫斗破苍穹九年长篇完结...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 23 日星期一，今天的重要科技资讯有： 1. 菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可 Lean 与 Mathlib 社区发布联合声明，以 Lean 库形式给出的黎曼猜想证明已经通过核验，该证明的代码约 1700 万行。>> 查看详情 2.…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/725.htm",
+          "time": "07:24",
+          "origin": "auto"
+        },
+        {
+          "title": "派早报：Anthropic 研究员宣称用 Claude 证明黎曼猜想",
+          "summary": "Anthropic 研究员宣称用 Claude 证明黎曼猜想 OpenAI 公布反蒸馏举措 黄仁勋据称将攻击下属作为管理方式 GTA 6 首日销售额近 40 亿美元 特斯拉升级 FSD，推出实景渲染功能 AMD 股票被做空 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+          "category": "产品更新",
+          "source": "少数派",
+          "url": "https://sspai.com/post/119418",
+          "time": "07:34",
+          "origin": "auto"
+        },
+        {
+          "title": "苹果 Siri AI 集体诉讼案和解：符合条件的 iPhone 预计每台可获赔至少 61 美元",
+          "summary": "IT之家 11 月 23 日消息，苹果今年 5 月同意支付 2.5 亿美元 （IT之家注：现汇率约合 16.73 亿元人民币） ，以和解一起涉及 Siri AI 功能延迟上线的美国集体诉讼。 根据 MacRumors 当地时间 11 月 21 日的报道，代表消费者的律师于 11 月 16 日提交法庭文件，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/729.htm",
+          "time": "07:37",
+          "origin": "auto"
+        },
+        {
+          "title": "古尔曼：苹果若想在 AI 时代生存下去，需进行结构和文化层面的全面改革",
+          "summary": "IT之家 11 月 23 日消息，彭博社记者马克 · 古尔曼昨日在新一期《Power On》通讯中认为，苹果传统的软件开发方式可能阻碍其进入 AI 时代。僵化的发布周期、集中化的决策和缓慢的开发流程，让苹果很难和 AI 领域竞争对手抗衡。 ▲ 苹果首席执行官约翰 · 特努斯（John Ternus） 古尔曼警告称，虽然苹果在软硬件和生态领域仍然优势明显，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/730.htm",
+          "time": "07:47",
+          "origin": "auto"
+        },
+        {
+          "title": "8点1氪丨黄仁勋遭董事会罢免主要原因曝光；零跑汽车回应“A10后备厢被几箱啤酒压穿底”；PS5 Pro涨至1.6万元",
+          "summary": "今日热点导览 美国证券交易委员会据悉正对英伟达潜在会计问题展开调查 同名同姓引误读，搜狐张朝阳辟谣“被出具警示函” 小米从小鹏挖来了欧洲汽车业务负责人 菜百股份提示贵金属市场波动风险 马斯克称FSD V15下个月将全面推送 TOP 3大新闻 黄仁勋遭董事会罢免主要原因曝光：缺乏坦诚 两名熟悉英伟达董事长及其他董事私下讨论情况的人士透露，最终促使董事会做出决定的，…",
+          "category": "算力硬件",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4081573022552962?f=rss",
+          "time": "07:50",
+          "origin": "auto"
+        },
+        {
+          "title": "微软 CEO 纳德拉感叹：Claude Code 仅半年动摇 VS Code 地位",
+          "summary": "IT之家 11 月 23 日消息，据科技媒体 Windows Latest 今天报道，这几天，不少开发者炫耀自己已经好几个月没打开过 VS Code。如今微软 CEO 萨提亚 · 纳德拉表示，他完全了解这一现象。Anthropic 推出 Claude Code 后， VS Code 等传统代码编辑器、IDE 大概六个月就失去了存在感 。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/733.htm",
+          "time": "08:10",
+          "origin": "auto"
+        },
+        {
+          "title": "微软AI首席执行官苏莱曼：支持OpenAI提高透明度的倡议",
+          "summary": "微软人工智能首席执行官穆斯塔法·苏莱曼转发OpenAI首席科学家雅库布·帕乔茨基的文章，表示微软完全支持OpenAI提高透明度的倡议，并将共同分享预训练进展。苏莱曼透露，经OpenAI许可，微软公布了MAI-2基础模型在OpenAI评估数据集上的对数困惑度为0.819，与GPT-5.6 Sol基础模型处于相近水平。他表示，AI安全与协调应成为行业首要任务，…",
+          "category": "模型发布",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4081628288881544?f=rss",
+          "time": "08:47",
+          "origin": "auto"
+        },
+        {
+          "title": "微软 AI 负责人苏莱曼：支持 OpenAI 提高透明度的倡议",
+          "summary": "IT之家 11 月 23 日消息，微软 AI 负责人穆斯塔法 · 苏莱曼（Mustafa Suleyman）今天在 X 平台表示，他完全支持 OpenAI 提高透明度的倡议。 苏莱曼表示， AI 业界所有人都是为了打造安全 、 真正有益于人类的 AGI（通用人工智能） 。AI 安全领域最棘手的问题之一就是协调合作，这项举措朝着正确的方向迈出了一步。未来几年，…",
+          "category": "模型发布",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/745.htm",
+          "time": "09:00",
+          "origin": "auto"
+        },
+        {
+          "title": "中国车企首次：小鹏图灵 AI 智驾率先开放欧洲公众体验，首站法国巴黎",
+          "summary": "IT之家 11 月 23 日消息，小鹏汽车今天宣布，小鹏图灵 AI 智驾率先开放欧洲公众体验，首站法国巴黎。 小鹏宣称，他们是全球唯二、中国首家在海外门店开放城区高阶智驾公众体验的车企。 据IT之家此前援引彭博社消息 ，在巴黎车展前夕，小鹏汽车通用智能中心负责人刘先明透露，小鹏成功在约两周时间内，将智驾系统从一个欧洲国家微调适配到另一个欧洲国家。这一适配过程所需的数据量，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/030/755.htm",
+          "time": "09:20",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+          "summary": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限 11 月 23 日消息，当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 AI 企业应建立行业统一标准，对先进 AI 模型的开发设置共同限制，在研究人员具备更可靠的模型行为理解和监控能力之前，…",
+          "category": "算力硬件",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374304",
+          "time": "09:22",
+          "origin": "auto"
+        },
+        {
+          "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+          "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+          "time": "09:25",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "highlights": [
