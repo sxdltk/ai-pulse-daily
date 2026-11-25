@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-24 21:47:20",
+  "updatedAt": "2026-11-25 09:49:28",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -606,7 +606,25 @@ window.AI_NEWS_DATA = {
     "2ebf803a82312cc7",
     "2ab16bec11494b80",
     "7c90871d07a08623",
-    "b056f2c012bbca0f"
+    "b056f2c012bbca0f",
+    "6da2da65472df33b",
+    "28753200f8923c1b",
+    "966181dc06308dbf",
+    "c03d04cfa6e5e6e0",
+    "f034ac583556a27f",
+    "50b815db9ee096cb",
+    "31e6c476a95af37d",
+    "0ffee859c87d21fd",
+    "29af3a86f062934f",
+    "167638db11096c1e",
+    "1767b87a665ea08c",
+    "88c59b0baa403b92",
+    "81d90694522d00d6",
+    "1f6d6629666c1ed1",
+    "f0efbe0d6e057dec",
+    "104a2dcf28dbb7f5",
+    "bf6e799221efee78",
+    "1dcca4fa54cb3864"
   ],
   "lastRun": {
     "okSources": 14,
@@ -614,15 +632,187 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 18,
     "skipped": {
       "old": 0,
-      "non_ai": 143,
-      "dup": 38
+      "non_ai": 142,
+      "dup": 27
     },
-    "durationSec": 5.2
+    "durationSec": 22.4
   },
   "days": [
+    {
+      "date": "2026-11-25",
+      "highlights": [
+        "David Fincher is being dragged for suspected use of AI in his latest film",
+        "Even the best AI agents struggle with everyday life",
+        "Anthropic 推出 Siren 蜜罐系统：诱测 AI 智能体触发越界行为，发现新 Claude 仍有 21~32% 沙盒场景尝试越狱逃逸"
+      ],
+      "items": [
+        {
+          "title": "Anthropic Created a Honeypot to Lure AI Agents Into Misbehaving",
+          "summary": "A new test assumes AI agents can go rogue—and asks whether they can resist temptation.",
+          "category": "行业动态",
+          "source": "Wired AI",
+          "url": "https://www.wired.com/story/ai-agents-can-get-honeypotted-too-aw/",
+          "time": "00:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+          "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+          "time": "00:02",
+          "origin": "auto"
+        },
+        {
+          "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+          "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+          "time": "00:10",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+          "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "time": "01:00",
+          "origin": "auto"
+        },
+        {
+          "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+          "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+          "category": "融资并购",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+          "time": "02:30",
+          "origin": "auto"
+        },
+        {
+          "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+          "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have rais…",
+          "category": "行业动态",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+          "time": "02:38",
+          "origin": "auto"
+        },
+        {
+          "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+          "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "time": "05:32",
+          "origin": "auto"
+        },
+        {
+          "title": "Even the best AI agents struggle with everyday life",
+          "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potentia…",
+          "category": "研究突破",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+          "time": "05:33",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 称 GPT-6 无需“外援”即可设计蛋白质，实验室初步验证有效",
+          "summary": "IT之家 11 月 25 日消息，OpenAI 昨日（11 月 24 日）发布预印本论文，称 GPT-6 系列模型无需依赖专用生物模型， 仅靠推理和通用编程工具，就能设计新的蛋白质三维结构和氨基酸序列，且已在多轮实验室测试中验证结合效果。 在实验室测试环境下，OpenAI 携手合作机构 Onava，研究团队以 GPT-6.2 设计的结构为蓝本，制作了 322 个微型结合蛋白，…",
+          "category": "研究突破",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/902.htm",
+          "time": "06:45",
+          "origin": "auto"
+        },
+        {
+          "title": "Anthropic 推出桌面新功能：让 Claude 生成内容一键变身独立软件，支持苹果 macOS 和 Windows PC",
+          "summary": "IT之家 11 月 25 日消息，Anthropic 宣布为 Claude 的交互式 Artifacts 功能推出“安装为应用”（Install as app）选项，允许用户将生成的应用作为独立软件安装到 macOS 和 Windows 桌面。 据 Anthropic 官方介绍，安装后的 Artifacts 应用将拥有独立的桌面工具栏图标，使用体验类似于将网页应用安装到电脑。…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/911.htm",
+          "time": "07:17",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1125：最高 883 元用一天鸿蒙奖 1 元；黄仁勋承认多段婚外情并向英伟达董事会致歉；12999 元起华为 Mate X8 折叠屏发布；曝豆包灰测购物一级入口...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 25 日星期三，今天的重要科技资讯有： 1. 华为“发钱”了：鸿蒙一亿感恩有礼活动细则公开，设备使用一天 = 100 积分，最高价值 883 元 在 11 月 24 日的 HUAWEI Mate X8 及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布推出“鸿蒙一亿感恩有礼”。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/912.htm",
+          "time": "07:20",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI：业余天文学家加 AI，让系外行星搜寻进入“全民时代”",
+          "summary": "IT之家 11 月 25 日消息，OpenAI 昨日（11 月 24 日）发布博文，报道称两位业余天文学家借助 Codex 与 Astra， 在公开的望远镜数据中找到了多个潜在系外行星信号，并已提交给专业天文学家作独立验证。 这些发现尚未被正式确认为行星，但为后续观测提供了值得追踪的线索。 OpenAI 工程师凯文 · 邦德（Kevin Bond）借助 Codex，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/899.htm",
+          "time": "07:25",
+          "origin": "auto"
+        },
+        {
+          "title": "Meta 将 Muse 智能体引入 Instagram 私信，省去来回切换 App 麻烦",
+          "summary": "IT之家 11 月 25 日消息，Meta 现已将 Muse 引入 Instagram 私信，让用户可以直接在 IG 与这款 AI 智能体对话。该功能即日起登陆美国、加拿大、墨西哥、日本和新加坡市场。 如今，Muse 可以将用户在 Instagram 上收藏的内容整理成不同的合集或旅行行程，还能根据用户找到的食谱生成购物清单。当然用户也可以直接用私信和 Muse 对话，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/916.htm",
+          "time": "07:44",
+          "origin": "auto"
+        },
+        {
+          "title": "Anthropic 推出 Siren 蜜罐系统：诱测 AI 智能体触发越界行为，发现新 Claude 仍有 21~32% 沙盒场景尝试越狱逃逸",
+          "summary": "IT之家 11 月 25 日消息，众所周知，部分 AI 智能体为了完成用户设定的任务近乎“不择手段”，堪比向克苏鲁许愿后发现对方是以某种扭曲的形式达成你的愿望。 为了验证 AI 智能体的越界行为，Anthropic 今日公布了一项名为 Siren 的 AI 安全评估系统，用于测试 AI 智能体发现存在沙盒安全漏洞及外部诱饵时，是否会尝试“越狱”。 该系统通过人为设置薄弱环节，…",
+          "category": "模型发布",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/919.htm",
+          "time": "08:02",
+          "origin": "auto"
+        },
+        {
+          "title": "8点1氪丨黄仁勋称英伟达不需要接班人计划 ；红果短剧上线“时间锁”，支持自定义观剧时长 ；豆包灰度测试“豆包购物”",
+          "summary": "今日热点导览 美国民主党：将“动用全部权力”彻查特朗普政府、黄仁勋 SpaceX和特斯拉委派五名董事负责合并谈判 木头姐旗下ARK因担忧黄仁勋离职抛售英伟达股票，错失约1070万美元潜在收益 罗马仕被列为失信被执行人 罗永浩所持锤子科技713.95万元股权续冻 Neuralink临床演示：瘫痪受试者可凭意念游玩《GTA 6》 TOP3大新闻 黄仁勋复职后首开全员大会道歉，…",
+          "category": "行业动态",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4084431441488260?f=rss",
+          "time": "08:18",
+          "origin": "auto"
+        },
+        {
+          "title": "豆包个人 AI 助理「小豆」开启公测；存储承压，小米三季度经调整净利润下滑近六成；红果短剧上线时间管理功能 | 极客早知道",
+          "summary": "豆包旗下 AI 个人助理「小豆」开启公测，能够帮你处理日常事务 11 月 24 日消息，豆包官方今天宣布「小豆」正式开启公测，采用邀请制开放。用户凭邀请码即可开启体验，并获赠一定量免费额度。 小豆是豆包旗下的 AI 个人助理产品，采用对话式交互方式，在用户明确指令与授权范围内，协助你高效处理日常事务。官方宣称它是「一个懂你，还能主动帮你办事的豆包」。未来，…",
+          "category": "产品更新",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374438",
+          "time": "08:44",
+          "origin": "auto"
+        },
+        {
+          "title": "英伟达B300、GB300订单交期大幅拉长，或排挤消费性显卡供货",
+          "summary": "据台湾工商时报，英伟达AI产品供应持续紧俏，ODM厂商透露，目前包括B300、GB300在内的新订单交期皆已大幅拉长，甚至连工作站级超级晶片组，交期也要26周左右。这进一步排挤消费性显卡供货，据悉，英伟达将减少GeForce RTX 50系列游戏显卡供货，下一代RTX 60系列换代也恐放慢。（财联社）",
+          "category": "行业动态",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4084458040813959?f=rss",
+          "time": "08:45",
+          "origin": "auto"
+        },
+        {
+          "title": "特朗普称美国政府入股英伟达犹未为晚，自称早就想过但一直没说",
+          "summary": "IT之家 11 月 25 日消息，当地时间 11 月 24 日，美国总统唐纳德 · 特朗普在接受《纽约邮报》采访时表示，他曾考虑让美国政府持有英伟达股份，并称目前采取这一行动“可能还不算太晚”。 特朗普透露，自己此前已经考虑过这一方案，“我考虑过这件事。我当时想，也许我应该这么做，但还没有提出来。现在提可能还不算太晚。” 目前，…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/031/947.htm",
+          "time": "09:31",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "highlights": [
