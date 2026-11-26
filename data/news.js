@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-26 09:49:29",
+  "updatedAt": "2026-11-26 21:50:07",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -645,18 +645,19 @@ window.AI_NEWS_DATA = {
     "004f542b3d3ae3c5"
   ],
   "lastRun": {
-    "okSources": 14,
+    "okSources": 13,
     "totalSources": 15,
     "failedSources": [
-      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
+      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
+      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 597, column 120"
     ],
-    "newItems": 18,
+    "newItems": 0,
     "skipped": {
       "old": 0,
-      "non_ai": 127,
-      "dup": 27
+      "non_ai": 116,
+      "dup": 31
     },
-    "durationSec": 15.0
+    "durationSec": 24.3
   },
   "days": [
     {
