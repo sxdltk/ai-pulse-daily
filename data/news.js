@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-25 21:50:34",
+  "updatedAt": "2026-11-26 09:49:29",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -624,7 +624,25 @@ window.AI_NEWS_DATA = {
     "f0efbe0d6e057dec",
     "104a2dcf28dbb7f5",
     "bf6e799221efee78",
-    "1dcca4fa54cb3864"
+    "1dcca4fa54cb3864",
+    "02f62f0f2d1484c9",
+    "cc2865c710509733",
+    "63be994ea7ca98a1",
+    "f9eaa1f554f77961",
+    "f7f5ab1e72cb28e4",
+    "f5d2e8838d337e93",
+    "57c799b42c1292dd",
+    "3b866fe757a0ff11",
+    "f00295a5b36ceeb5",
+    "524d93f58f3b7be1",
+    "63ca676a2eb84cc8",
+    "58c274a84c0405ef",
+    "8882eacdff76d79d",
+    "2529d3acd28bfd07",
+    "d7e78c2267d5dfdc",
+    "69f642a5d15f63c3",
+    "b78a3a792449c25c",
+    "004f542b3d3ae3c5"
   ],
   "lastRun": {
     "okSources": 14,
@@ -632,15 +650,187 @@ window.AI_NEWS_DATA = {
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 0,
+    "newItems": 18,
     "skipped": {
       "old": 0,
-      "non_ai": 150,
-      "dup": 32
+      "non_ai": 127,
+      "dup": 27
     },
     "durationSec": 15.0
   },
   "days": [
+    {
+      "date": "2026-11-26",
+      "highlights": [
+        "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+        "IT早报 1126：理想汽车宣布从一年一更调整为两年；特朗普称美政府入股英伟达犹未为晚；奥迪回应长春工厂利用率跌破 10%；首款自动驾驶摩托车广州亮相...",
+        "8点1氪丨英伟达市值一夜蒸发近9800亿元；福布斯中国辟谣“8万元包上榜”；斗鱼及创始人陈少杰被执行1.9亿余元"
+      ],
+      "items": [
+        {
+          "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+          "summary": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative.…",
+          "category": "算力硬件",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "time": "01:44",
+          "origin": "auto"
+        },
+        {
+          "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+          "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotion…",
+          "category": "研究突破",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+          "time": "02:11",
+          "origin": "auto"
+        },
+        {
+          "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+          "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and m…",
+          "category": "研究突破",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "time": "03:44",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+          "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+          "category": "行业动态",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "time": "04:03",
+          "origin": "auto"
+        },
+        {
+          "title": "准确率从 4% 暴涨至 97%！谷歌 DeepMind 给 AI 装上“化学外挂”，解锁质谱分析技能",
+          "summary": "IT之家 11 月 26 日消息， 谷歌联合分析化学家、基于社区开源工具打造了 Mass Spec Skills ，面向 Google Antigravity 平台开放，可辅助科研人员解析串联质谱，梳理化学证据，即使采用轻量模型也能达到前沿级别的检索识别准确率。 一滴血液、土壤或植物组织样本提取液中，包含海量小分子，…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/535.htm",
+          "time": "07:07",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1126：理想汽车宣布从一年一更调整为两年；特朗普称美政府入股英伟达犹未为晚；奥迪回应长春工厂利用率跌破 10%；首款自动驾驶摩托车广州亮相...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 26 日星期四，今天的重要科技资讯有： 1. 踩刹车！李想宣布理想汽车更新节奏从一年一次调整为两年一次 据理想车友群分享，在理想汽车 2026 年第三季度财报电话会上，理想汽车董事长兼 CEO 李想透露，理想车型的更新节奏会从过去的一年一次调整为两年左右一次。理想汽车认为这个调整对于用户、行业、供应商和自己都是更有利的。…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/541.htm",
+          "time": "07:28",
+          "origin": "auto"
+        },
+        {
+          "title": "迈出“全民隐私智能”第一步：OpenAI 开测私有推理，目标打造“零窥探 AI”",
+          "summary": "IT之家 11 月 26 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）今天（11 月 26 日）在 X 平台发布推文， 宣布已邀请部分客户测试“私有推理”（Private Inference），主要针对工作场景提升数据隐私保护。 IT之家附上相关截图如下： 该服务隶属于 OpenAI Private Intelligence 系列，…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/543.htm",
+          "time": "07:45",
+          "origin": "auto"
+        },
+        {
+          "title": "高端 GPU“急寻下家”：数千枚英伟达 B300 涌入海外转售市场",
+          "summary": "IT之家 11 月 26 日消息，CNBC 昨日（11 月 25 日）报道，在美国收紧相关规定后，英伟达 GPU 销售商正急于为手中的高端芯片寻找新买家。市场人士称， 大量英伟达 GPU 涌入转售市场，其中涉及数千枚先进 B300 芯片的交易意向已经出现。 IT之家援引博文介绍，AI 基础设施交易平台 GPU Mart 总裁杰克 · 杜阿梅尔及另外两名知情人士的说法称，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/547.htm",
+          "time": "07:57",
+          "origin": "auto"
+        },
+        {
+          "title": "AI 语音初创公司 ElevenLabs 就 2027 年融资进行初步谈判，目标估值 330 亿美元",
+          "summary": "IT之家 11 月 26 日消息，据彭博社今天报道，AI 语音初创公司 ElevenLabs 已就新一轮融资进行初步洽谈，目标估值 330 亿美元 （IT之家注：现汇率约合 2,203.8 亿元人民币） 。 公司管理层计划 2027 年第一季度启动融资程序 ，部分潜在投资者希望加快融资速度。 据报道，此次拟定的估值相比今年 9 月的 220 亿美元 （现汇率约合 1,469.…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/548.htm",
+          "time": "08:04",
+          "origin": "auto"
+        },
+        {
+          "title": "派早报：蔚来举办 2026 创新科技日、Tidal 将拒绝 AI 音乐等",
+          "summary": "阿里千问 Go 开放免费代打电话服务、Sand.ai 发布视频生成模型 MAGI-2 等。 查看全文",
+          "category": "行业动态",
+          "source": "少数派",
+          "url": "https://sspai.com/post/119560",
+          "time": "08:08",
+          "origin": "auto"
+        },
+        {
+          "title": "全球超 30 人亲测：马斯克旗下 Neuralink 拿下美国首个植入式脑机关键性临床试验批文",
+          "summary": "IT之家 11 月 26 日消息，全球首富埃隆 · 马斯克旗下神经科技公司 Neuralink 今天（11 月 26 日）宣布，已获得美国食品药品监督管理局（FDA）批准，正式启动名为 LINK 的关键性临床试验。 这是美国首个针对可植入式脑机接口设备的关键性试验 ，标志着该公司从早期可行性研究进入后期临床评估阶段，也为未来申请产品上市许可奠定基础。…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/551.htm",
+          "time": "08:14",
+          "origin": "auto"
+        },
+        {
+          "title": "8点1氪丨英伟达市值一夜蒸发近9800亿元；福布斯中国辟谣“8万元包上榜”；斗鱼及创始人陈少杰被执行1.9亿余元",
+          "summary": "今日热点导览 特朗普：必要时愿意赦免黄仁勋 Anthropic上市次日，创始人兄妹套现5.6亿美元 星巴克据悉正与银行洽谈出售其日本业务事宜 黄仁勋复职不穿皮衣改穿棉夹克，迪奥同款售价28000元，官网多尺寸售罄 比特币基金即将创下史上最差单月表现，资金流出规模逼近50亿美元 野人先生创始人退股运营主体 TOP3大新闻 英伟达市值一夜蒸发近9800亿元 北京时间11月26日，…",
+          "category": "融资并购",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4085847020153478?f=rss",
+          "time": "08:18",
+          "origin": "auto"
+        },
+        {
+          "title": "黄仁勋复职后首次主持全员大会：向员工道歉；iPhone Duo 零部件成本创历代 iPhone 新高；Anthropic 跌破发行价｜极客早知道",
+          "summary": "黄仁勋复职后首次主持全员大会：向员工道歉，称将调整管理方式 当地时间 11 月 24 日，英伟达 CEO 黄仁勋在复职后首次召开的公司全员大会上向员工道歉，承认自己违反了公司行为准则，并表示已经开始接受每日一个半小时的心理治疗。 他称自己犯下了「非常严重的个人错误」，伤害了家人，也辜负了员工，并感谢公司董事会给予自己第二次机会。 黄仁勋承认，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374500",
+          "time": "08:19",
+          "origin": "auto"
+        },
+        {
+          "title": "回报率 1984%：因黄仁勋回归英伟达，期权交易员投 1.9 万变 37.69 万美元赚 10 倍年薪",
+          "summary": "IT之家 11 月 26 日消息，彭博社昨日（11 月 25 日）发布博文，报道称黄仁勋时隔 11 天重返英伟达担任首席执行官后，公司股价大幅反弹， 令一批提前押注股价回升的期权交易员获得惊人收益。 根据网友 u/Outrageous-Voice1459 在 Reddit 社区发帖内容，他于 11 月 20 日周五买入价值 1.9 万美元 （IT之家注：现汇率约合 12.…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/554.htm",
+          "time": "08:31",
+          "origin": "auto"
+        },
+        {
+          "title": "黄仁勋的“光”：详解AI算力背后的光通信产业链、英伟达赌注与技术博弈",
+          "summary": "GPU越强，为什么越需要“光”？",
+          "category": "算力硬件",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8217634.html",
+          "time": "08:35",
+          "origin": "auto"
+        },
+        {
+          "title": "标普示警英伟达：公司治理成最大隐忧，90 天内恐下调信用评级",
+          "summary": "IT之家 11 月 26 日消息，标普全球评级（S&P Global Ratings）昨日（11 月 25 日）发布博文， 将英伟达公司“AA”的发行人信用评级，以及其高级无担保债务的“AA”发行级评级，均列入负面信用观察名单。 IT之家援引博文介绍，标普认为近期围绕首席执行官黄仁勋的报道，暴露了英伟达在治理框架上的薄弱环节， 担忧其公司治理、董事会独立性和管理层监督机制。…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/557.htm",
+          "time": "08:41",
+          "origin": "auto"
+        },
+        {
+          "title": "老黄打过工的餐厅：Denny's 庆祝黄仁勋回归英伟达，称“你的专属卡座我们一直留着”",
+          "summary": "IT之家 11 月 26 日消息，美国连锁餐厅 Denny's 昨日发布声明，庆祝黄仁勋重新担任英伟达 CEO 职位。 Denny's 的这篇声明开篇写道：“有些东西绝不能从菜单抹去，黄仁勋就是其中之一。早在英伟达改变世界之前，黄仁勋就曾在 Denny's 洗碗、招待顾客。多年以后，他和联合创始人曾坐在我们一家门店的卡座里，一边喝咖啡，一边讨论构想着英伟达，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/032/560.htm",
+          "time": "08:56",
+          "origin": "auto"
+        },
+        {
+          "title": "中信建投：AI科研取得突破，办公Agent需求增长",
+          "summary": "36氪获悉，中信建投研报称，AI能力向科研与实际工作持续拓展，继续看好模型领先、拥有应用入口的头部平台。Claude辅助数学家证明黎曼猜想，获Lean与Mathlib社区验证；GPT-6.2与Gemini 4 Neon提升复杂任务能力与执行效率。11月16日至22日，OpenRouter周用量增长8.38%，腾讯用量增长300.…",
+          "category": "产品更新",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4085884337580680?f=rss",
+          "time": "09:33",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "highlights": [
