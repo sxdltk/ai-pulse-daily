@@ -1,7 +1,7 @@
 /* 本文件由 scripts/daily_update.py 自动生成，请勿手工编辑。
  * 手工整理的基础数据在 data/base.js；修改源配置请编辑 scripts/sources.json。 */
 window.AI_NEWS_DATA = {
-  "updatedAt": "2026-11-26 21:50:07",
+  "updatedAt": "2026-11-27 09:50:07",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -642,24 +642,144 @@ window.AI_NEWS_DATA = {
     "d7e78c2267d5dfdc",
     "69f642a5d15f63c3",
     "b78a3a792449c25c",
-    "004f542b3d3ae3c5"
+    "004f542b3d3ae3c5",
+    "5f9552283e1e1a92",
+    "965b31f1c6ebcd5e",
+    "56ccf9253d18988e",
+    "c13f56ac60c363dd",
+    "d68856d8e72ad078",
+    "c09dbc9fb4516cce",
+    "c3f35c914dd5617c",
+    "03879559ede595ae",
+    "efba99a462e6ce4b",
+    "3e47e9db1753be6b",
+    "09e038cb7175e5b5"
   ],
   "lastRun": {
     "okSources": 13,
     "totalSources": 15,
     "failedSources": [
       "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
-      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 597, column 120"
+      "36氪 -> ValueError: XML 解析失败: not well-formed (invalid token): line 712, column 120"
     ],
-    "newItems": 0,
+    "newItems": 11,
     "skipped": {
       "old": 0,
-      "non_ai": 116,
-      "dup": 31
+      "non_ai": 111,
+      "dup": 30
     },
-    "durationSec": 24.3
+    "durationSec": 19.4
   },
   "days": [
+    {
+      "date": "2026-11-27",
+      "highlights": [
+        "14999 元起华为首款鸿蒙小折叠电脑 MateBook Fold S 今日开售：14.7 英寸 OLED 内屏、麒麟 XE90 芯片",
+        "微软发布 Visual Studio Code 1.148：电脑可在智能体运行时保持唤醒",
+        "消息称东京电力公司拟向人工智能基础设施领域投资超 10 万亿日元"
+      ],
+      "items": [
+        {
+          "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+          "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+          "category": "算力硬件",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "time": "04:03",
+          "origin": "auto"
+        },
+        {
+          "title": "【钛晨报】部署7方面25项重点任务，《服务贸易发展“十五五”规划》印发；英伟达据悉暂停向四个东南亚国家出货服务器；四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元",
+          "summary": "爱奇艺触发退市警告，回应：暂不停牌，180日内整改；美团、淘宝闪购官宣：全面取消超时扣款处罚；祝丽丹起诉娃哈哈商业股份有限公司案件未开庭，法院工作人员称“已撤诉”；SpaceX官宣儿童赠股计划，马斯克个人捐赠等额匹配；三部委：积极推进5G-A网络规模覆盖，适时开展6G网络建设；五部门部署推进技工教育高质量特色发展，…",
+          "category": "融资并购",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8219586.html",
+          "time": "07:20",
+          "origin": "auto"
+        },
+        {
+          "title": "用户反馈英伟达 621.40 驱动“按下葫芦浮起瓢”：修复 SSD 写入后又出现黑屏",
+          "summary": "IT之家 11 月 27 日消息，科技媒体 TechPowerUp 昨日（11 月 26 日）发布博文，报道称英伟达 GeForce 621.40 WHQL 驱动（11 月 24 日推送）在修复固态硬盘异常写入问题后，却又引入新的 Bug， 部分用户又发现，安装该版本后出现了黑屏、显示器无信号以及屏幕闪烁等新故障。 根据英伟达官方反馈论坛的用户回帖，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/143.htm",
+          "time": "07:27",
+          "origin": "auto"
+        },
+        {
+          "title": "育碧：我们并没有在全公司范围强制推行 AI",
+          "summary": "IT之家 11 月 27 日消息，此前有育碧内部人士爆料称，开发者在提出新游戏项目时，必须解释为什么不打算使用 AI。 针对 Vertical Slice 此前的报道，育碧在回应中没有直接否认这一说法，只是强调公司 并未在全公司范围内强制推行 AI 。声明提到：“我们鼓励各团队探索 AI 能够在哪些方面发挥作用，为工作创造价值。” 声明同时强调，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/144.htm",
+          "time": "07:28",
+          "origin": "auto"
+        },
+        {
+          "title": "微软发布 Visual Studio Code 1.148：电脑可在智能体运行时保持唤醒",
+          "summary": "IT之家 11 月 27 日消息，当地时间 25 日，微软推出 Visual Studio Code 1.148，进一步完善了应用的 AI 功能，重点优化智能体的使用体验。本次更新最受关注的新功能，是允许 AI 智能体工作时阻止电脑自动进入睡眠状态。 这项功能目前处于预览阶段，提供三种设置模式： 智能体工作时始终保持电脑唤醒、仅在笔记本电脑接通电源时保持唤醒、完全关闭 。…",
+          "category": "产品更新",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/155.htm",
+          "time": "08:10",
+          "origin": "auto"
+        },
+        {
+          "title": "DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额",
+          "summary": "IT之家 11 月 27 日消息，昨日起，有部分 DeepSeek 用户反馈，网页端和移动端 App 内正在灰度测试“显示本轮消耗额度”功能。 用户在完成一轮对话后，界面会弹出详情页，展示本次交互消耗的 Token 数量及其对应的估算金额（价格和 API 持平）。尽管当前面向个人用户的对话服务依然免费，但该功能让单次对话背后的计算成本变得可见。 根据用户提供的截图，…",
+          "category": "优惠福利",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/157.htm",
+          "time": "08:21",
+          "origin": "auto"
+        },
+        {
+          "title": "欧洲央行行长拉加德：AI 是帮助欧洲抵御能源危机的因素之一",
+          "summary": "IT之家 11 月 27 日消息，据彭博社报道，欧洲央行行长克里斯蒂娜 · 拉加德认为， AI 是帮助欧洲抵御能源危机的因素之一 。 知情人士透露，当地时间 26 日，拉加德在布鲁塞尔与欧洲各国领导人交流时指出，面对伊朗战争带来的冲击，欧洲经济表现出的韧性 比预期更强 。 拉加德将 AI、能源以及全球长期利率上升列为影响经济前景的三大因素。她指出，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/159.htm",
+          "time": "08:32",
+          "origin": "auto"
+        },
+        {
+          "title": "智谱辟谣 GLM-5.5 延期；特斯拉和 SpaceX 冲刺年底合并；18 家平台完成算法协商，覆盖 2500 万新就业形态劳动者｜极客早知道",
+          "summary": "智谱辟谣 GLM-5.5 延期：性能 Fable 级、上万张国产 AI 卡进展顺利 11 月 26 日，智谱高管杨昊翊公开辟谣，称此前流传的 GLM-5.5 跳票相关爆料均为假消息。 此前有外媒发布消息称，原计划 12 月发布的智谱 GLM-5.5 将延期至 2027 年第一季度推出，同时月之暗面旗下的 Kimi K4 也将跳票，…",
+          "category": "融资并购",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374546",
+          "time": "08:43",
+          "origin": "auto"
+        },
+        {
+          "title": "AI制药：科技巨头集体下注，研发从“工具外挂”奔赴临床大考丨盘点2026",
+          "summary": "这是一场缓慢而务实的范式迁移，算力、模型、数据、实验能力、临床证据，缺一不可。",
+          "category": "算力硬件",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8219609.html",
+          "time": "09:08",
+          "origin": "auto"
+        },
+        {
+          "title": "消息称东京电力公司拟向人工智能基础设施领域投资超 10 万亿日元",
+          "summary": "IT之家 11 月 27 日消息，《日本经济新闻》当地时间昨日报道称， 东京电力公司 (TEPCO) 拟在 2,035 财年内向人工智能基础设施领域投资超 10 万亿日元 （IT之家注：现汇率约合 4,189.3 亿元人民币） 。 由于福岛核事故的影响，东京电力公司持续面临偿还日本政府借款等开支。 该企业认为人工智能投资能创造丰厚的收入 ， 改善自身财务结构 。另一方面，…",
+          "category": "融资并购",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/170.htm",
+          "time": "09:13",
+          "origin": "auto"
+        },
+        {
+          "title": "14999 元起华为首款鸿蒙小折叠电脑 MateBook Fold S 今日开售：14.7 英寸 OLED 内屏、麒麟 XE90 芯片",
+          "summary": "IT之家 11 月 27 日消息，华为首款鸿蒙小折叠电脑 MateBook Fold S 今日正式开售，定价 14999 元起，叠加国补后 13499 元起。IT之家整理如下： 16GB + 256GB（含键盘 + 内胆包）：14999 元 16GB + 512GB（含键盘 + 内胆包）：16999 元 24GB+ 512GB（含键盘 + 内胆包）：18999 元 32GB +…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/182.htm",
+          "time": "09:42",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-26",
       "highlights": [
