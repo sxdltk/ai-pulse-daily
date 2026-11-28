@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 21:48:21",
+  "updatedAt": "2026-11-28 09:46:52",
   "timezone": "Asia/Shanghai",
   "sourceCount": 15,
   "sources": [
@@ -658,24 +658,153 @@
     "8660484d111833bc",
     "406444aae39bbc48",
     "019472b2b4188857",
-    "475167733a57bfcd"
+    "475167733a57bfcd",
+    "e459fff81b92cae6",
+    "d2591b377e6fc772",
+    "2d4acf0042de9dcb",
+    "e9394b868c2bd7a6",
+    "95effd3b1a76c99a",
+    "e2ca6c2fb4dbcf79",
+    "c7ce6e88834e418e",
+    "3fad2d6817d811d2",
+    "88e2d3627585dcde",
+    "d6eb6cea44ea4d16",
+    "fa6307ceba9033da",
+    "0bf86241357a1821"
   ],
   "lastRun": {
-    "okSources": 13,
+    "okSources": 14,
     "totalSources": 15,
     "failedSources": [
-      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found",
-      "钛媒体 -> HTTPError: HTTP Error 502: Bad Gateway"
+      "InfoQ 中文 -> HTTPError: HTTP Error 404: Not Found"
     ],
-    "newItems": 7,
+    "newItems": 12,
     "skipped": {
       "old": 0,
-      "non_ai": 129,
-      "dup": 31
+      "non_ai": 137,
+      "dup": 36
     },
-    "durationSec": 10.8
+    "durationSec": 7.8
   },
   "days": [
+    {
+      "date": "2026-11-28",
+      "highlights": [
+        "民间移植给力：苹果 M 芯片 Mac 已跑通《GTA 6》游戏，1080P 场景最高解锁 6FPS",
+        "9点1氪丨DeepSeek或将推出付费模式；广电正式禁播电视开机广告；李斌：“速成车”是对国产车的污名化",
+        "AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作"
+      ],
+      "items": [
+        {
+          "title": "Kimi 向科学家提供最高 2 万美元 API 免费额度",
+          "summary": "Kimi 大模型开发商月之暗面宣布了 Kimi for Science 项目，欢迎自然科学、工程学及相关交叉学科领域的研究人员加入。月之暗面表示，“科学始终源于人类的好奇心、严谨的探索精神，以及对未知世界的不懈追求。一个有价值的科学假设，往往需要经过大量的文献调研、数据分析和反复验证。而一次意料之外的发现，也可能成为下一项重大突破的起点。然而受限于时间、算力与人力资源，…",
+          "category": "优惠福利",
+          "source": "Solidot",
+          "url": "https://www.solidot.org/story?sid=86015",
+          "time": "00:14",
+          "origin": "auto"
+        },
+        {
+          "title": "独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资",
+          "summary": "“AI算力的成本中心正在从‘计算’转向‘连接’。” 雷峰网·鲸犀独家获悉，MicroLED 高速光互连芯片与光引擎研发商「闪科光联」近日完成数千万元人民币天使轮融资。 种子轮由励石创投独家投资，天使轮由商汤国香、长石资本、厚雪资本联合领投，险峰长青（K2）、磐霖资本、小苗朗程、柯熙创投等多家产业基金共同跟投。 鲸犀进一步获悉，闪科光联成立于 2026 年 9 月，…",
+          "category": "融资并购",
+          "source": "雷锋网",
+          "url": "https://www.leiphone.com/category/ai/ilqJyKclWkhaWIps.html",
+          "time": "03:14",
+          "origin": "auto"
+        },
+        {
+          "title": "全球首个：联想为部分 Win11 商用电脑预装 OpenAI ChatGPT，企业登录最高可领 100 美元优惠额度",
+          "summary": "IT之家 11 月 28 日消息，据 Windows Latest 今日报道，联想成为全球首家在部分 Windows 11 商用电脑上预装 ChatGPT 的 PC 厂商。 OpenAI 同时也针对符合条件的联想设备推出商业推广活动，企业用户通过预装的 ChatGPT 桌面应用登录或创建 ChatGPT Business 工作区，…",
+          "category": "优惠福利",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/777.htm",
+          "time": "07:04",
+          "origin": "auto"
+        },
+        {
+          "title": "民间移植给力：苹果 M 芯片 Mac 已跑通《GTA 6》游戏，1080P 场景最高解锁 6FPS",
+          "summary": "IT之家 11 月 28 日消息，科技媒体 MacRumors 昨日（11 月 27 日）报道，尽管 Rockstar Games 没有推出官方 Mac 版本，但社区开发者已通过非官方项目， 成功在苹果芯片 Mac 上运行《侠盗猎车手 VI》（GTA 6）游戏。 开发者把游戏的 XBOX Series 版本非官方地移植到 macOS，一些用户反映可以探索场景并控制视角。不过，…",
+          "category": "算力硬件",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/778.htm",
+          "time": "07:06",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI 转守为攻：反诉苹果窃密，喊话“不公平竞争”",
+          "summary": "IT之家 11 月 28 日消息，《金融时报》昨日（11 月 27 日）发布博文，报道称在苹果公司提起的商业秘密诉讼中，OpenAI 公司已经提出反诉，指控苹果自身窃取了 OpenAI 的商业秘密，并涉嫌胁迫和威胁同时为两家公司供货的供应商。 苹果公司于 2026 年 7 月起诉 OpenAI，称前员工 Tang Tan 和 Chang Liu 离职后，…",
+          "category": "行业动态",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/780.htm",
+          "time": "07:12",
+          "origin": "auto"
+        },
+        {
+          "title": "IT早报 1128：DeepSeek 灰度测试“消耗额度”；有线电视与 IPTV 广告禁令生效；比亚迪海洋网旗舰 MPV 海鲸亮相；市监总局集中约谈 15 家电动自行车企业...",
+          "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 28 日星期六，今天的重要科技资讯有： 1. DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额 DeepSeek 移动端小范围测试“显示本轮消耗额度”功能，可展示单次对话 Token 消耗及估算金额，当前个人用户仍可免费使用该服务。>> 查看详情 2.…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/784.htm",
+          "time": "07:28",
+          "origin": "auto"
+        },
+        {
+          "title": "IT 管理员称微软 Copilot 可擅自修改企业 OneDrive / SharePoint 文件，恐引合规风险",
+          "summary": "IT之家 11 月 28 日消息，微软一直积极推动 Copilot 融入旗下各类应用，Office 自然也不例外。然而据外媒 Neowin 当地时间 27 日报道，一名 IT 管理员指出，部分新功能可能给使用 Microsoft 365 的企业和组织带来棘手的合规风险。 据这名管理员透露，拥有 Business Premium 订阅及 Copilot 许可证的用户，…",
+          "category": "政策监管",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/790.htm",
+          "time": "08:24",
+          "origin": "auto"
+        },
+        {
+          "title": "iOS 27.3 前瞻苹果 AI 限额：Siri AI 标准每日 20 次云端请求",
+          "summary": "IT之家 11 月 28 日消息，技术博主 @itspdfu 于 11 月 26 日在 X 平台发布长推文， 通过挖掘 iOS 27.3 Beta 2 开发者预览版，发现了苹果 Siri AI 和多项 Apple Intelligence 功能的每日使用限额。 消息源指出根据苹果设定， 设备每向苹果的私密云计算（PCC）发起一次请求，就消耗一个 Token。…",
+          "category": "优惠福利",
+          "source": "IT之家",
+          "url": "https://www.ithome.com/1/033/795.htm",
+          "time": "08:50",
+          "origin": "auto"
+        },
+        {
+          "title": "AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作",
+          "summary": "OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」 当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何塞联邦法院对苹果提起反诉，指控苹果窃取其商业机密，并阻挠其与硬件供应商合作。 今年 7 月，苹果曾以窃取商业机密为由起诉 OpenAI。随着 OpenAI 反诉，这场官司从苹果一方起诉变成了双方互诉。 据报道，OpenAI 正准备推出一系列新的个人设备，…",
+          "category": "行业动态",
+          "source": "极客公园",
+          "url": "http://www.geekpark.net/news/374621",
+          "time": "08:53",
+          "origin": "auto"
+        },
+        {
+          "title": "OpenAI反诉苹果窃取商业秘密",
+          "summary": "当地时间11月27日，据报道，OpenAI对苹果提起反诉，指控这家大型科技巨头窃取其商业秘密，并劝阻硬件供应商不要参与OpenAI未来设备的研发。此前，苹果已起诉OpenAI，称其涉嫌挖角苹果员工以获取技术。OpenAI在加利福尼亚州联邦法院提交反诉请求，该公司在法庭文件中表示，苹果通过重新聘用一名曾在OpenAI工作六个月的员工获取了机密信息。报道称，…",
+          "category": "行业动态",
+          "source": "36氪",
+          "url": "https://36kr.com/newsflashes/4088717934950787?f=rss",
+          "time": "09:04",
+          "origin": "auto"
+        },
+        {
+          "title": "9点1氪丨DeepSeek或将推出付费模式；广电正式禁播电视开机广告；李斌：“速成车”是对国产车的污名化",
+          "summary": "今日热点导览 晒与LVMH老板合影引发“谈收购”猜测，山下有松创始人回应 丰田汽车全球销量连续第九个月下滑，中国市场跌势加剧 爱马仕部分二手包价格暴跌 韩国高考作弊查处量激增，涉智能设备案件增至去年3.6倍 取消大小周后调整日工作时长、降薪，遭员工抵制？海康威视回应 TOP3大新闻 DeepSeek或将推出付费模式 近日，DeepSeek安卓端App更新2.10.0版本后，…",
+          "category": "融资并购",
+          "source": "36氪",
+          "url": "https://36kr.com/p/4088718976268932?f=rss",
+          "time": "09:07",
+          "origin": "auto"
+        },
+        {
+          "title": "AI投资进入调整期，创业者该怎么应对？",
+          "summary": "一级市场“有人跟投、无人领投”，这两类AI公司能活下来。",
+          "category": "融资并购",
+          "source": "钛媒体",
+          "url": "https://www.tmtpost.com/8220836.html",
+          "time": "09:42",
+          "origin": "auto"
+        }
+      ]
+    },
     {
       "date": "2026-11-27",
       "highlights": [
